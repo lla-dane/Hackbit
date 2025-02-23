@@ -1,0 +1,12 @@
+[build]
+target = "x86_64-os.json"
+
+[target.'cfg(target_os = "none")']
+runner = "bootimage runner"
+
+# bootloader-runner command links the given executable 
+# with the project's bootloader dep and then launched QEMU.
+
+[unstable]
+build-std-features = ["compiler-builtins-mem"]
+build-std = ["core", "compiler_builtins"]
