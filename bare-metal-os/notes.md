@@ -23,3 +23,13 @@ cargo run # if /.cargo/config.toml file is set
 - VGA-buffer hardware exists at this address: `0xb8000` and we can execute read/write operations by pointing on the Buffer present at this address.
 
 - When we are writing to the VGA-buffer, it is not being read again, so to prevent the compiler to optimize/free away that storage buffer because it seems unused, we use the `volatile` wrapper to prevent those compiler optimizations to happen.
+
+- static variables are initialised at compile time, unlike others initialised at run time. `const fn` are functions that can be evaluated at compile time.
+
+- #### The One-Time Initialization Problem with static in Rust: We cannot declare a static variable using `non-constant` functions. The initialisation requires computation that cannot be done at compile time. To go around this we use `lazy-static` crate.
+
+- In a `spinlock` the thread keeps trying to aquire the lock in a loop, whereas in normal `mutex` all the threads are blocked if the mutex is locked.
+
+- Controlflow of how `println!` macros are executed:
+
+![alt text](images/map_to_println_macros.png)

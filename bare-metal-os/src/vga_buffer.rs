@@ -1,5 +1,7 @@
 use core::fmt;
 
+use lazy_static::lazy_static;
+use spin::Mutex;
 use volatile::Volatile;
 
 #[allow(dead_code)]
@@ -41,14 +43,16 @@ struct ScreenChar {
     color_code: ColorCode,
 }
 
-const BUFFER_HEIGHT: usize = 25; // 25
+const BUFFER_HEIGHT: usize = 4; // 25
 const BUFFER_WIDTH: usize = 80;
 
-pub static WRITER: Writer = Writer {
-    column_position: 0,
-    color_code: ColorCode::new(Color::White, Color::Black),
-    buffer: unsafe { &mut *(0xb8000 as *mut Buffer) },
-};
+lazy_static! {
+    pub static ref WRITER: Mutex<Writer> = Mutex::new(Writer {
+        column_position: 0,
+        color_code: ColorCode::new(Color::White, Color::Black),
+        buffer: unsafe { &mut *(0xb8000 as *mut Buffer) },
+    });
+}
 
 #[repr(transparent)]
 struct Buffer {
@@ -69,7 +73,7 @@ impl fmt::Write for Writer {
 }
 
 impl Writer {
-    pub fn write_byte(&mut self, byte: u8) {
+    fn write_byte(&mut self, byte: u8) {
         match byte {
             b'\n' => self.new_line(),
             byte => {
@@ -90,7 +94,7 @@ impl Writer {
         }
     }
 
-    pub fn write_string(&mut self, s: &str) {
+    fn write_string(&mut self, s: &str) {
         for byte in s.bytes() {
             match byte {
                 // printable ASCII byte or newline
@@ -124,20 +128,33 @@ impl Writer {
 
 pub fn print_something() {
     use core::fmt::Write;
-    let mut writer = Writer {
-        column_position: 0,
-        color_code: ColorCode::new(Color::White, Color::Black),
-        buffer: unsafe { &mut *(0xb8000 as *mut Buffer) },
-    };
 
-    writer.write_byte(b'W');
-    writer.write_string("TF! ");
-    writer.write_string("is RC smart-pointers in RUST? ");
-    write!(
-        writer,
-        "Now I can use the write! macro, {} & {}",
-        42,
-        1.0 / 3.0
-    )
-    .unwrap()
+    WRITER
+        .lock()
+        .write_str("Hello World, fuckerrrrrrrr! ")
+        .unwrap();
+
+    write!(WRITER.lock(), ", some numbers {} & {}", 42, 1.44444323).unwrap();
+
+    WRITER
+    .lock()
+    .write_str("Let's check the next_line() funcitonality! One time static var declaration problem in RUST!!!")
+    .unwrap();
+}
+
+#[macro_export]
+macro_rules! print {
+    ($($arg:tt)*) =>  ($crate::vga_buffer::_print(format_args!($($arg)*)));
+}
+
+#[macro_export]
+macro_rules! println {
+    () => ($crate::print!("\n"));
+    ($($arg:tt)*) => ($crate::print!("{}\n", format_args!($($arg)*)));
+}
+
+#[doc(hidden)]
+pub fn _print(args: fmt::Arguments) {
+    use core::fmt::Write;
+    WRITER.lock().write_fmt(args).unwrap();
 }
