@@ -12,7 +12,7 @@ fn main() {
     let client = Client::new();
 
     let payload = json!({
-        "inputs": "Do you think Thanos was right in wiping out 50% of living beings ?"
+        "inputs": "fuck you"
     });
 
     let response = client
