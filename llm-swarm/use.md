@@ -48,3 +48,14 @@ gpustat -i
 # Long command (CPU)
 ./llama.cpp/build/bin/llama-server -m /home/lla-dane/model/Hermes-2-Pro-Llama-3-8B-Q4_K_M.gguf
 ```
+
+- Make a POST request directly from the terminal like this
+
+```bash
+curl -X POST http://127.0.0.1:8080/completion \
+     -H "Content-Type: application/json" \
+     -d '{
+           "prompt": "Hello, how are you?",
+           "n_predict": 200
+         }'
+```
