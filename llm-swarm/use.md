@@ -3,7 +3,13 @@
 
 ngrok http 8080
 
-curl -X POST "https://e60a-2409-40e3-319c-525-da74-6849-5a05-d898.ngrok-free.app/infer" -H "Content-Type: application/json" -d '{"message": "What do you about blockchain?"}'
+curl -X POST "https://3d55-2409-40e5-10a1-9e26-c27-c819-331a-6cd.ngrok-free.app/infer" -H "Content-Type: application/json" -d '{"message": "What do you about blockchain?"}'
+```
+
+```
+http http://localhost:8080/infer prompt="Hey, hello"
+
+http https://661c-2409-40e5-10a1-9e26-c27-c819-331a-6cd.ngrok-free.app/infer prompt="Hey, what can you tell me about blockchain?"
 ```
 
 #### For running a model locally by downloading from huggingface, with complete GPU optimization :-
