@@ -33,3 +33,16 @@ cargo run # if /.cargo/config.toml file is set
 - Controlflow of how `println!` macros are executed:
 
 ![alt text](images/map_to_println_macros.png)
+
+- Argument `&[&dyn Fn()]` is a slice of trait object references of the Fn() trait. It is basically a list of references to `types that can be called like a function`.
+
+- Two ways we communicate between the CPU and peripheral hardware on x86. Memory mapped I/O (vga_buffer) and port_mapped I/O (`isa-debug-exit,iobase=0xf4,iosize=0x04`)
+```
+iobase = address(I/O port)
+iosize = size(port)
+```
+
+- When a value is written to the I/O port specified by `iobase`, it cause the QEMU to exit with exit status ``(value << 1) | 1``
+
+- To direct bytes from QEMU to host's standard I/O, serial port is used. `UARTs` chips implement the serial interface.
+

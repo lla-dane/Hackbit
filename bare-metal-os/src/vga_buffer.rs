@@ -43,7 +43,7 @@ struct ScreenChar {
     color_code: ColorCode,
 }
 
-const BUFFER_HEIGHT: usize = 4; // 25
+const BUFFER_HEIGHT: usize = 7; // 25
 const BUFFER_WIDTH: usize = 80;
 
 lazy_static! {
