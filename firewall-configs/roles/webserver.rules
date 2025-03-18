@@ -1,8 +1,11 @@
 #!/bin/bash
-ufw reset
+set -x 
+
+yes | ufw reset 
 ufw default deny incoming
 ufw default allow outgoing
 ufw allow 22/tcp   # ssh
 ufw allow 80/tcp
 ufw allow 443/tcp
-ufw enable
+
+yes | ufw enable

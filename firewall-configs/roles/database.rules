@@ -1,7 +1,10 @@
 #!/bin/bash
-ufw reset
+set -x
+
+yes | ufw reset
 ufw default deny incoming
 ufw default allow outgoing
 ufw allow 22/tcp   # Allow SSH
 ufw allow 3306/tcp # Allow MySQL
-ufw enable
+
+yes | ufw enable
