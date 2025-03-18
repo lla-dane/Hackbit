@@ -1,4 +1,5 @@
 #!/bin/bash
+#This script applies the respective firewall config as the server-name
 
 LOG_FILE="/var/log/firewall-update.log"
 GIT_PATH="/usr/bin/git"
