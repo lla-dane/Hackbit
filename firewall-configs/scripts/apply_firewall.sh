@@ -3,13 +3,13 @@
 LOG_FILE="/var/log/firewall-update.log"
 GIT_PATH="/usr/bin/git"
 UFW_PATH="/usr/sbin/ufw"
-FIREWALL_CONFIG_DIR="/firewall-configs/roles"
+FIREWALL_CONFIG_DIR="/Rust/firewall-configs/roles"
 
 echo "🚀 Updating firewall rules - $(date)" | tee -a $LOG_FILE
 
 # Step 1: Pull the latest firewall rules from GitHub
-cd /firewall-configs || exit 1
-$GIT_PATH pull origin main >> $LOG_FILE 2>&1
+cd /Rust/firewall-configs || exit 1
+$GIT_PATH pull origin master >> $LOG_FILE 2>&1
 
 # Step 2: Detect server role
 if [ ! -f /etc/server-role ]; then
