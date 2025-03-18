@@ -1,7 +1,7 @@
 #!/bin/bash
-sudo ufw reset
-sudo ufw default deny incoming
-sudo ufw default allow outgoing
-sudo ufw allow 22/tcp   # Allow SSH
-sudo ufw allow 3306/tcp # Allow MySQL
-sudo ufw enable
+ufw reset
+ufw default deny incoming
+ufw default allow outgoing
+ufw allow 22/tcp   # Allow SSH
+ufw allow 3306/tcp # Allow MySQL
+ufw enable
