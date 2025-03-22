@@ -65,3 +65,12 @@ curl -X POST http://127.0.0.1:8080/completion \
            "n_predict": 200
          }'
 ```
+
+```zsh
+ curl -X POST https://curated.aleph.cloud/vm/84df52ac4466d121ef3bb409bb14f315de7be4ce600e8948d71df6485aa5bcc3/completion \
+     -H "Content-Type: application/json" \
+     -d '{
+           "prompt": "Hello, how are you?",
+           "n_predict": 200
+         }'
+```
