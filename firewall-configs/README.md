@@ -10,7 +10,7 @@ Firewall-rules for 3 server roles: web-server, databaseserver, bastion are writt
 * Simulate a Docker network for the server containers to interact with each other in the LAN
 
 ```bash
-docker network react --subnet=192.168.1.0/24 firewall-net
+docker network create --subnet=192.168.1.0/24 firewall-net
 ```
 
 * Start the container for servers:
