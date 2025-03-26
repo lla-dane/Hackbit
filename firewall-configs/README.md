@@ -96,3 +96,16 @@ docker exec -it databaseserver ufw allow from 192.168.1.10 to any port 22
 docker exec -it databaseserver ufw reload
 # Now SSH from webserver -> databaseserver will work
 ```
+
+```bash
+# Start docker service
+sudo systemctl start docker
+
+# Check the containers running
+sudo docker ps
+
+# Disable docker daemon and socket
+sudo systemctl stop docker
+sudo systemctl stop docker.socket
+```
+
