@@ -59,6 +59,10 @@ See the logs and updated firewall configs every minute
 cat /var/log/firewall-update.log # View the latest logs
 truncate -s 0 /var/log/firewall-update.log # Log clean up
 ```
+### For Arch Linux
+
+
+
 ## Testing
 
 * View the automatically applied firewall configs using `ufw` 
