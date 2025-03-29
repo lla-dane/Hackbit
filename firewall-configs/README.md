@@ -16,9 +16,9 @@ docker network create --subnet=192.168.1.0/24 firewall-net
 * Start the container for servers:
 
 ```bash
-docker run -dit --name webserver --net firewall-net --privileged -ip 192.168.1.10 ubuntu bash 
-docker run -dit --name databaseserver --net firewall-net --privileged -ip 192.168.1.20 ubuntu bash 
-docker run -dit --name bastion --net firewall-net --privileged -ip 192.168.1.30 ubuntu bash 
+docker run -dit --name webserver --net firewall-net --privileged --ip 192.168.1.10 ubuntu bash 
+docker run -dit --name databaseserver --net firewall-net --privileged --ip 192.168.1.20 ubuntu bash 
+docker run -dit --name bastion --net firewall-net --privileged --ip 192.168.1.30 ubuntu bash 
 ```
 
 #### By using the `--privileged` tag here, upon entering the containers, user will land with root privileges of the host system, which could be dangerous, so configure carefully. 
