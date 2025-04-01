@@ -24,3 +24,9 @@ sudo cat /etc/ssh/sshd_config | grep Port   # 22
 cat $PREFIX/etc/ssh/sshd_config | grep Port  # 8022
 
 ```
+
+### port-scan
+
+```bash
+ss  -tuln
+```
