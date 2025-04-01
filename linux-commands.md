@@ -9,5 +9,9 @@ awk 'BEGIN{FS=":"; OFS="-"} {print $1,$6,$7} /etc/passwd'
 
 ```bash
 sudo arp-scan --localnet
-ssh -p 8834 ssh@<IP>
+ssh -p 8834 ssh@192.168.31.?
+
+# Android (scans the whole network)
+nmap -sn 192.168.31.0/24
+ssh shelby@192.168.31.?
 ```
