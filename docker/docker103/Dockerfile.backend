@@ -1,0 +1,19 @@
+FROM rust:bookworm as builder
+# ENV TMPDIR=/var/tmp
+RUN apt update && apt install -y \
+    libssl-dev \
+    pkg-config \
+    build-essential \
+    musl-tools
+WORKDIR /app/backend
+COPY backend .
+RUN cargo build --release
+
+FROM debian:bookworm-slim
+# ENV TMPDIR=/var/tmp
+RUN ls
+RUN apt update && apt install -y build-essential musl-tools 
+COPY --from=builder /app/backend/target/release/backend /usr/local/bin/backend
+EXPOSE 8090
+CMD ["backend"]
+
