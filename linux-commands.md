@@ -33,3 +33,8 @@ cat $PREFIX/etc/ssh/sshd_config | grep Port  # 8022
 ```bash
 ss  -tuln
 ```
+
+### Secondary display
+```bash
+xrandr --output HDMI-1-0 --brightness 0.5
+```
