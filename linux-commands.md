@@ -36,5 +36,5 @@ ss  -tuln
 
 ### Secondary display
 ```bash
-xrandr --output HDMI-1-0 --brightness 0.5
+![alt text](image.png)xrandr --output HDMI-1-0 --brightness 0.5
 ```
