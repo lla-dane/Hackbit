@@ -18,7 +18,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
             yamux::Config::default,
         )?
         .with_behaviour(|_| ping::Behaviour::default())?
-        .with_swarm_config(|cfg| cfg.with_idle_connection_timeout(Duration::from_secs(u64::MAX)))
+        .with_swarm_config(|cfg| cfg.with_idle_connection_timeout(Duration::from_secs(60 as u64)))
         .build();
 
     swarm.listen_on("/ip4/0.0.0.0/tcp/5000".parse()?)?;
