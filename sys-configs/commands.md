@@ -9,3 +9,5 @@
             "n_predict": 200
             }'
     ```
+- Domain name -> IP: `nslookup <domain-name>`
+- IP -> geolocation: `whois <IP4/6-ADDR>`
