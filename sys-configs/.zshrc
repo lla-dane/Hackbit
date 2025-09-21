@@ -11,7 +11,7 @@ export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
 # Enable word jumping with Alt + arrow keys
 autoload -U select-word-style
-select-word-style bash 
+select-word-style bash
 
 # Bind escape sequencces for common terminals
 bindkey "\e[1;3C" forward-word   # Alt + Right
@@ -77,11 +77,16 @@ alias open='xdg-open'
 alias terminal='gnome-terminal'
 alias speed='fast'
 alias cur='cursor'
+alias logs='nano ~/Documents/Weekly_Logs/cohort-4.txt'
 
 # Docker
 alias docker-start='sudo systemctl start docker'
 alias docker-stop='sudo systemctl stop docker docker.socket'
 alias docker-status='sudo systemctl status docker'
+
+# Hanabi
+alias hanabi-start='gnome-extensions enable hanabi-extension@jeffshee.github.io'
+alias hanabi-stop='gnome-extensions disable hanabi-extension@jeffshee.github.io'
 
 # Bluetooth
 alias bluetooth='sudo systemctl start bluetooth'
