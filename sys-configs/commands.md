@@ -11,5 +11,6 @@
     ```
 - Domain name -> IP: `nslookup <domain-name>`
 - IP -> geolocation: `whois <IP4/6-ADDR>`
+- Local_IP: `curl ifconfig.me`
 - Caching utilities for software: `ps aux | grep brave`
 - Kill all caching utitties: `pkill brave`
