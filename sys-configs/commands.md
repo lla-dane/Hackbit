@@ -14,3 +14,5 @@
 - Local_IP: `curl ifconfig.me`
 - Caching utilities for software: `ps aux | grep brave`
 - Kill all caching utitties: `pkill brave`
+- i3blocks config: `nano ~/.config/i3blocks/config`
+- i3 config: `nano ~/.config/i3/config`
