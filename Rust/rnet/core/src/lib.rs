@@ -1,14 +1,28 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
+use std::{fmt::Debug, net::SocketAddr};
+
+use anyhow::Result;
+use async_trait::async_trait;
+
+/// Respresents a connection that can read/write bytes asynchronously
+#[async_trait]
+pub trait Connection: Send + Sync + Unpin {
+    async fn read(&mut self, buf: &mut [u8]) -> Result<usize>;
+    async fn write(&mut self, data: &[u8]) -> Result<usize>;
+    async fn close(&mut self) -> Result<()>;
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+#[async_trait]
+pub trait Transport: Send + Sync + Debug {
+    type Conn: Connection;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+    /// Listen for incoming connections.
+    async fn listen(addr: &str) -> Result<Self>
+    where
+        Self: Sized;
+
+    /// Accept a single connection
+    async fn accept(&mut self) -> Result<(Self::Conn, SocketAddr)>;
+
+    /// Dial a remote peer and establish a connection.
+    async fn dial(addr: &str) -> Result<Self::Conn>;
 }

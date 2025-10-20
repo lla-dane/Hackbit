@@ -7,3 +7,4 @@ edition = "2021"
 tokio = {workspace = true}
 async-trait = {workspace = true}
 anyhow = {workspace = true}
+rnet-core = {path = "../../core"}

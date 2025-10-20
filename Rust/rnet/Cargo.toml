@@ -1,7 +1,7 @@
 [workspace]
 members = [
     "core",
-    # "transports/tcp",
+    "transports/tcp",
     # "protocols/ping",
     # "examples/chat",
     # "examples/echo",
