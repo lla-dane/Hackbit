@@ -2,7 +2,7 @@
 members = [
     "core",
     "transports/tcp",
-    # "protocols/ping",
+    "examples/ping",
     # "examples/chat",
     # "examples/echo",
 ]

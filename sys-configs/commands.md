@@ -1,5 +1,6 @@
 - Disable animations: `gsettings set org.gnome.desktop.interface enable-animations false`
 - Monitor brightness: `xrandr --output HDMI-1-0 --brightness 0.6`
+- Monitor config: `xrandr --output HDMI-1-0 --mode 2560x1440 --left-of eDP-2 --auto`
 - LLM request: 
     ```bash
     curl -X POST https://curated.aleph.cloud/vm/84df52ac4466d121ef3bb409bb14f315de7be4ce600e8948d71df6485aa5bcc3/completion \
