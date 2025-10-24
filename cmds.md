@@ -14,6 +14,7 @@
 - Domain name -> IP: `nslookup <domain-name>`
 - IP -> geolocation: `whois <IP4/6-ADDR>`
 - Local_IP: `curl ifconfig.me`
+- IP interfaces: `ip addr show`
 - arp-scan: `sudo arp-scan --localnet`
 - Ping/Scan the local subnet: `nmap -sn 192.168.31.0/24`
 - Port scan: `watch ss -tuln`
@@ -26,3 +27,4 @@
     awk -F ":" '{print $1"\t"$6"\t"$7} /etc/passwd'
     awk 'BEGIN{FS=":"; OFS="-"} {print $1,$6,$7} /etc/passwd'
     ```
+- Disk usage: `ncdu / lsblk`
