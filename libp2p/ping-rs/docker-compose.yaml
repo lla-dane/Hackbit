@@ -1,8 +1,0 @@
-services:
-  ping:
-    build: 
-      context: . 
-      dockerfile: Dockerfile
-    container_name: ping
-    ports: 
-      - "5000:5000"
