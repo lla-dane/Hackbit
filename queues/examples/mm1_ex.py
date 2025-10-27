@@ -13,7 +13,7 @@ from logs import get_logger
 logger = get_logger("mm1_ex")
 
 
-def train_model(epochs=2000, lr=0.01):
+def train_model(epochs=4000, lr=0.01):
     data = generate_dataset()
     logger.debug(f"Dataset shape:{data.shape}")
 
