@@ -5,7 +5,121 @@ uv sync
 python examples/mma_np_ex.py
 ```
 
+## Dry run
+'
+---
 
+### Step 1: Random values (example)
+```ini
+| Customer | Inter-arrival | Arrival time | Service time |
+|----------|---------------|--------------|--------------|
+|     1    |      0.5      |      0.5     |      0.6     |
+|     2    |      0.8      |      1.3     |      0.3     |
+|     3    |      0.4      |      1.7     |      0.7     |
+|     4    |      1.0      |      2.7     |      0.4     |
+|     5    |      0.6      |      3.3     |      0.5     |
+|     6    |      0.7      |      4.0     |      0.2     |
+```
+---
+
+### Step 2: Initial state
+server_free_times = [0.0, 0.0]
+queue = []
+waiting_times = []
+active = False
+
+
+### Step 3: Customer arrivals
+
+#### i = 0 → Customer 1 arrives (t = 0.5)
+queue = [(0.5, 0.6)]
+active = False (queue length 1 < N=3)
+
+---
+
+#### i = 1 → Customer 2 arrives (t = 1.3)
+queue = [(0.5, 0.6), (1.3, 0.3)]
+active = False (2 < 3)
+
+---
+
+#### i = 2 → Customer 3 arrives (t = 1.7)
+queue = [(0.5, 0.6), (1.3, 0.3), (1.7, 0.7)]
+len(queue) = 3 >= N → activate service
+active = True
+
+
+**Now servers process:**
+
+- **Server 0**: takes (0.5, 0.6)
+start_time = 1.7
+finish_time = 2.3
+waiting = 1.7 - 0.5 = 1.2
+server_free_times[0] = 2.3
+
+- **Server 1**: takes (1.3, 0.3)
+start_time = 1.7
+finish_time = 2.0
+waiting = 1.7 - 1.3 = 0.4
+server_free_times[1] = 2.0
+
+Remaining queue: `[(1.7, 0.7)]`
+
+---
+
+#### i = 3 → Customer 4 arrives (t = 2.7)
+queue = [(1.7, 0.7), (2.7, 0.4)]
+
+**Process servers:**
+
+- **Server 0** (free at 2.3 ≤ 2.7):
+serve (1.7, 0.7)
+start_time = 2.7
+finish_time = 3.4
+waiting = 2.7 - 1.7 = 1.0
+server_free_times[0] = 3.4
+
+- **Server 1** (free at 2.0 ≤ 2.7):
+serve (2.7, 0.4)
+start_time = 2.7
+finish_time = 3.1
+waiting = 2.7 - 2.7 = 0.0
+server_free_times[1] = 3.1
+
+
+Queue now empty → `active = False`
+
+---
+
+#### i = 4 → Customer 5 arrives (t = 3.3)
+queue = [(3.3, 0.5)]
+active = False (1 < 3)
+
+
+---
+
+#### i = 5 → Customer 6 arrives (t = 4.0)
+queue = [(3.3, 0.5), (4.0, 0.2)]
+active = False (2 < 3)
+
+
+Simulation ends.
+
+---
+
+### Step 4: Results
+waiting_times = [1.2, 0.4, 1.0, 0.0]
+average_wait = (1.2 + 0.4 + 1.0 + 0.0) / 4 = 0.65
+
+
+---
+
+### ✅ Final Output
+simulate_mma_np(1.0, 2.0, 2, 3, 6)
+
+### returns 0.65
+
+---
 ## Overall:
 
 * Pick random parameters: ( \lambda, \mu, a, N )

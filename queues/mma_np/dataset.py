@@ -9,6 +9,7 @@ def generate_dataset(samples=2000):
     X = []
     y = []
     logger.debug(f"Generating {samples} samples")
+    logger.debug("Taking default of 5000 customers")
     for _ in range(samples):
         lambda_rate = np.random.uniform(0.5, 4.0)
         mu_rate = np.random.uniform(lambda_rate + 0.1, lambda_rate + 4.0)
