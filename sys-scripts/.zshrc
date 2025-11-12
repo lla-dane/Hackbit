@@ -3,7 +3,6 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
-
 export PATH="$HOME/.local/protoc-25.3/bin:$PATH"
 export PATH="$PATH:$(go env GOPATH)/bin"
 export PATH=/home/shelby/.nimble/bin:$PATH
@@ -11,7 +10,7 @@ export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
 # Enable word jumping with Alt + arrow keys
 autoload -U select-word-style
-select-word-style bash
+select-word-style bash 
 
 # Bind escape sequencces for common terminals
 bindkey "\e[1;3C" forward-word   # Alt + Right
@@ -20,7 +19,6 @@ bindkey "\e[1;3D" backward-word  # Alt + Left
 # Optional: make Ctrl + Left/Right work too (if you want it)
 bindkey "^[[1;5C" forward-word     # Ctrl + Right
 bindkey "^[[1;5D" backward-word    # Ctrl + Left
-
 
 # Set prompt
 autoload -Uz promptinit && promptinit
@@ -75,9 +73,14 @@ alias gpu-get="supergfxctl -g"
 # Aliases
 alias open='xdg-open'
 alias terminal='gnome-terminal'
-alias speed='fast'
-alias cur='cursor'
 alias logs='nano ~/Documents/Weekly_Logs/cohort-4.txt'
+alias syslogs='nano ~/Documents/sys-logs.txt'
+alias config='code ~/.config/i3/config'
+alias zshrc='code ~/.zshrc'
+alias reload='source ~/.zshrc'
+alias light='xrandr --output HDMI-1-0 --brightness'
+alias screen='xrandr --output HDMI-1-0 --mode 2560x1440 --left-of eDP-2 --auto' 
+alias wallpaper="~/.config/i3/scripts/wallpaper_loop.sh"
 
 # Docker
 alias docker-start='sudo systemctl start docker'
@@ -85,8 +88,8 @@ alias docker-stop='sudo systemctl stop docker docker.socket'
 alias docker-status='sudo systemctl status docker'
 
 # Hanabi
-alias hanabi-start='gnome-extensions enable hanabi-extension@jeffshee.github.io'
-alias hanabi-stop='gnome-extensions disable hanabi-extension@jeffshee.github.io'
+alias st-hanabi='gnome-extensions enable hanabi-extension@jeffshee.github.io'
+alias sp-hanabi='gnome-extensions disable hanabi-extension@jeffshee.github.io'
 
 # Bluetooth
 alias bluetooth='sudo systemctl start bluetooth'
@@ -113,21 +116,6 @@ node() { load_nvm; command node "$@"; }
 npm() { load_nvm; command npm "$@"; }
 npx() { load_nvm; command npx "$@"; }
 yarn() { load_nvm; command yarn "$@"; }
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-
-# __conda_setup="$('/home/shelby/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/home/shelby/miniconda3/etc/profile.d/conda.sh" ]; then
-#         . "/home/shelby/miniconda3/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/home/shelby/miniconda3/bin:$PATH"
-#     fi
-# fi
-# unset __conda_setup
 
 # Manually initialize conda only when needed
 conda() {

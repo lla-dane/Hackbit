@@ -8,7 +8,7 @@ def generate_dataset(n_samples=2000):
     """Generate dataset of (λ, μ, avg_wait) samples."""
     logger.debug(f"Generating {n_samples} samples")
     data = []
-    customers = 15000
+    customers = 5000
     logger.debug(f"Starting the simulation with {customers} customers")
     for _ in range(n_samples):
       # Bias λ close to μ for harder regions

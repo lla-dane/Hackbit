@@ -13,8 +13,10 @@ def generate_dataset(samples=2000):
     for _ in range(samples):
         lambda_rate = np.random.uniform(0.5, 4.0)
         mu_rate = np.random.uniform(lambda_rate + 0.1, lambda_rate + 4.0)
-        servers = np.random.randint(1, 5)
-        N = np.random.randint(2, 15)
+        # servers = np.random.randint(1, 5)
+        servers = 1
+        
+        N = 3
         
         wait_time = simulate_mma_np(lambda_rate, mu_rate, servers, N)
         X.append([lambda_rate, mu_rate, servers, N])

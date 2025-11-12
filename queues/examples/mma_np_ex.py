@@ -33,7 +33,7 @@ def main():
             logger.debug(f"Epoch {epoch} | Loss: {loss.item():.6f}")
     
     # Test prediction
-    test_input = torch.tensor([[2.0, 3.0, 2, 5]], dtype=torch.float32)
+    test_input = torch.tensor([[2.0, 3.0, 1, 1]], dtype=torch.float32)
     pred_wait = torch.expm1(model(test_input)).item()
     logger.info(f"Predicted avg wait: {pred_wait:.4f}")
 
