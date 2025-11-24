@@ -1,0 +1,57 @@
+INFO     ===== COMPARISON OF OPTIMIZERS & LOSS FUNCTIONS =====                                                                                                                                                                                                                          mma_ex.py:107
+INFO     Adam + MSELoss: final loss = 0.055064                                                                                                                                                                                                                                          mma_ex.py:109
+INFO     Adam + L1Loss: final loss = 0.161125                                                                                                                                                                                                                                           mma_ex.py:109
+INFO     Adam + SmoothL1Loss: final loss = 0.031084                                                                                                                                                                                                                                     mma_ex.py:109
+INFO     SGD + MSELoss: final loss = 0.137548                                                                                                                                                                                                                                           mma_ex.py:109
+INFO     SGD + L1Loss: final loss = 0.281777                                                                                                                                                                                                                                            mma_ex.py:109
+INFO     SGD + SmoothL1Loss: final loss = 0.061019                                                                                                                                                                                                                                      mma_ex.py:109
+INFO     RMSprop + MSELoss: final loss = 0.186605                                                                                                                                                                                                                                       mma_ex.py:109
+INFO     RMSprop + L1Loss: final loss = 0.269965                                                                                                                                                                                                                                        mma_ex.py:109
+INFO     RMSprop + SmoothL1Loss: final loss = 0.048881                                                                                                                                                                                                                                  mma_ex.py:109
+INFO     Adagrad + MSELoss: final loss = 0.065853                                                                                                                                                                                                                                       mma_ex.py:109
+INFO     Adagrad + L1Loss: final loss = 0.163944                                                                                                                                                                                                                                        mma_ex.py:109
+INFO     Adagrad + SmoothL1Loss: final loss = 0.030558                                                                                                                                                                                                                                  mma_ex.py:109
+
+Comparison of final losses:
+Adam     + MSELoss      -> 0.055064
+Adam     + L1Loss       -> 0.161125
+Adam     + SmoothL1Loss -> 0.031084
+SGD      + MSELoss      -> 0.137548
+SGD      + L1Loss       -> 0.281777
+SGD      + SmoothL1Loss -> 0.061019
+RMSprop  + MSELoss      -> 0.186605
+RMSprop  + L1Loss       -> 0.269965
+RMSprop  + SmoothL1Loss -> 0.048881
+Adagrad  + MSELoss      -> 0.065853
+Adagrad  + L1Loss       -> 0.163944
+Adagrad  + SmoothL1Loss -> 0.030558
+
+
+----------MM1----------
+         ===== FINAL LOSS COMPARISON =====                                                                                                                                                                                                                                                           
+INFO     Adam     + MSELoss      -> 0.061484                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     Adam     + L1Loss       -> 0.158767                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     Adam     + SmoothL1Loss -> 0.029783                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     SGD      + MSELoss      -> 0.126859                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     SGD      + L1Loss       -> 0.280226                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     SGD      + SmoothL1Loss -> 0.065270                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     RMSprop  + MSELoss      -> 0.111217                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     RMSprop  + L1Loss       -> 0.281161                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     RMSprop  + SmoothL1Loss -> 0.065422                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     Adagrad  + MSELoss      -> 0.072371                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     Adagrad  + L1Loss       -> 0.166175                                                                                                                                                                                                                                             mm1_ex.py:77
+INFO     Adagrad  + SmoothL1Loss -> 0.029064                                                                                                                                                                                                                                             mm1_ex.py:77
+
+=== COMPARISON TABLE ===
+Adam     + MSELoss      -> 0.061484
+Adam     + L1Loss       -> 0.158767
+Adam     + SmoothL1Loss -> 0.029783
+SGD      + MSELoss      -> 0.126859
+SGD      + L1Loss       -> 0.280226
+SGD      + SmoothL1Loss -> 0.065270
+RMSprop  + MSELoss      -> 0.111217
+RMSprop  + L1Loss       -> 0.281161
+RMSprop  + SmoothL1Loss -> 0.065422
+Adagrad  + MSELoss      -> 0.072371
+Adagrad  + L1Loss       -> 0.166175
+Adagrad  + SmoothL1Loss -> 0.029064
