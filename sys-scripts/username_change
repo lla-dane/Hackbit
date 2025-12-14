@@ -1,0 +1,32 @@
+
+# USERNAME CHANGE shelby -> soi
+
+# Create a new user
+sudo adduser <username>
+
+# Give a user sudo permission
+usermod -aG sudo temp
+
+# now login to the temp user, and change the username of the old user 
+sudo usermod --login soi shelby
+
+# rename home directory
+sudo usermod -d /home/soi -m soi
+
+# rename primary group
+sudo groupmod -n soi shelby
+
+# login screen name change
+chfn -f "0xsoi_" 0xsoi_
+
+# Verify
+ids 
+users
+cat /etc/passwd
+id soi
+whoami
+echo $HOME
+
+reboot
+
+chatgpt: https://chatgpt.com/c/693ed709-f990-8323-92f8-2449c4f83ad7
