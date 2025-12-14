@@ -1,3 +1,4 @@
+----------MMA-----------
 INFO     ===== COMPARISON OF OPTIMIZERS & LOSS FUNCTIONS =====                                                                                                                                                                                                                          mma_ex.py:107
 INFO     Adam + MSELoss: final loss = 0.055064                                                                                                                                                                                                                                          mma_ex.py:109
 INFO     Adam + L1Loss: final loss = 0.161125                                                                                                                                                                                                                                           mma_ex.py:109

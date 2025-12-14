@@ -1,5 +1,6 @@
 import sys
 import os
+
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 import torch
@@ -8,6 +9,7 @@ import torch.optim as optim
 
 from mm1.dataset import generate_dataset
 from mm1.model import QueueNet
+from mm1.simulation import simulate_mm1
 from logs import get_logger
 
 logger = get_logger("mm1_compare")
@@ -95,6 +97,9 @@ def compare_all(epochs=2000, lr=0.01):
 def test_model(model):
     test_input = torch.tensor([[0.5, 0.8]], dtype=torch.float32)
     pred_wait = torch.exp(model(test_input)).item()
+    
+    mean = simulate_mm1(0.5, 0.8, 5000)
+    logger.info("Via simulation: ", mean)
 
     # Theoretical M/M/1 waiting time in queue:
     lam, mu = 0.5, 0.8
