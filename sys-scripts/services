@@ -1,0 +1,50 @@
+pstree : process tree, startign from systemd
+
+sudo systemctl --type=service --state=running: List running services
+sudo systemctl status sshd : Look at one service in detail
+
+sudo systemctl stop sshd : Stop a service (stop/start/restart)
+sudo systemctl enable nginx : start the service after reboot
+sudo systemctl disable nginx : stop the service on reboot
+
+sudo journalctl -u nginx : logs of a service
+
+
+----WRITE A CUSTOM SERVICE----
+
+- Write a .sh script in /usr/local/bin
+
+Example:
+#!/bin/bash
+echo "hello-punks"
+sleep 5
+
+- permissions: chmod 755 script.sh
+-rwxr-xr-x 1 soi soi 39 Dec 15 15:08 script.sh
+- write the service file in /etc/systemd/system as script.service
+
+Example: 
+
+[Unit]
+Description=My Service
+After=network.target
+
+[Service]
+User=soi
+ExecStart=/bin/bash /usr/local/bin/script.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+- ls -l script.service : -rwxr-xr-x 1 root root 167 Dec 15 15:16 script.service
+- file permissions : chmod 755 script.service
+
+- After this close the file, and reload the system daemon
+
+sudo systemctl daemon-reload
+sudo systemctl start script
+sudo systemctl status script
+sudo journalctl -u script -f 
+
+--------------
