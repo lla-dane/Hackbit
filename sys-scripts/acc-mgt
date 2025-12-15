@@ -1,0 +1,38 @@
+----USERS----
+sudo useradd joker 			: without home dir (-m flag for dir)
+sudo adduser joker		 	: with home dir
+
+sudo useradd -r newuser			: creates a system user (used by daemons and such)
+sudo useradd -G wheel newuser 		: additional groups -G user is part of
+
+cat /etc/passwd 			: see all users
+sudo passwd joker 		     	: add/update the passwd of a user
+
+sudo usermod -d /home/wayne -m joker 	: change the home dir name
+sudo usermod -s /bin/bash joker 	: change default shell
+sudo usermod -l joker-new joker		: chaneg username
+sudo userdel -r bob 			: delete a user
+sudo usermod -u 1000 newuser 		: change the uid of the user
+sudo usermod -g 1006 newuser 		: chaneg group-id of primary group
+
+sudo usermod -aG sudo joker 		: add user to a group (sudo)
+groups joker 				: all the groups of a user
+
+sudo passwd -l joker 			: lock a user-account, unlock -u
+
+
+----GROUPS---- :- COLLECTION OF USERS
+cat /etc/group 				: all the groups, with their collection of users
+groups					: groups containing the logged in user
+
+sudo groupadd demo 			: add a group
+sudo groupadd -g 1009 demo1		: specify the group-id while creating it
+
+sudo groupmod -g 1011 <group> 		: change the group-id of a group
+sudo groupmod -n <new> <old>		: change the name of a group
+
+sudo usermod -aG <group> <user>		: add a user in a group
+sudo gpasswd -d <user> <group>		: remove a user from a group
+
+sudo groupdel <group>			: delete a group
+
