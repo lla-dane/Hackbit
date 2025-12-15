@@ -1,0 +1,38 @@
+----MONITOR-AND-CONTROL-PROCESSES----
+
+MONITOR        : top   ps      pidof
+CONTROL        : bg    fg      kill  killall
+PRIORITY       : nice  renice
+RESOURCE-TRACK : df    du      free 
+
+ps aux : lists all running processes
+
+kill <pid> : kill a process
+kill -9 <pid> : force kill 
+killall <proc-name> : kill via name (pkill)
+
+EVERY PROCESS START WITH PRIORITY 0 (-20 - 19) :- 
+----------------------------------------------
+nice -n 15 script.sh : start proc with +15 priority
+renice +5 <pid> : update the priority of a process
+
+df : reports the partitions from mount points, (-i) for inode
+du : disk usage of each file recursively
+
+Ctrl + Z : suspend (not-running) a task in background             |
+jobs -l : see all the suspended tasks (-l pid)                    |-\ close the terminal
+fg %1 : bring (resume) the bg-suspended task to fg (%1 job-id)    |-/    process dies
+bg %1 : continue a suspended proc in bg                           |
+<cmd> & : get the cmd in bg running but dedicated to terminal
+
+disown : to undedicate the terminal
+<cmd> & disown : good chain to run the wallpaper loop  #----#
+
+----LINUX-PROC-SIGNALS----
+
+- SIGUP   (1)  : Hangup, often used to tell a daemon to relaod its configuration
+- SIGINT  (2)  : Interrupt, by Ctrl-C to terminate
+- SIGKILL (9)  : Kill, immediate forcefull termination (kill -9 <pid>)
+- SIGSEGV (11) : Segmentation fault, proc made invalid memory reference
+- SIGTERM (15) : Termination, polite way to ask a proc to terminate (kill <pid>)
+- SIGSTOP      : Stop, pause the process. cannot be caught or ignored
