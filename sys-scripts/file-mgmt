@@ -1,0 +1,32 @@
+----PERMISSIONS----
+
+-rw-r--r--  1 shelby shelby   16 Dec 16 16:58 file
+- READ(1) WRITE(2) EXECUTE(1) NONE(0)
+- OWNER GROUP OTHERS 
+
+ls -la : see file permission info
+chmod 666 <file> : change file permissions
+chown <user> <file> : change ownership of file
+
+----COMPRESSION-ARCHIVING----
+
+tar -cvd <file>.tar <file> : archive a file
+gzip <file>.tar : compress using gzip algo
+tar -czvf <file>.tar.gz <file> : one way cmd for gzip compression
+zip -r <file>.zip <file> : compress tpo zip format 
+
+tar -tvf <file>.tar : see the contents without extraction
+tar -tzvf <file>.tar.gz : see the contents of gzip file
+
+tar -xvf <file>.tar -C <ext-dir> : extract the contents in the location
+tar -xzvf <file>.tar.gz -C <ext-dir> : extract a gzip file
+unzip -d <ext-dir> <file>.zip : extract from zip format
+
+----HARD-SOFT-LINKS----
+
+- HARD-LINKS are only for files, not for directory
+- SOFT-LINKS are useful for both files and directory
+
+ln <exist> <new> : create a HARD-LINK
+ln -s <exist> <new> : create a SOFT-LINK
+

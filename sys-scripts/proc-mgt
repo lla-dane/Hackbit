@@ -11,7 +11,7 @@ kill <pid> : kill a process
 kill -9 <pid> : force kill 
 killall <proc-name> : kill via name (pkill)
 
-EVERY PROCESS START WITH PRIORITY 0 (-20 - 19) :- 
+EVERY PROCESS START WITH PRIORITY 0 (-20 <-> 19) :- 
 ----------------------------------------------
 nice -n 15 script.sh : start proc with +15 priority
 renice +5 <pid> : update the priority of a process
@@ -36,3 +36,10 @@ disown : to undedicate the terminal
 - SIGSEGV (11) : Segmentation fault, proc made invalid memory reference
 - SIGTERM (15) : Termination, polite way to ask a proc to terminate (kill <pid>)
 - SIGSTOP      : Stop, pause the process. cannot be caught or ignored
+
+----PROC-PRIORITY-POLICY----
+SCHED_DEADLINE > SCHED_RR/SCHED_FIFO > SCHED_OTHER > SCHED_BATCH > SCHED_IDLE
+
+priority doc: https://blogs.oracle.com/linux/task-priority
+fork() sys-call, child-proc: https://thelinuxcode.com/fork-system-call-linux/
+
