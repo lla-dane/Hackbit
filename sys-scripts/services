@@ -1,50 +1,42 @@
 pstree : process tree, startign from systemd
 
-sudo systemctl --type=service --state=running: List running services
-sudo systemctl status sshd : Look at one service in detail
+sudo systemctl --type=service : List active system services
+sudo systemctl status sshd : Look at one service in detail (--user)
+sudo systemctl list-dependencies network.service : lit service deps
 
 sudo systemctl stop sshd : Stop a service (stop/start/restart)
-sudo systemctl enable nginx : start the service after reboot
-sudo systemctl disable nginx : stop the service on reboot
+sudo systemctl enable nginx : start the service after reboot (--user)
+sudo systemctl disable nginx : stop the service on reboot (--user)
 
-sudo journalctl -u nginx : logs of a service
+sudo journalctl -u nginx -f : real-time logs of a service, resolve service conflicts
 
+START -- STOP -- RESTART -- STATUS -- ENABLE -- DISABLE 
 
 ----WRITE A CUSTOM SERVICE----
+------------------------------
 
-- Write a .sh script in /usr/local/bin
+sudo nano /usr/local/bin/<script>.sh : create a script
+chmod +x <script>.sh : give execute permission 
+sudo nano /etc/systemd/system/<script>.service : create a service file
 
-Example:
-#!/bin/bash
-echo "hello-punks"
-sleep 5
-
-- permissions: chmod 755 script.sh
--rwxr-xr-x 1 soi soi 39 Dec 15 15:08 script.sh
-- write the service file in /etc/systemd/system as script.service
-
-Example: 
-
+--EXAMPLE--
 [Unit]
-Description=My Service
-After=network.target
+Description=FOSSLinux Service
 
 [Service]
-User=soi
-ExecStart=/bin/bash /usr/local/bin/script.sh
-Restart=always
+ExecStart=/usr/local/bin/Hello_FOSSLinux.sh
 
 [Install]
 WantedBy=multi-user.target
+-----------
 
-- ls -l script.service : -rwxr-xr-x 1 root root 167 Dec 15 15:16 script.service
-- file permissions : chmod 755 script.service
+sudo systemctl daemon-reload : reload the systemd daemon 
+systemctl start <script>.service : start the service
+systemctl enable <script>.service : enable the service 
+systemctl status <script>.service : status the service 
 
-- After this close the file, and reload the system daemon
+sudo journalctl -u <script>.service -f : see the logs of the service 
 
-sudo systemctl daemon-reload
-sudo systemctl start script
-sudo systemctl status script
-sudo journalctl -u script -f 
-
---------------
+blogs:
+https://www.fosslinux.com/111815/a-guide-to-creating-linux-services-with-systemd.htm
+https://linuxhandbook.com/create-systemd-services/

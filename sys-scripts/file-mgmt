@@ -6,6 +6,7 @@
 
 ls -la : see file permission info
 chmod 666 <file> : change file permissions
+chmod +x <file> : chnage file permissions
 chown <user> <file> : change ownership of file
 
 ----COMPRESSION-ARCHIVING----
