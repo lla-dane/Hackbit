@@ -1,4 +1,5 @@
-----USERS----
+----USER-GROUP-MANAGEMENT----
+
 sudo useradd joker 			              : without home dir (-m flag for dir)
 sudo adduser joker		 	              : with home dir
 
