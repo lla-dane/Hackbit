@@ -1,3 +1,5 @@
+This project is continued here: https://github.com/lla-dane/rnet
+
 # rnet -- A minimal P2P networking stack in Rust
 
 This repository is an experimental peer-to-peer networking library written in Rust. The goal is for me to understand how a P2P stack is built from ground up -- especially the complex RUST async patterns involved when we combine transports, multiplexing, and application-level protocols.
