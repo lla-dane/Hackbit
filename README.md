@@ -1,6 +1,10 @@
 - Disable animations: `gsettings set org.gnome.desktop.interface enable-animations false`
 - Monitor brightness: `xrandr --output HDMI-1-0 --brightness 0.6`
 - Monitor config: `xrandr --output HDMI-1-0 --mode 2560x1440 --left-of eDP-2 --auto`
+- Hostspot: `sudo create_ap wlan0 enp55s0f3u1u4 'soiarch' 'abhi2004' --freq-band 5 -c 149 --ieee80211ac`
+- Force radio to turn back on: `sudo rfkill unblock wifi`
+- Watch the capped speed of NIC: `sudo ethtool enp55s0f3u1u4 | grep Speed`
+- Restart network manager: `sudo systemctl restart NetworkManager.service`
 - LLM request: 
     ```bash
     curl -X POST https://curated.aleph.cloud/vm/84df52ac4466d121ef3bb409bb14f315de7be4ce600e8948d71df6485aa5bcc3/completion \
@@ -27,4 +31,4 @@
     awk -F ":" '{print $1"\t"$6"\t"$7} /etc/passwd'
     awk 'BEGIN{FS=":"; OFS="-"} {print $1,$6,$7} /etc/passwd'
     ```
-- Disk usage: `ncdu / lsblk`
+- Disk usage: `ncdu / lsblk / df -h`
