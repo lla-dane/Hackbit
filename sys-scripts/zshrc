@@ -1,6 +1,5 @@
 cat /home/shelby/Documents/misc/welcome_msg
 
-
 # Enable history
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -62,48 +61,6 @@ ZSH_HIGHLIGHT_STYLES[error]='fg=196,bold'
 # Autosuggestions: Dim cyan
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=51'
 
-# Power profiles
-alias power-high="asusctl profile -P Performance"
-alias power-mid="asusctl profile -P Balanced"
-alias power-low="asusctl profile -P Quiet"
-alias power="asusctl profile -p"
-
-# GPU profiles
-alias gpu-integrated="supergfxctl -m Integrated"
-alias gpu-dedicated="supergfxctl -m AsusMuxDgpu"
-alias gpu-get="supergfxctl -g"
-
-# Aliases
-alias open='xdg-open'
-alias terminal='gnome-terminal'
-alias logs='nano ~/Documents/logs/Weekly_Logs/cohort-4.txt'
-alias syslogs='nano ~/Documents/logs/sys-logs.txt'
-alias worklogs='nano ~/Documents/logs/worklogs.txt'
-alias config='code ~/.config/i3/config'
-alias zshrc='code ~/.zshrc'
-alias reload='source ~/.zshrc'
-alias light='xrandr --output HDMI-1-0 --brightness'
-alias screen='xrandr --output   DP-1-0 --mode 1920x1080 --left-of eDP-2 --auto' 
-# alias screen='xrandr --output HDMI-1-0 --mode 2560x1440 --left-of eDP-2 --auto' 
-alias wallpaper="~/.config/i3/scripts/wallpaper_loop.sh"
-
-# Docker
-alias docker-start='sudo systemctl start docker'
-alias docker-stop='sudo systemctl stop docker docker.socket'
-alias docker-status='sudo systemctl status docker'
-
-# Hanabi
-alias st-hanabi='gnome-extensions enable hanabi-extension@jeffshee.github.io'
-alias sp-hanabi='gnome-extensions disable hanabi-extension@jeffshee.github.io'
-
-# Bluetooth
-alias bluetooth='sudo systemctl start bluetooth'
-
-# Backward path (cd..)
-alias .1="cd .."
-alias .2="cd ../.."
-alias .3="cd ../../.."
-
 # Source nvm only when needed
 export NVM_DIR="$HOME/.nvm"
 # source /usr/share/nvm/init-nvm.sh
@@ -149,9 +106,6 @@ export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
 export PATH="${HOME}/.local/bin:$PATH"
 
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-# Alias for running starkup installer
-alias starkup="curl --proto '=https' --tlsv1.2 -sSf https://sh.starkup.sh | sh -s --"
-
 
 # BEGIN SCARB COMPLETIONS
 _scarb() {
@@ -163,15 +117,70 @@ _scarb() {
 }
 autoload -Uz compinit && compinit
 compdef _scarb scarb
-
 # END SCARB COMPLETIONS
 
-# AWS-CONNECTIONS
+## ------ALIASES------
 
+# --POWER-PROFILES--
+alias power-high="asusctl profile -P Performance"
+alias power-mid="asusctl profile -P Balanced"
+alias power-low="asusctl profile -P Quiet"
+alias power="asusctl profile -p"
+
+# --GPU-PROFILES--
+alias gpu-integrated="supergfxctl -m Integrated"
+alias gpu-dedicated="supergfxctl -m AsusMuxDgpu"
+alias gpu-get="supergfxctl -g"
+
+# --GENERAL--
+alias starkup="curl --proto '=https' --tlsv1.2 -sSf https://sh.starkup.sh | sh -s --"
+alias open='xdg-open'
+alias terminal='gnome-terminal'
+alias light='xrandr --output HDMI-1-0 --brightness'
+alias screen='xrandr --output DP-2 --mode 2560x1440 --left-of eDP-1 --auto'
+alias wallpaper="~/.config/i3/scripts/wallpaper_loop.sh"
+alias st-hanabi='gnome-extensions enable hanabi-extension@jeffshee.github.io'
+alias sp-hanabi='gnome-extensions disable hanabi-extension@jeffshee.github.io'
+alias bluetooth='sudo systemctl start bluetooth'
+alias hotspot="sudo rfkill unblock wifi && sudo create_ap wlan0 enp55s0f3u1u4 'soiarch' 'abhi2004' --freq-band 5 -c 149 --ieee80211ac"
+alias .1="cd .."
+alias .2="cd ../.."
+alias .3="cd ../../.."
+alias venv=". .venv/bin/activate"
+alias cmds="cat ~/Desktop/Hackbit/README.md"
+alias ncmds="nano ~/Desktop/Hackbit/README.md"
+
+# --LOGS--
+alias logs='nano ~/Documents/logs/pldg/cohort-6'
+alias syslogs='nano ~/Documents/logs/sys-logs.txt'
+alias worklogs='nano ~/Documents/logs/worklogs.txt'
+alias todo='nano ~/Desktop/rnet/logs/todo.md'
+alias doubts='nano ~/Desktop/rnet/logs/doubts.md'
+alias doubts-code='code ~/Desktop/rnet/logs/doubts.md'
+alias chores='nano ~/Desktop/rnet/logs/chores.md'
+alias findings='code ~/Desktop/rnet/logs/findings.md'
+
+
+# --SYS-CONFIG--
+alias config='code ~/.config/i3/config'
+alias zshrc='nano ~/.zshrc'
+alias zshrc-code='code ~/.zshrc'
+alias reload='source ~/.zshrc'
+
+# --DOCKER--
+alias docker-start='sudo systemctl start docker'
+alias docker-stop='sudo systemctl stop docker docker.socket'
+alias docker-status='sudo systemctl status docker'
+
+# --SSH-CONNECTIONS--
 alias bootstrap="ssh -i "Desktop/libp2p/P2P-Federated-Learning/aws-keys/p2p-1.pem" ubuntu@ec2-35-154-61-220.ap-south-1.compute.amazonaws.com"
 alias client="ssh -i "Desktop/libp2p/P2P-Federated-Learning/aws-keys/p2p-1.pem" ubuntu@ec2-13-233-102-227.ap-south-1.compute.amazonaws.com"
 alias 1-trainer="ssh -i "Desktop/libp2p/P2P-Federated-Learning/aws-keys/p2p-1.pem"  ubuntu@ec2-13-201-226-238.ap-south-1.compute.amazonaws.com"
 alias 2-trainer="ssh -i "Desktop/libp2p/libp2p-aws.pem" ubuntu@ec2-13-126-88-127.ap-south-1.compute.amazonaws.com"
+alias raspi="ssh soi@192.168.12.130"
 
-alias venv=". .venv/bin/activate"
-alias zsource="source /home/shelby/.zshrc"
+# --CLOUDFLARE--
+alias cld-start="sudo systemctl start cloudflared"
+alias cld-stop="sudo systemctl stop cloudflared"
+alias cld-status="sudo systemctl status cloudflared"
+alias cld="cloudflared"

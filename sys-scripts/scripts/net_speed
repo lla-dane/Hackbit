@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+PRIMARY_IFACE="enp55s0f3u1u4"
+FALLBACK_IFACE="wlan0"
+
+# Function to check if an interface is UP and has carrier
+iface_up() {
+    local iface="$1"
+    [[ -d "/sys/class/net/$iface" ]] || return 1
+    [[ "$(cat /sys/class/net/$iface/operstate)" == "up" ]] || return 1
+    return 0
+}
+
+# Select interface
+if iface_up "$PRIMARY_IFACE"; then
+    IFACE="$PRIMARY_IFACE"
+elif iface_up "$FALLBACK_IFACE"; then
+    IFACE="$FALLBACK_IFACE"
+else
+    echo "NET: -"
+    exit 0
+fi
+
+RX_FILE="/sys/class/net/$IFACE/statistics/rx_bytes"
+
+# Read RX bytes twice
+PREV_RX=$(cat "$RX_FILE")
+sleep 1
+CURR_RX=$(cat "$RX_FILE")
+SPEED=$((CURR_RX - PREV_RX))
+
+# Human-readable rate
+if (( SPEED < 1024 )); then
+    RATE="${SPEED} B/s"
+elif (( SPEED < 1048576 )); then
+    RATE="$((SPEED / 1024)) KB/s"
+else
+    RATE="$((SPEED / 1048576)) MB/s"
+fi
+
+echo "↓ $RATE"

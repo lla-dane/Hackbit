@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Get battery info using sudo, and store it in a variable
+TLP_OUTPUT=$(sudo tlp-stat -b)
+
+# Check if the command succeeded. If not, exit gracefully.
+if [ -z "$TLP_OUTPUT" ]; then
+    echo "ERR"
+    exit 1
+fi
+
+# Parse the stored output. No more sudo needed here.
+STATUS=$(echo "$TLP_OUTPUT" | grep "status" | awk '{print $3}')
+PERCENTAGE=$(echo "$TLP_OUTPUT" | grep "Charge" | awk '{print $3}' | cut -d'.' -f1)
+
+# Logic to display a different icon based on charging status
+if [ "$STATUS" = "Charging" ]; then
+    ICON="🔌"
+elif [ "$STATUS" = "Full" ]; then
+    ICON="⚡"
+else
+    # Discharging or Not charging
+    ICON="🔋"
+fi
+
+# Final output for the status bar
+echo "$ICON $PERCENTAGE%"

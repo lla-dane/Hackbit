@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# 1. No spaces around the '='
+# 2. The awk calculation is now complete ($3/$2 * 100)
+MEM=$(free -m | awk '/^Mem:/ {printf "%.0f%%", $3/$2 * 100}')
+
+# This echo command prints the variable's value and adds the needed newline
+echo "$MEM"

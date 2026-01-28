@@ -1,0 +1,33 @@
+# Global properties
+command=/usr/lib/i3blocks/$BLOCK_NAME
+separator_block_width=15
+markup=none
+
+# Custom Battery Block
+[battery]
+label=BAT: 
+command=$HOME/.config/i3blocks/scripts/battery
+interval=2
+
+# Memory Block (similar to your old one)
+[memory]
+label=MEM:
+command=$HOME/.config/i3blocks/scripts/memory
+interval=2
+
+[net_speed]
+label=
+command=$HOME/.config/i3blocks/scripts/net_speed
+interval=1
+
+# Time Block
+[time]
+label=
+command=date '+%H:%M'
+interval=20
+
+[calendar]
+label=
+command=$HOME/.config/i3blocks/scripts/calender
+interval=20
+
