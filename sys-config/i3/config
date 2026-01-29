@@ -45,9 +45,9 @@ exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.config/i3/scripts/volume_control.sh up
-bindsym XF86AudioLowerVolume exec --no-startup-id ~/.config/i3/scripts/volume_control.sh down
-bindsym XF86AudioMute exec --no-startup-id ~/.config/i3/scripts/volume_control.sh mute
+bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -i 5
+bindsym XF86AudioLowerVolume exec --no-startup-id pamixer -d 5
+bindsym XF86AudioMute exec --no-startup-id pamixer -t
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Screen brightness controls (targeting the NVIDIA device)
@@ -204,6 +204,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3blocks
+        font pango:JetBrains Mono 10
 }
 
 # Start the NetworkManager applet
@@ -224,15 +225,13 @@ bindsym $mod+x exec --no-startup-id systemctl suspend
 bindsym $mod+z exec betterlockscreen -l
 bindsym $mod+u exec betterlockscreen -u ~/Documents/lock-wallpapers
 
-
-
 # -- APP shortcuts
-bindsym Control+Mod1+b exec brave
+bindsym Control+Mod1+b exec microsoft-edge-stable --force-device-scale-factor=0.9
 bindsym Control+Mod1+c exec code
 bindsym Control+Mod1+v exec virt-manager
 bindsym Control+q exec nautilus ~/Documents
-bindsym Control+Shift+l exec code /home/shelby/Desktop/libp2p/py-libp2p 
-bindsym Control+Shift+r exec code /home/shelby/Desktop/rnet
+bindsym Control+Shift+l exec code /home/soi/Desktop/p2p/py-libp2p 
+bindsym Control+Shift+r exec code /home/soi/Desktop/rnet
 
 new_window pixel 1
 gaps inner 0

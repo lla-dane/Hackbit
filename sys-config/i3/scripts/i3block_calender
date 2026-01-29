@@ -7,4 +7,3 @@ echo "$ICON $DATE"
 
 # Left click to open GNOME calendar
 [ "$BLOCK_BUTTON" = "1" ] && gnome-calendar &
-

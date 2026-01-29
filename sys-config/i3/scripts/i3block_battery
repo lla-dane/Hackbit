@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Parse the stored output. No more sudo needed here.
+STATUS=$(cat /sys/class/power_supply/BAT1/status)
+PERCENTAGE=$(cat /sys/class/power_supply/BAT1/capacity)
+
+# Logic to display a different icon based on charging status
+if [ "$STATUS" = "Charging" ]; then
+    ICON="🔌"
+elif [ "$STATUS" = "Full" ]; then
+    ICON="⚡"
+else
+    # Discharging or Not charging
+    ICON="🔋"
+fi
+
+# Final output for the status bar
+echo "$ICON $PERCENTAGE%"
