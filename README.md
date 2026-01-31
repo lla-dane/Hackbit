@@ -2,7 +2,7 @@
 
 - Monitor brightness: `xrandr --output HDMI-1-0 --brightness 0.6`
 - Monitor config: `xrandr --output HDMI-1-0 --mode 2560x1440 --left-of eDP-2 --auto`
-- Display output terminate: xrandr --output DP-2 --off
+- Display output terminate: `xrandr --output DP-2 --off`
 
 - Hostspot: `sudo create_ap wlan0 enp55s0f3u1u4 'soiarch' 'abhi2004' --freq-band 5 -c 149 --ieee80211ac`
 - Force radio to turn back on: `sudo rfkill unblock wifi`
