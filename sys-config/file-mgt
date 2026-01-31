@@ -3,7 +3,7 @@
 ----PERMISSIONS----
 
 -rw-r--r--  1 shelby shelby   16 Dec 16 16:58 file
-- READ(1) WRITE(2) EXECUTE(1) NONE(0)
+- READ(1) WRITE(2) EXECUTE(6) NONE(0)
 - OWNER GROUP OTHERS 
 
 ls -la : see file permission info

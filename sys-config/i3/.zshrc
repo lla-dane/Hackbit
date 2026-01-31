@@ -150,9 +150,10 @@ alias cmds="cat ~/Desktop/Hackbit/README.md"
 alias ncmds="nano ~/Desktop/Hackbit/README.md"
 
 # --LOGS--
-alias logs='nano ~/Documents/logs/pldg/cohort-6'
+# alias logs='nano ~/Documents/logs/pldg/cohort-6'
 alias archsetup='code ~/Documents/logs/archsetup'
 alias worklogs='nano ~/Documents/logs/worklogs.txt'
+alias logs='nano ~/Documents/logs/pldg/cohort-6'
 alias todo='nano ~/Desktop/rnet/logs/todo.md'
 alias doubts='nano ~/Desktop/rnet/logs/doubts.md'
 alias doubts-code='code ~/Desktop/rnet/logs/doubts.md'
@@ -164,7 +165,7 @@ alias hackbit='nano ~/Desktop/Hackbit/README.md'
 alias config='code ~/.config/i3/config'
 alias zshrc='nano ~/.zshrc'
 alias zshrc-code='code ~/.zshrc'
-alias reload='source ~/.zshrc'
+alias load='source ~/.zshrc'
 
 # --DOCKER--
 alias docker-start='sudo systemctl start docker'
