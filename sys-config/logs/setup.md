@@ -73,7 +73,10 @@ https://tanis.codes/posts/virt-manager-qemu-arch-linux/
 
 -------------------------------------------------------
 - Systemd-service for battery threshold(FAILED in threshold)
+```
 sudo nano /etc/systemd/system/battery-threshold.service 
+```
+
 ```zsh
 [Unit]
 Description=Force battery charge limit after ASUS WMI init
