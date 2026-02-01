@@ -1,3 +1,10 @@
+- Docker:
+https://medium.com/@furkan.turkal/how-does-docker-actually-work-the-hard-way-a-technical-deep-diving-c5b8ea2f0422
+
+- Wallpaper utility:
+sudo pacman -S feh
+feh --randomize --bg-fill <Directory>
+
 - Soft links to all the config files
 
 rm -rf /etc/i3blocks.conf

@@ -162,10 +162,10 @@ alias findings='code ~/Desktop/rnet/logs/findings.md'
 alias hackbit='nano ~/Desktop/Hackbit/README.md'
 
 # --SYS-CONFIG--
-alias config='code ~/.config/i3/config'
-alias zshrc='nano ~/.zshrc'
-alias zshrc-code='code ~/.zshrc'
-alias load='source ~/.zshrc'
+alias config='code ~/Desktop/Hackbit/sys-config/i3'
+alias zshrc='nano ~/Desktop/Hackbit/sys-config/i3/.zshrc'
+alias zshrc-code='code ~/Desktop/Hackbit/sys-config/i3/.zshrc'
+alias load='source ~/Desktop/Hackbit/sys-config/i3/.zshrc'
 
 # --DOCKER--
 alias docker-start='sudo systemctl start docker'
