@@ -1,0 +1,1 @@
+- One hex digit `f` -> `1111`4 bits in binary, so 2 hex digits = 1 byte in binary

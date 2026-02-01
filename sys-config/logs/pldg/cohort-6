@@ -1,0 +1,29 @@
+------COHORT-6------
+
+====WEEK-3====
+
+Auto-TLS support for py-libp2p: https://github.com/libp2p/py-libp2p/pull/1072
+- Added doctrings, fixed merge conflicts.
+- Make the final MVP AutoTLS cert exchange work in py-libp2p nodes over TCP
+
+feat: implemented the perf protocol: https://github.com/libp2p/py-libp2p/pull/1176
+- Reviewed this PR, and flagged some refactoring feedbacks.
+
+====WEEK-2====
+
+Add TLS in the security options: https://github.com/libp2p/py-libp2p/pull/1085
+- Got this merged: TLS sec-opt integrated with libp2p runtime
+
+Auto-TLS support for py-libp2p: https://github.com/libp2p/py-libp2p/pull/1072
+- Progress in this PR 
+- Refactored all the AUTO-TLS code, in a separate module.
+- Got it working with TCP/Yamux,, in MVP sense
+
+====WEEK-1====
+
+Auto-TLS support for py-libp2p: https://github.com/libp2p/py-libp2p/pull/1072
+- Progress in the AutoTLS PR
+- Fixed an async event loop blocking issue with Luca.
+- Added the next steps in the AutoTLS certificate fetch procedure.
+- Fetched the certificate.
+

@@ -150,16 +150,11 @@ alias cmds="cat ~/Desktop/Hackbit/README.md"
 alias ncmds="nano ~/Desktop/Hackbit/README.md"
 
 # --LOGS--
-# alias logs='nano ~/Documents/logs/pldg/cohort-6'
-alias archsetup='code ~/Documents/logs/archsetup'
-alias worklogs='nano ~/Documents/logs/worklogs.txt'
-alias logs='nano ~/Documents/logs/pldg/cohort-6'
-alias todo='nano ~/Desktop/rnet/logs/todo.md'
-alias doubts='nano ~/Desktop/rnet/logs/doubts.md'
-alias doubts-code='code ~/Desktop/rnet/logs/doubts.md'
-alias chores='nano ~/Desktop/rnet/logs/chores.md'
-alias findings='code ~/Desktop/rnet/logs/findings.md'
-alias hackbit='nano ~/Desktop/Hackbit/README.md'
+alias sys='nvim ~/Desktop/Hackbit/sys-config'
+alias logs='nvim ~/Desktop/Hackbit/sys-config/logs'
+alias i3c='nvim ~/Desktop/Hackbit/sys-config/i3'
+alias docs='nvim ~/Desktop/Hackbit/sys-config/docs'
+alias sys-code='code ~/Desktop/Hackbit/sys-config'
 
 # --SYS-CONFIG--
 alias config='code ~/Desktop/Hackbit/sys-config/i3'

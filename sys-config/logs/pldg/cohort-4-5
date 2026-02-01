@@ -1,0 +1,122 @@
+-------WEEK-4--------
+Got merged #889, after final review.
+Got merged #808, after resolving the issues suggested by Paul in final review.
+Got this issue #815, closed after solving it in #808.
+
+-------WEEK-6--------
+
+https://github.com/libp2p/py-libp2p/pull
+https://github.com/multiformats/py-multiaddr/pull
+
+Reviewed #848, signed-peer-record itegration in circuit-relay-v2
+Reviewed #913, imporvement in gossipsub. 
+Opened and merged PR #92 in py-multiaddr. Tracks this issue:
+https://github.com/multiformats/multiaddr/issues/181. 
+Added the memory protocol in reference with the go-multiaddr implementation.
+Reviewed #917, suggested improvements 
+Opened #94 in py-multiaddr. Tracks the issue:
+https://github.com/multiformats/multiaddr/issues/181.
+Added the http-path protocol in reference with the go-multiaddr implementation.
+
+-------WEEK-7--------
+
+Completed the http-path protocol in py-multiaddr, and got #94 merged.
+Reviewed the circuit relay PR #848
+Opened #95 in py-multiaddr, implmenting ipcidr protocol.
+
+-------WEEK-8--------
+
+Built a p2p Federated learning platform using py-libp2p and Akave O3. 
+https://github.com/lla-dane/P2P-Federated-Learning
+
+-------WEEK-9--------
+
+Added the test suite in #95. Ready for final review and merge. 
+https://github.com/multiformats/py-multiaddr/pull/95
+
+Opened #96, implementing the garlic32 and garlic64 codecs in py-multiaddrs
+https://github.com/multiformats/py-multiaddr/pull/96
+
+-------WEEK-10--------
+
+Opened #97, adding SNI and NOISE protocol in the py-multiaddr protocol registry
+Implemented the certhash protocol in #97 in py-multiaddr 
+Added webrtc and webrtc-direct in #97
+Resolved the CI/CD failures in the PR.
+
+https://github.com/multiformats/py-multiaddr/pull/97
+
+Resumed work on #890
+Refactored kad-dht value-store mechanics to come in parity with go implementation
+Update the value store to the key/value pair in record protobuf format,
+rather than in key/value pair dictionary
+https://github.com/libp2p/py-libp2p/pull/890
+
+-------WEEK-11--------
+
+Got merged: #890 - https://github.com/libp2p/py-libp2p/pull/890
+Got merged: #96 - https://github.com/multiformats/py-multiaddr/pull/96
+
+Opened #1002 - https://github.com/libp2p/py-libp2p/pull/1002,
+PNET implementation for private libp2p networks over tcp/ws transports.
+
+-------WEEK-12--------
+
+Worked the review feedbacks from Paul in #848 - https://github.com/libp2p/py-libp2p/pull/848
+to help this PR arrive at a conclusion.
+
+Progress in #1002 - https://github.com/libp2p/py-libp2p/pull/1002, attached the working demo screencast
+of pnet running with tcp and ws transport layers, and updated the security toctree to include the pnet module.
+
+Progress in #97 - https://github.com/multiformats/py-multiaddr/pull/97
+Fixed the issues as suggested by Luca in the review. 
+Added the detailailed example code for all the protocol codecs added in this PR.
+
+---- BRIDGE COHORT ------
+ 
+-------WEEK-1--------
+
+Got the PNET security PR ready for final review by fixing the merge conflicts and CI/CD run faiures.
+Got the PR merged. https://github.com/libp2p/py-libp2p/pull/1002
+
+
+-------WEEK-2--------
+
+Started the dev of floodsub router as part of pubsub module in py-libp2p
+https://github.com/libp2p/py-libp2p/pull/1064
+https://github.com/libp2p/py-libp2p/issues/1057
+
+-------WEEK-3-------- 
+
+Progress in #1064, updated the floodsub utilties and added test-suite
+https://github.com/libp2p/py-libp2p/pull/1064
+
+Started implementing the Auto-TLS support for py-libp2p
+https://github.com/libp2p/py-libp2p/pull/1072
+https://github.com/libp2p/py-libp2p/issues/555
+
+-------WEEK-4--------
+
+Got #1064 merged and #1057 issue closed, Improvement in floodsub
+https://github.com/libp2p/py-libp2p/pull/1064
+https://github.com/libp2p/py-libp2p/issues/1057
+
+Progress in #1072, Auto-TLS in py-libp2p. 
+- Estalished the peer-id authentication.
+- Cleanup in auto-tls example 
+
+https://github.com/libp2p/py-libp2p/pull/1072
+
+-------WEEK-5--------
+
+Opened #1085, to add TLS as the prioritized security-option in the transport-upgrader.
+- Found a bug in the module, muxer-upgrade failing while using tls as sec-opt.
+- Fixed the issue in TLS transport with Luca
+
+https://github.com/libp2p/py-libp2p/pull/1085
+
+Progress in #1072. Auto-TLS in py-libp2p
+- Debugged further to specify that the issue is happening in the multistream protocol negotiation
+- Improved the error handling in tcp-io util function.
+
+https://github.com/libp2p/py-libp2p/pull/1072
