@@ -1,3 +1,7 @@
+- zsh:
+```
+sudo pacman -S zsh zsh-autosuggestions zsh-syntax-highlighting
+```
 
 -------------------------------------------------------- 
 - Screen-timeout customize
