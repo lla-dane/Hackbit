@@ -1,9 +1,22 @@
+- Screen-timeout customize
+sudo pacman -S xorg-xset
+xset q
+xset s off -dpms s noblank
+
+- Do nothing with the lid off
+sudo nano /etc/systemd/logind.conf
+HandleLidSwitch=ignore
+
+- Wireshark-cli 
+sudo pacman -S wireshark-cli
+sudo tshark -i "lo" -f "udp" 
+
 - Docker:
 https://medium.com/@furkan.turkal/how-does-docker-actually-work-the-hard-way-a-technical-deep-diving-c5b8ea2f0422
 
 - Wallpaper utility:
 sudo pacman -S feh
-feh --randomize --bg-fill <Directory>
+feh --randomize --bg-fill ~/Documents/wallpapers/prime
 
 - Soft links to all the config files
 

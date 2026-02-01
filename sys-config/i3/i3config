@@ -218,7 +218,6 @@ bindsym Print exec flameshot gui
 
 # Battery icon
 exec_always --no-startup-id xfce4-power-manager
-exec --no-startup-id dunst
 
 # Lock the screen
 bindsym $mod+x exec --no-startup-id systemctl suspend
@@ -235,6 +234,9 @@ bindsym Control+Shift+r exec code /home/soi/Desktop/rnet
 
 new_window pixel 1
 gaps inner 0
+
+# --- Disable screen timeout ---
+exec --no-startup-id xset s off -dpms s noblank
 
 # --- Media Key bindings ---
 bindsym XF86AudioPlay exec playerctl play-pause
