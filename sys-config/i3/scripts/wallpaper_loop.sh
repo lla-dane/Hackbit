@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+'#!/usr/bin/env bash
 
 # Folder containing your wallpapers
 WALLPAPER_DIR="$HOME/Documents/Wallpapers"
