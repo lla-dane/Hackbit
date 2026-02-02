@@ -4,7 +4,6 @@ HISTSIZE=10000
 SAVEHIST=10000
 
 export PATH="$HOME/.local/protoc-25.3/bin:$PATH"
-export PATH="$PATH:$(go env GOPATH)/bin"
 export PATH=$PATH:/snap/bin
 export PATH=/home/shelby/.nimble/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
@@ -155,12 +154,15 @@ alias logs='nvim ~/Desktop/Hackbit/sys-config/logs'
 alias i3c='nvim ~/Desktop/Hackbit/sys-config/i3'
 alias docs='nvim ~/Desktop/Hackbit/sys-config/docs'
 alias sys-code='code ~/Desktop/Hackbit/sys-config'
+alias hackbit='nano ~/Desktop/Hackbit/README.md'
 
 # --SYS-CONFIG--
 alias config='code ~/Desktop/Hackbit/sys-config/i3'
 alias zshrc='nano ~/Desktop/Hackbit/sys-config/i3/.zshrc'
 alias zshrc-code='code ~/Desktop/Hackbit/sys-config/i3/.zshrc'
 alias load='source ~/Desktop/Hackbit/sys-config/i3/.zshrc'
+alias reload='source ~/.zshrc'
+
 
 # --DOCKER--
 alias docker-start='sudo systemctl start docker'

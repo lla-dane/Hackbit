@@ -1789,3 +1789,23 @@
 [2026-02-01T22:34:48+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
 [2026-02-01T22:34:48+0530] [ALPM] running 'update-desktop-database.hook'...
 [2026-02-01T22:34:48+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- btop'
+[2026-02-02T20:36:14+0530] [PACMAN] Running 'pacman -S docker'
+[2026-02-02T20:36:17+0530] [ALPM] transaction started
+[2026-02-02T20:36:17+0530] [ALPM] installed runc (1.4.0-1)
+[2026-02-02T20:36:17+0530] [ALPM] installed containerd (2.2.1-1)
+[2026-02-02T20:36:17+0530] [ALPM] installed docker (1:29.2.0-1)
+[2026-02-02T20:36:17+0530] [ALPM] transaction completed
+[2026-02-02T20:36:17+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-02-02T20:36:17+0530] [ALPM-SCRIPTLET] Creating group 'docker' with GID 949.
+[2026-02-02T20:36:17+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-02-02T20:36:18+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-02T20:43:21+0530] [PACMAN] Running 'pacman -S docker-compose'
+[2026-02-02T20:43:22+0530] [ALPM] transaction started
+[2026-02-02T20:43:22+0530] [ALPM] installed docker-compose (5.0.2-1)
+[2026-02-02T20:43:22+0530] [ALPM] transaction completed
+[2026-02-02T20:43:22+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-02T20:44:19+0530] [PACMAN] Running 'pacman -S lazydocker'
+[2026-02-02T20:44:20+0530] [ALPM] transaction started
+[2026-02-02T20:44:20+0530] [ALPM] installed lazydocker (0.24.2-1)
+[2026-02-02T20:44:20+0530] [ALPM] transaction completed
+[2026-02-02T20:44:20+0530] [ALPM] running '35-systemd-update.hook'...
