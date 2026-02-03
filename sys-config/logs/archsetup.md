@@ -1,3 +1,21 @@
+## Nvim:
+```zsh
+sudo pacman -S nvim
+
+# Clipboard
+sudo pacman -S xclip
+checkhealth provider #(inside nvim)
+
+# init.lua file soft-link
+rm -rf ~/.config/nvim/init.lua
+ln -s ~/Desktop/Hackbit/sys-config/i3/nvim-init.lua ~/.config/nvim/init.lua
+
+```
+
+
+
+
+--------------------------------------------------------
 ## Docker:
 ```zsh
 sudo pacman -S docker

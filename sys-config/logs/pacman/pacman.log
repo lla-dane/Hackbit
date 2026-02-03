@@ -1809,3 +1809,35 @@
 [2026-02-02T20:44:20+0530] [ALPM] installed lazydocker (0.24.2-1)
 [2026-02-02T20:44:20+0530] [ALPM] transaction completed
 [2026-02-02T20:44:20+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-03T10:34:54+0530] [PACMAN] Running 'pacman -S ranger ueberzugpp bat highlight'
+[2026-02-03T10:35:17+0530] [ALPM] transaction started
+[2026-02-03T10:35:17+0530] [ALPM] installed ranger (1.9.4-5)
+[2026-02-03T10:35:17+0530] [ALPM] installed blas (3.12.1-2)
+[2026-02-03T10:35:17+0530] [ALPM] installed cblas (3.12.1-2)
+[2026-02-03T10:35:17+0530] [ALPM] installed lapack (3.12.1-2)
+[2026-02-03T10:35:17+0530] [ALPM] installed verdict (1.4.4-1)
+[2026-02-03T10:35:17+0530] [ALPM] installed hwloc (2.12.2-1)
+[2026-02-03T10:35:17+0530] [ALPM] installed onetbb (2022.3.0-3)
+[2026-02-03T10:35:18+0530] [ALPM] installed opencv (4.13.0-2)
+[2026-02-03T10:35:18+0530] [ALPM] installed cfitsio (1:4.6.3-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed libimagequant (4.4.1-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed libcgif (0.5.1-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed libvips (8.18.0-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed libsixel (1.10.5-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed fmt (12.1.0-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed spdlog (1.17.0-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed chafa (1.16.2-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed xcb-util-errors (1.0.1-2)
+[2026-02-03T10:35:18+0530] [ALPM] installed ueberzugpp (2.9.8-3)
+[2026-02-03T10:35:18+0530] [ALPM] installed libgit2 (1:1.9.2-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed oniguruma (6.9.10-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed bat (0.26.1-1)
+[2026-02-03T10:35:18+0530] [ALPM] installed highlight (4.18-2)
+[2026-02-03T10:35:18+0530] [ALPM] transaction completed
+[2026-02-03T10:35:18+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-03T10:35:18+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-02-03T10:52:10+0530] [PACMAN] Running 'pacman -S xclip'
+[2026-02-03T10:52:11+0530] [ALPM] transaction started
+[2026-02-03T10:52:11+0530] [ALPM] installed xclip (0.13-6)
+[2026-02-03T10:52:11+0530] [ALPM] transaction completed
+[2026-02-03T10:52:11+0530] [ALPM] running '35-systemd-update.hook'...

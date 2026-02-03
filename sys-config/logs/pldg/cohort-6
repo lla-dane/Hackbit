@@ -1,5 +1,10 @@
 ------COHORT-6------
 
+====WEEK-4====
+Auto-TLS support for py-libp2p: https://github.com/libp2p/py-libp2p/pull/1072
+- Got this PR merged this week, after final review.
+
+
 ====WEEK-3====
 
 Auto-TLS support for py-libp2p: https://github.com/libp2p/py-libp2p/pull/1072
