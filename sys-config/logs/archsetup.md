@@ -1,3 +1,34 @@
+# Table of Contents:
+
+- [Nvim](#nvim)
+- [Docker](#docker)
+- [zsh](#zsh)
+- [Screen-timeout configure](#screen-timeout-configure)
+- [Do nothing with lid off](#do-nothing-with-lid-off)
+- [Wireshark Cli](#wireshark-cli)
+- [Wallpaper Manager](#wallpaper-manager)
+- [Soft links for config files](#soft-links-for-config-files)
+- [VPN](#vpn)
+- [Custom background for GDM](#custom-background-for-gdm)
+- [TLP](#tlp)
+- [Virtual Manager QEMU](#virtual-manager-qemu) 
+- [Custom systemd service](#custom-systemd-service)
+- [Hotspot (Failed)](#hotspot)
+- [Nvidia Drivers](#nvidia-drivers)
+- [Fonts](#fonts) 
+- [Rust installation](#rust-installation)
+- [Python installation](#python-installation)
+- [Cross platform package manager](#cross-platform-package-manager) 
+- [Volume control](#volume-control)
+- [i3 ghost output](#i3-ghost-output)
+- [Spotify](#spotify)
+- [Brightness and Audio](#brightness-and-audio) 
+- [locate and man command](#locate-and-man-command)
+- [Touchpad click bug](#touchpad-click-bug)
+- [i3 config](#i3-config) 
+- [Screenshot](#screenshot)
+- [microsoft edge scaling issue](#microsoft-edge-scaling-issue)
+
 ## Nvim:
 ```zsh
 sudo pacman -S nvim
@@ -12,11 +43,11 @@ ln -s ~/Desktop/Hackbit/sys-config/i3/nvim-init.lua ~/.config/nvim/init.lua
 
 ```
 
-
-
-
 --------------------------------------------------------
 ## Docker:
+
+https://medium.com/@furkan.turkal/how-does-docker-actually-work-the-hard-way-a-technical-deep-diving-c5b8ea2f0422
+
 ```zsh
 sudo pacman -S docker
 sudo usermod -aG docker soi
@@ -38,10 +69,10 @@ sudo pacman -S docker-compose
 
 # Install TUI for docker
 sudo pacman -S lazydocker
-```
+
 # Remove docker and images:
 https://wiki.archlinux.org/title/Docker#Remove_Docker_and_images
-
+```
 
 --------------------------------------------------------
 ## zsh:
@@ -50,7 +81,7 @@ sudo pacman -S zsh zsh-autosuggestions zsh-syntax-highlighting
 ```
 
 --------------------------------------------------------
-## Screen-timeout customize
+## Screen timeout configure
 ```zsh
 sudo pacman -S xorg-xset
 xset q
@@ -58,7 +89,7 @@ xset s off -dpms s noblank
 ```
 
 -------------------------------------------------------
-## Do nothing with the lid off
+## Do nothing with lid off
 ```zsh
 sudo nano /etc/systemd/logind.conf
 HandleLidSwitch=ignore
@@ -72,19 +103,14 @@ sudo tshark -i "lo" -f "udp"
 ```
 
 -------------------------------------------------------
-## Docker:
-https://medium.com/@furkan.turkal/how-does-docker-actually-work-the-hard-way-a-technical-deep-diving-c5b8ea2f0422
-
-
--------------------------------------------------------
-## Wallpaper utility:
+## Wallpaper Manager:
 ```zsh
 sudo pacman -S feh
 feh --randomize --bg-fill ~/Documents/wallpapers/prime
 ```
 
 -------------------------------------------------------
-## Soft links to all the config files
+## Soft links for config files
 ```zsh
 rm -rf /etc/i3blocks.conf
 sudo ln -s ~/Desktop/Hackbit/sys-config/i3/i3blocks.conf /etc/i3blocks.conf
@@ -100,13 +126,14 @@ ln -s ~/Desktop/Hackbit/sys-config/logs/pacman/pacman.log  /var/log/pacman.log
 ```
 
 -------------------------------------------------------
-## Proton VPN GUI (Do the hack and connect with VPN)
+## VPN 
 ```zsh
+# Do the hack and connect with VPN
 sudo pacman -S proton-vpn-gtk-app
 ```
 
 -------------------------------------------------------
-## Background for gdm lock screen: gse-gdm-extenstion
+## Custom background for GDM
 https://github.com/pratap-panabaka/gse-gdm-extension
 
 
@@ -122,7 +149,7 @@ https://tanis.codes/posts/virt-manager-qemu-arch-linux/
 
 
 -------------------------------------------------------
-## Systemd-service for battery threshold(FAILED in threshold)
+## Custom systemd service:
 ```
 sudo nano /etc/systemd/system/battery-threshold.service 
 ```
@@ -147,7 +174,7 @@ cat /sys/class/power_supply/BAT1/charge_control_end_threshold
 ```
 
 -------------------------------------------------------
-## Hotspot (Failed)
+## Hotspot
 ```zsh
 sudo pacman -S ethtool 
 sudo ethtool enp55s0f3u1u4 | grep Speed
@@ -169,7 +196,7 @@ options rtw89_core disable_ps_mode=y
 ```
 
 -------------------------------------------------------
-## Nvidia drivers setup:
+## Nvidia Drivers:
 ```zsh
 sudo pacman -S linux-headers
 sudo pacman -S nvidia-utils nvidia-settings
@@ -182,32 +209,47 @@ reboot
 ```
 
 -------------------------------------------------------
-## JetBrains mono font: 
+## Fonts: 
 ```zsh
 sudo pacman -S ttf-jetbrains-mono
 fc-list | grep JetBrains
 
 # Set jetbrains as kitty fonts
 kitty +list-fonts 
+
+# Set this CSS in stylus
+/* Force JetBrains Mono for all code on GitHub */
+code,
+pre,
+tt,
+.blob-code,
+.blob-code-inner,
+.react-code-text {
+  font-family: "JetBrains Mono", monospace !important;
+  font-variant-ligatures: contextual;
+  font-feature-settings: "liga" 1;
+}
 ```
 
 -------------------------------------------------------
-## Rust installation 
+## Rust installation:
 ```zsh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 reload && rustup update
 ```
 
 -------------------------------------------------------
-## Install python3.12: (libp2p bugs with python 3.14)
+## Python installation:
 ```zsh
+# libp2p bugs with python 3.14
 uv python install 3.12
 uv python list 
 ```
 
 -------------------------------------------------------
-## Cross-platform package manager: snap 
+## Cross-platform package manager 
 ```zsh
+# Snap
 git clone https://aur.archlinux.org/snapd.git
 cd snapd
 makepkg -si
@@ -236,7 +278,13 @@ pamixer --get-volume
 ```
 
 -------------------------------------------------------
-## i3 ghost output isuue:
+## Brightness and Audio: 
+```zsh
+sudo pacman -S brightnessctl playerctl
+```
+
+-------------------------------------------------------
+## i3 ghost output:
 ```zsh
 i3-msg -t get_workspaces
 i3-msg restart (wont do any good)
@@ -252,12 +300,6 @@ yay -S spotify-launcher
 ```
 
 -------------------------------------------------------
-## Brightness and Audio-Output sink: 
-```zsh
-sudo pacman -S brightnessctl playerctl
-```
-
--------------------------------------------------------
 ## locate and man command:
 ```zsh
 sudo pacman -S plocate man-db man-pages
@@ -265,7 +307,7 @@ sudo updatedb
 ```
 
 -------------------------------------------------------
-## Touchpad clicks not working
+## Touchpad click bug
 ```zsh
 sudo pacman -S xorg-xinput
 echo $DISPLAY
@@ -289,24 +331,18 @@ EndSection
 ```
 
 -------------------------------------------------------
-## Fix the i3 config file: Just paste the config, the terminal width and all everythign will be solved.
+## i3 config:
+Load the custom config and the terminal width and all everythign will be solved.
 
 
 -------------------------------------------------------
-## Reverse the mouse scrolling direction(did not work): 
-```zsh
-gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll false
-gsettings get org.gnome.desktop.peripherals.touchpad natural-scroll
-```
-
--------------------------------------------------------
-## screenshot util: flameshot
+## Screenshot
 ```zsh
 sudo pacman --sync flameshot
 ```
 
 -------------------------------------------------------
-## microsoft edge scaling issue: adress bar too big
+## Microsoft Edge scaling issue:
 ```zsh
 microsoft-edge-setup --force-device-scale-factor=0.9
 ```
