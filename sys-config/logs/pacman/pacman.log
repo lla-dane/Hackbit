@@ -1841,3 +1841,75 @@
 [2026-02-03T10:52:11+0530] [ALPM] installed xclip (0.13-6)
 [2026-02-03T10:52:11+0530] [ALPM] transaction completed
 [2026-02-03T10:52:11+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-04T09:53:01+0530] [PACMAN] Running 'pacman -D'
+[2026-02-04T09:53:53+0530] [PACMAN] Running 'pacman -Syu'
+[2026-02-04T09:53:53+0530] [PACMAN] synchronizing package lists
+[2026-02-04T09:53:54+0530] [PACMAN] starting full system upgrade
+[2026-02-04T09:54:00+0530] [ALPM] transaction started
+[2026-02-04T09:54:00+0530] [ALPM] upgraded alsa-card-profiles (1:1.4.10-1 -> 1:1.4.10-2)
+[2026-02-04T09:54:00+0530] [ALPM] upgraded libldap (2.6.10-2 -> 2.6.12-1)
+[2026-02-04T09:54:00+0530] [ALPM] upgraded expat (2.7.3-1 -> 2.7.4-1)
+[2026-02-04T09:54:00+0530] [ALPM] upgraded apparmor (4.1.3-1 -> 4.1.4-1)
+[2026-02-04T09:54:00+0530] [ALPM] upgraded archlinux-keyring (20260131-1 -> 20260202-1)
+[2026-02-04T09:54:00+0530] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2026-02-04T09:54:02+0530] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2026-02-04T09:54:02+0530] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2026-03-13
+[2026-02-04T09:54:02+0530] [ALPM] upgraded bcc (0.35.0-7 -> 0.36.0-1)
+[2026-02-04T09:54:02+0530] [ALPM] upgraded libpng (1.6.53-2 -> 1.6.54-1)
+[2026-02-04T09:54:02+0530] [ALPM] upgraded svt-av1 (3.1.2-1 -> 4.0.1-1)
+[2026-02-04T09:54:02+0530] [ALPM] upgraded libavif (1.3.0-3 -> 1.3.0-5)
+[2026-02-04T09:54:02+0530] [ALPM] upgraded libheif (1.21.2-1 -> 1.21.2-2)
+[2026-02-04T09:54:02+0530] [ALPM] upgraded chafa (1.16.2-1 -> 1.18.0-1)
+[2026-02-04T09:54:02+0530] [ALPM] upgraded cython (3.2.4-2 -> 3.2.4-3)
+[2026-02-04T09:54:02+0530] [ALPM] upgraded libpipewire (1:1.4.10-1 -> 1:1.4.10-2)
+[2026-02-04T09:54:02+0530] [ALPM] upgraded pipewire (1:1.4.10-1 -> 1:1.4.10-2)
+[2026-02-04T09:54:02+0530] [ALPM] upgraded pipewire-audio (1:1.4.10-1 -> 1:1.4.10-2)
+[2026-02-04T09:54:02+0530] [ALPM] upgraded pipewire-jack (1:1.4.10-1 -> 1:1.4.10-2)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded ffmpeg (2:8.0.1-2 -> 2:8.0.1-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded git (2.52.0-2 -> 2.53.0-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gstreamer (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-plugins-base-libs (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-devtools-libs (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-python (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-editing-services (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-libav (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-plugins-bad-libs (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-plugin-gtk (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-plugin-pipewire (1:1.4.10-1 -> 1:1.4.10-2)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-plugins-bad (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-plugins-base (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded gst-plugins-good (1.26.10-3 -> 1.26.10-4)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded libfyaml (0.9.3-1 -> 0.9.4-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded libxmlb (0.3.24-1 -> 0.3.25-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded libadwaita (1:1.8.3-1 -> 1:1.8.4-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded libnautilus-extension (49.3-1 -> 49.4-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded libwacom (2.17.0-1 -> 2.18.0-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded multipath-tools (0.14.1-1 -> 0.14.2-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded nautilus (49.3-1 -> 49.4-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded pipewire-alsa (1:1.4.10-1 -> 1:1.4.10-2)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded pipewire-pulse (1:1.4.10-1 -> 1:1.4.10-2)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded python-bcc (0.35.0-7 -> 0.36.0-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded python-cryptography (46.0.3-2 -> 46.0.4-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded python-keyring (25.7.0-2 -> 25.7.0-3)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded python-multidict (6.7.0-5 -> 6.7.1-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded python-psutil (7.2.1-1 -> 7.2.2-1)
+[2026-02-04T09:54:03+0530] [ALPM] upgraded python-sentry_sdk (2.50.0-1 -> 2.51.0-1)
+[2026-02-04T09:54:03+0530] [ALPM] transaction completed
+[2026-02-04T09:54:04+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-02-04T09:54:04+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-02-04T09:54:04+0530] [ALPM] running '25-systemd-hwdb.hook'...
+[2026-02-04T09:54:04+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-02-04T09:54:05+0530] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2026-02-04T09:54:05+0530] [ALPM] running '35-systemd-restart-marked.hook'...
+[2026-02-04T09:54:05+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-02-04T09:54:05+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-04T09:54:06+0530] [ALPM] running 'detect-old-perl-modules.hook'...
+[2026-02-04T09:54:06+0530] [ALPM] running 'glib-compile-schemas.hook'...
+[2026-02-04T09:54:06+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-02-04T09:54:06+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-02-04T11:29:07+0530] [PACMAN] Running 'pacman -S traceroute'
+[2026-02-04T11:29:09+0530] [ALPM] transaction started
+[2026-02-04T11:29:09+0530] [ALPM] installed traceroute (2.1.6-1)
+[2026-02-04T11:29:09+0530] [ALPM] transaction completed
+[2026-02-04T11:29:09+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-04T11:34:23+0530] [PACMAN] Running 'pacman -S ifconfig'

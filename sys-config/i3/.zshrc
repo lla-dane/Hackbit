@@ -174,7 +174,7 @@ alias bootstrap="ssh -i "Desktop/libp2p/P2P-Federated-Learning/aws-keys/p2p-1.pe
 alias client="ssh -i "Desktop/libp2p/P2P-Federated-Learning/aws-keys/p2p-1.pem" ubuntu@ec2-13-233-102-227.ap-south-1.compute.amazonaws.com"
 alias 1-trainer="ssh -i "Desktop/libp2p/P2P-Federated-Learning/aws-keys/p2p-1.pem"  ubuntu@ec2-13-201-226-238.ap-south-1.compute.amazonaws.com"
 alias 2-trainer="ssh -i "Desktop/libp2p/libp2p-aws.pem" ubuntu@ec2-13-126-88-127.ap-south-1.compute.amazonaws.com"
-alias raspi="ssh soi@192.168.12.130"
+alias raspi="ssh soi@172.20.68.137"
 
 # --CLOUDFLARE--
 alias cld-start="sudo systemctl start cloudflared"
