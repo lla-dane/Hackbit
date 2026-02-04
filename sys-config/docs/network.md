@@ -52,15 +52,15 @@
     - `ARP`, a link-layer protocol used to find MAC addr for IP in same network.
     
 - DYNAMIC HOST CONFIGURATION PROTOCOL (DHCP):
-        - used to automatically assign IP and other network configs to a device on a network.
-        - DHCP server, is responsible to manage a pool of IP addrs and lease them to client devices.
-        - in a home network, the router acts as the DHCP server, in larger networks there are dedicated DHCP servers.
-        - process of device obtaining an IP addr via DHCP, i.e DORA:
-            - DISCOVER: `host -> [DISCOVER] -> network`, to find available DHCP server.
-            - OFFER: `dhcp -> [OFFER] -> host`, msg contains:
-                - proposed IP addr
-                - subent mask
-                - gateway addr
-                - lease duration
-            - REQUEST: host chooses from received `OFFER`s, `client -> [REQUEST] -> dhcp-servers`, to inform which offer it has accepted.
-            - ACKNOWLEDGMENT: `dhcp-server -> [ACK] -> host`, confirming the lease and finalizing the config.
+    - used to automatically assign IP and other network configs to a device on a network.
+    - DHCP server, is responsible to manage a pool of IP addrs and lease them to client devices.
+    - in a home network, the router acts as the DHCP server, in larger networks there are dedicated DHCP servers.
+    - process of device obtaining an IP addr via DHCP, i.e DORA:
+        - DISCOVER: `host -> [DISCOVER] -> network`, to find available DHCP server.
+        - OFFER: `dhcp -> [OFFER] -> host`, msg contains:
+            - proposed IP addr
+            - subent mask
+            - gateway addr
+            - lease duration
+        - REQUEST: host chooses from received `OFFER`s, `client -> [REQUEST] -> dhcp-servers`, to inform which offer it has accepted.
+        - ACKNOWLEDGMENT: `dhcp-server -> [ACK] -> host`, confirming the lease and finalizing the config.
