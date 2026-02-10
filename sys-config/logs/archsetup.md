@@ -1,5 +1,7 @@
 # Table of Contents:
 
+- [Arch Minimal](#arch-minimal)
+- [Networks](#networks)
 - [Nvim](#nvim)
 - [Docker](#docker)
 - [zsh](#zsh)
@@ -29,6 +31,45 @@
 - [Screenshot](#screenshot)
 - [microsoft edge scaling issue](#microsoft-edge-scaling-issue)
 
+
+## Arch Minimal:
+Install the minimal profile from archinstall script
+```zsh
+ping google.com 
+sudo pacman -S xorg-server xorg-xinit xorg-xrandr
+sudo pacman -S kitty
+
+
+# Nvidia drivers (not tested in real)
+sudo pacman -S linux-headers
+sudo pacman -S nvidia-dkms nvidia-utils nvidia-settings
+sudo reboot
+
+# Install i3
+sudo pacman -S i3-wm i3status i3blocks i3lock dmenu
+sudo pacman -S lightdm lightdm-gtk-greeter
+
+# Start x11 with i3
+nano ~/.xinitrc
+exec i3
+
+chmod +x ~/.xinitrc
+startx
+
+# After confirming that i3 starts properly with x11, enable lightdm
+sudo systemctl enable lightdm
+sudo systemctl start lightdm
+```
+
+--------------------------------------------------------
+## Networks:
+```zsh
+# tools
+sudo pacman -S traceroute
+
+```
+
+--------------------------------------------------------
 ## Nvim:
 ```zsh
 sudo pacman -S nvim

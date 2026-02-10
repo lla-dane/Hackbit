@@ -1,3 +1,10 @@
+- ROUTES ?? 
+
+
+
+
+
+
 - DNS: There are servers that stores the mappnig of domain <-> ip, and DNS query happens when we try to connect via domain names.
  
 - Seven layers of OSI:

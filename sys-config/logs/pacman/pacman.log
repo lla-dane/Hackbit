@@ -1913,3 +1913,94 @@
 [2026-02-04T11:29:09+0530] [ALPM] transaction completed
 [2026-02-04T11:29:09+0530] [ALPM] running '35-systemd-update.hook'...
 [2026-02-04T11:34:23+0530] [PACMAN] Running 'pacman -S ifconfig'
+[2026-02-04T18:48:08+0530] [PACMAN] Running 'pacman -S netmask'
+[2026-02-04T18:48:32+0530] [PACMAN] Running 'pacman -S netstat'
+[2026-02-05T13:36:49+0530] [PACMAN] Running 'pacman -S prometheus'
+[2026-02-05T13:37:00+0530] [ALPM] transaction started
+[2026-02-05T13:37:00+0530] [ALPM] installed prometheus (3.9.1-1)
+[2026-02-05T13:37:00+0530] [ALPM] transaction completed
+[2026-02-05T13:37:00+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-02-05T13:37:01+0530] [ALPM-SCRIPTLET] Creating group 'prometheus' with GID 210.
+[2026-02-05T13:37:01+0530] [ALPM-SCRIPTLET] Creating user 'prometheus' (Prometheus dedicated user) with UID 210 and GID 210.
+[2026-02-05T13:37:01+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-02-05T13:37:01+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-05T13:46:20+0530] [PACMAN] Running 'pacman -S tree'
+[2026-02-05T13:46:21+0530] [ALPM] transaction started
+[2026-02-05T13:46:21+0530] [ALPM] installed tree (2.3.1-1)
+[2026-02-05T13:46:21+0530] [ALPM] transaction completed
+[2026-02-05T13:46:21+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-05T13:49:13+0530] [PACMAN] Running 'pacman -S prometheus-ui'
+[2026-02-05T13:50:44+0530] [PACMAN] Running 'pacman -Rns prometheus'
+[2026-02-05T13:50:45+0530] [ALPM] transaction started
+[2026-02-05T13:50:46+0530] [ALPM] removed prometheus (3.9.1-1)
+[2026-02-05T13:50:46+0530] [ALPM] transaction completed
+[2026-02-05T13:50:46+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-02-05T13:50:46+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-05T13:51:20+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/prometheus-bin/prometheus-bin-3.9.1-1-x86_64.pkg.tar.zst /home/soi/.cache/yay/prometheus-bin/prometheus-bin-debug-3.9.1-1-x86_64.pkg.tar.zst'
+[2026-02-05T13:51:23+0530] [ALPM] transaction started
+[2026-02-05T13:51:23+0530] [ALPM] installed prometheus-bin (3.9.1-1)
+[2026-02-05T13:51:23+0530] [ALPM-SCRIPTLET] uid=210(prometheus) gid=210(prometheus) groups=210(prometheus)
+[2026-02-05T13:51:23+0530] [ALPM-SCRIPTLET] chown: warning: '.' should be ':': ‘prometheus.prometheus’
+[2026-02-05T13:51:23+0530] [ALPM] installed prometheus-bin-debug (3.9.1-1)
+[2026-02-05T13:51:23+0530] [ALPM] transaction completed
+[2026-02-05T13:51:23+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-02-05T13:51:23+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-05T13:51:23+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- prometheus-bin-debug'
+[2026-02-05T13:51:23+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- prometheus-bin'
+[2026-02-05T14:48:26+0530] [PACMAN] Running 'pacman -S grafana'
+[2026-02-05T14:48:35+0530] [ALPM] transaction started
+[2026-02-05T14:48:36+0530] [ALPM] installed grafana (12.3.1-1)
+[2026-02-05T14:48:36+0530] [ALPM] transaction completed
+[2026-02-05T14:48:37+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-02-05T14:48:37+0530] [ALPM-SCRIPTLET] Creating group 'grafana' with GID 207.
+[2026-02-05T14:48:37+0530] [ALPM-SCRIPTLET] Creating user 'grafana' (n/a) with UID 207 and GID 207.
+[2026-02-05T14:48:37+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-02-05T14:48:37+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-02-05T14:48:37+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-08T19:35:25+0530] [PACMAN] Running 'pacman -S obs-studio'
+[2026-02-08T19:35:27+0530] [ALPM] transaction started
+[2026-02-08T19:35:27+0530] [ALPM] installed mbedtls (3.6.5-1)
+[2026-02-08T19:35:27+0530] [ALPM] installed rnnoise (1:0.2-1)
+[2026-02-08T19:35:27+0530] [ALPM] installed libjuice (1.7.0-1)
+[2026-02-08T19:35:27+0530] [ALPM] installed libdatachannel (0.24.1-1)
+[2026-02-08T19:35:27+0530] [ALPM] installed uthash (2.3.0-2)
+[2026-02-08T19:35:27+0530] [ALPM] installed simde (0.8.2-1)
+[2026-02-08T19:35:27+0530] [ALPM] installed qrcodegencpp-cmake (1.8.0-4)
+[2026-02-08T19:35:27+0530] [ALPM] installed obs-studio (32.0.4-1)
+[2026-02-08T19:35:27+0530] [ALPM] transaction completed
+[2026-02-08T19:35:27+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-08T19:35:27+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-02-08T19:35:28+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-02-08T19:38:17+0530] [PACMAN] Running 'pacman -R obs-studio'
+[2026-02-08T19:38:17+0530] [ALPM] transaction started
+[2026-02-08T19:38:18+0530] [ALPM] removed obs-studio (32.0.4-1)
+[2026-02-08T19:38:18+0530] [ALPM] transaction completed
+[2026-02-08T19:38:18+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-08T19:38:18+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-02-08T19:38:18+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-02-08T19:41:07+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/qt5-x11extras extra/qt5-base extra/cmake extra/qt5-tools'
+[2026-02-08T19:41:09+0530] [ALPM] transaction started
+[2026-02-08T19:41:09+0530] [ALPM] installed qt5-translations (5.15.18-1)
+[2026-02-08T19:41:10+0530] [ALPM] installed qt5-base (5.15.18+kde+r109-2)
+[2026-02-08T19:41:10+0530] [ALPM] installed qt5-x11extras (5.15.18-1)
+[2026-02-08T19:41:10+0530] [ALPM] installed cppdap (1.58.0-2)
+[2026-02-08T19:41:10+0530] [ALPM] installed jsoncpp (1.9.6-3)
+[2026-02-08T19:41:10+0530] [ALPM] installed rhash (1.4.6-1)
+[2026-02-08T19:41:10+0530] [ALPM] installed cmake (4.2.3-1)
+[2026-02-08T19:41:10+0530] [ALPM] installed qt5-tools (5.15.18+kde+r3-1)
+[2026-02-08T19:41:10+0530] [ALPM] transaction completed
+[2026-02-08T19:41:10+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-02-08T19:41:11+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-08T19:41:11+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-02-08T19:41:11+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-02-08T19:41:11+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- qt5-tools qt5-x11extras qt5-base cmake'
+[2026-02-08T19:43:26+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/simplescreenrecorder/simplescreenrecorder-0.4.4-4-x86_64.pkg.tar.zst /home/soi/.cache/yay/simplescreenrecorder/simplescreenrecorder-debug-0.4.4-4-x86_64.pkg.tar.zst'
+[2026-02-08T19:43:28+0530] [ALPM] transaction started
+[2026-02-08T19:43:28+0530] [ALPM] installed simplescreenrecorder (0.4.4-4)
+[2026-02-08T19:43:28+0530] [ALPM] installed simplescreenrecorder-debug (0.4.4-4)
+[2026-02-08T19:43:28+0530] [ALPM] transaction completed
+[2026-02-08T19:43:28+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-08T19:43:28+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-02-08T19:43:28+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-02-08T19:43:28+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- simplescreenrecorder-debug'
+[2026-02-08T19:43:28+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- simplescreenrecorder'
