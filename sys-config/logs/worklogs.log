@@ -9,6 +9,7 @@ Open Source Contributions:
 1. Python-Libp2p (https://github.com/libp2p/py-libp2p): The Python implementation of the libp2p networking stack.
 
 Pull Requests: 
+	- https://github.com/libp2p/py-libp2p/pull/1199: WIP: Prometheus metrics for libp2p protocols
 	- https://github.com/libp2p/py-libp2p/pull/1085: Add TLS in the security options
 	- https://github.com/libp2p/py-libp2p/pull/1072: Auto-TLS support for py-libp2p 
 	- https://github.com/libp2p/py-libp2p/pull/1064: Improve Floodsub in PubSub module

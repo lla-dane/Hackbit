@@ -1,5 +1,9 @@
 ------COHORT-6------
 
+====WEEK-5====
+WIP: Prometheus metrics for libp2p protocols: https://github.com/libp2p/py-libp2p/pull/1199
+- Progress in this PR, automated the prometheus/grafana services to start via docker
+
 ====WEEK-4====
 Auto-TLS support for py-libp2p: https://github.com/libp2p/py-libp2p/pull/1072
 - Got this PR merged this week, after final review.
