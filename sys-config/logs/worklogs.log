@@ -9,7 +9,7 @@ Open Source Contributions:
 1. Python-Libp2p (https://github.com/libp2p/py-libp2p): The Python implementation of the libp2p networking stack.
 
 Pull Requests: 
-	- https://github.com/libp2p/py-libp2p/pull/1199: WIP: Prometheus metrics for libp2p protocols
+	- https://github.com/libp2p/py-libp2p/pull/1199: Prometheus metrics for libp2p protocols
 	- https://github.com/libp2p/py-libp2p/pull/1085: Add TLS in the security options
 	- https://github.com/libp2p/py-libp2p/pull/1072: Auto-TLS support for py-libp2p 
 	- https://github.com/libp2p/py-libp2p/pull/1064: Improve Floodsub in PubSub module
@@ -51,22 +51,30 @@ Pull requests:
 	- https://github.com/vinteumorg/Floresta/pull/179: Potential bug fix in floresta-wire/chain_selector.rs
 	
 Projects: 
-1. P2P-Federated-Learning (Python, py-libp2p, Akave O3, Hedera hashgraph) :- A p2p federated learning stack built with py-libp2p, Akave O3 and Hedera blockchain.
-	- Built a P2P federated learning network using py-libp2p for discovery, pubsub, and job coordination.
-	- Used Hedera smart contracts + Consensus Service for trustless payments and training state auditing.
-	- Enabled decentralized dataset/model transfer with Akave O3 presigned URLs (no credential sharing).
-	- Designed an incentive flow where compute providers train locally and earn verifiable rewards.
+1. rnet (Rust, p2p) :- An experimental p2p networking stack for understanding rust and internal p2p mechanics.
+	- Defined core P2P abstractions for peer identity, multiaddrs, connections, and stream-based protocol execution.
+    - Implemented TCP transport and mplex-style stream multiplexing with concurrent logical streams.
+    - Developed core protocols like floodsub with end-to-end peer-subscriptions, message propagation and deduplication.
+    - Applied low-level async Rust patterns to manage IO, stream lifecycles, and protocol execution safely.
+
+Repo: https://github.com/lla-dane/rnet
+
+2. P2P-Federated-Learning (Python, py-libp2p, Akave O3, Hedera hashgraph) :- A p2p federated learning stack built with py-libp2p, Akave O3 and Hedera blockchain.
+	- P2P network was built using py-libp2p for discovery, pubsub, and job coordination.
+	- Hedera smart contracts + Consensus Service were used for trustless payments and training state auditing.
+	- Decentralized dataset/model transfer was done with Akave-O3 presigned URLs (no credential sharing).
+	- An incentive flow is designed where compute providers train locally and earn verifiable rewards.
 	
 Repo: https://github.com/lla-dane/P2P-Federated-Learning
 
-2. LoyaltyX (Rust, Python, AI-agents, Near Blockchain) :- Agentic Al-driven decentralized loyalty program registration on the Near blockchain.
+3. LoyaltyX (Rust, Python, AI-agents, Near Blockchain) :- Agentic Al-driven decentralized loyalty program registration on the Near blockchain.
 	- Businesses register unique loyalty programs onchain via the LoyaltyX chatbot.
 	- Customers can earn, track and redeem loyalty points onchain by interacting with the Al Agent.
 	- Al-agent backend process user requests and executes the required onchian transactions.
 	
 Repo: https://github.com/lla-dane/LoyaltyX
 
-3. Tx-Validator (Rust, Bitcoin) :- Bitcoin transaction validation and block mining script from scratch.
+4. Tx-Validator (Rust, Bitcoin) :- Bitcoin transaction validation and block mining script from scratch.
 	- Developed end-to-end Bitcoin block mining pipeline: tx-validation, merkle construction and PoW block header mining.
 	- Implemented signature verification scripts for legacy and SegWit transaction types (P2PKH, P2SH, P2WPKH, P2WSH).
 	- Prioritized transactions using fee/weight ratio for optimal block composition.

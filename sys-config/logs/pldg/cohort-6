@@ -1,8 +1,39 @@
 ------COHORT-6------
 
+====WEEK-11====
+WIP: Prometheus metrics for libp2p protocols: https://github.com/libp2p/py-libp2p/pull/1199
+- Fixed merge conflicts and linter issues.
+- PR ready for final review + merge
+- Demonstrated the working demo in the maintainer's meet.
+
+====WEEK-10====
+WIP: Prometheus metrics for libp2p protocols: https://github.com/libp2p/py-libp2p/pull/1199
+- Fixed bugs in the kad-dht metrics code, attached the metrics channels in dht-inbound handlers.
+- Added the metric components for swarm-connection cycle.
+
+====WEEK-9====
+WIP: Prometheus metrics for libp2p protocols: https://github.com/libp2p/py-libp2p/pull/1199
+- Progress in this PR, integrated the pubsub/gossipsub service with the unified CLI in metrics example.
+- Posted the screencast of prometheus/grafana metrics for gossipsub metrics on the PR.
+
+====WEEK-8====
+WIP: Prometheus metrics for libp2p protocols: https://github.com/libp2p/py-libp2p/pull/1199
+- Progress in this PR, integrated the swarm metrics (events emitted by swarm like new-connections, dialing etc) 
+and bandwidth module (per-protocol inbound and outbound bandwidth usage) in the prometheus tooling.
+
+====WEEK-7====
+WIP: Prometheus metrics for libp2p protocols: https://github.com/libp2p/py-libp2p/pull/1199
+- Progress in this PR, integrated the kad-dht and relay metrics in the prometheus tooling.
+
+====WEEK-6====
+WIP: Prometheus metrics for libp2p protocols: https://github.com/libp2p/py-libp2p/pull/1199
+- Progress in this PR, integrated the gossipsub and decutr metrics in the prometheus tooling.
+
+
 ====WEEK-5====
 WIP: Prometheus metrics for libp2p protocols: https://github.com/libp2p/py-libp2p/pull/1199
 - Progress in this PR, automated the prometheus/grafana services to start via docker
+- Posted a screencast of ping latency metrics in the PR.
 
 ====WEEK-4====
 Auto-TLS support for py-libp2p: https://github.com/libp2p/py-libp2p/pull/1072

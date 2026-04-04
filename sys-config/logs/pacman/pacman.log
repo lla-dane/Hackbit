@@ -2191,3 +2191,1648 @@
 [2026-02-11T19:00:47+0530] [ALPM] running 'gvfsd.hook'...
 [2026-02-11T19:00:47+0530] [ALPM] running 'texinfo-install.hook'...
 [2026-02-11T19:00:49+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-02-16T20:38:41+0530] [PACMAN] Running 'pacman -Syu'
+[2026-02-16T20:38:41+0530] [PACMAN] synchronizing package lists
+[2026-02-16T20:38:42+0530] [PACMAN] starting full system upgrade
+[2026-02-16T20:39:33+0530] [ALPM] running '71-dkms-remove.hook'...
+[2026-02-16T20:39:33+0530] [ALPM] transaction started
+[2026-02-16T20:39:33+0530] [ALPM] upgraded ncurses (6.5-4 -> 6.6-1)
+[2026-02-16T20:39:33+0530] [ALPM] upgraded zstd (1.5.7-2 -> 1.5.7-3)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded apparmor (4.1.4-1 -> 4.1.6-1)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded llhttp (9.2.1-2 -> 9.3.1-1)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded libgit2 (1:1.9.2-1 -> 1:1.9.2-3)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded bat (0.26.1-1 -> 0.26.1-2)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded icu (78.2-1 -> 78.2-2)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded llvm-libs (21.1.6-2 -> 21.1.8-1)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded compiler-rt (21.1.6-1 -> 21.1.8-1)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded ca-certificates-mozilla (3.120-1 -> 3.120.1-1)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded gnutls (3.8.11-2 -> 3.8.12-2)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded clang (21.1.6-3 -> 21.1.8-1)
+[2026-02-16T20:39:34+0530] [ALPM] upgraded bcc (0.36.0-1 -> 0.36.1-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded glib2 (2.86.3-2 -> 2.86.4-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded bluez (5.85-1 -> 5.86-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded bluez-libs (5.85-1 -> 5.86-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded bluez-obex (5.85-1 -> 5.86-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded bluez-utils (5.85-1 -> 5.86-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded capstone (5.0.6-2 -> 5.0.7-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded db5.3 (5.3.28-5 -> 5.3.28-7)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded dbus-broker (37-2 -> 37-3)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded dbus-broker-units (37-2 -> 37-3)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded dbus-units (37-2 -> 37-3)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded ell (0.81-1 -> 0.82-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded fastfetch (2.58.0-1 -> 2.59.0-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded freetype2 (2.14.1-1 -> 2.14.1-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded lame (3.100-6 -> 3.101.r6531-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded highway (1.3.0-1 -> 1.3.0-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded libjxl (0.11.2-1 -> 0.11.2-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded libplacebo (7.351.0-5 -> 7.360.0-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded graphite (1:1.3.14-5 -> 1:1.3.14-6)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded shared-mime-info (2.4-2 -> 2.4-3)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded librsvg (2:2.61.3-1 -> 2:2.61.4-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded libssh (0.11.3-1 -> 0.12.0-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded libvpl (2.16.0-1 -> 2.16.0-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded vmaf (3.0.0-1 -> 3.0.0-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded zeromq (4.3.5-2 -> 4.3.5-3)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded fftw (3.3.10-7 -> 3.3.10-8)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded ffmpeg (2:8.0.1-5 -> 2:8.0.1-6)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded libcups (2:2.4.16-1 -> 2:2.4.16-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded freerdp (2:3.22.0-1 -> 2:3.22.0-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded glu (9.0.3-2 -> 9.0.3-3)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded gnome-desktop-common (1:44.4-1 -> 1:44.5-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded libsoup3 (3.6.5-1 -> 3.6.6-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded gnome-desktop (1:44.4-1 -> 1:44.5-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded gstreamer (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded gst-plugins-base-libs (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded gst-plugins-bad-libs (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded gnome-desktop-4 (1:44.4-1 -> 1:44.5-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded gnome-remote-desktop (49.2-1 -> 49.3-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded upower (1.91.0-1 -> 1.91.1-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded nss (3.120-1 -> 3.120.1-1)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded libnvme (1.16.1-2 -> 1.16.1-3)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded libwacom (2.18.0-1 -> 2.18.0-2)
+[2026-02-16T20:39:35+0530] [ALPM] upgraded gnome-shell (1:49.4-1 -> 1:49.4-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded grafana (12.3.2-1 -> 12.3.3-1)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded gst-devtools-libs (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded gst-python (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded gst-editing-services (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded gst-libav (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded gst-plugin-gtk (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded openh264 (2.6.0-1 -> 2.6.0-2)
+[2026-02-16T20:39:37+0530] [ALPM] installed zint (2.16.0-1)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded zxing-cpp (2.3.0-5 -> 3.0.1-1)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded imagemagick (7.1.2.13-1 -> 7.1.2.13-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded gst-plugins-bad (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded gst-plugins-base (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded gst-plugins-good (1.26.10-4 -> 1.28.0-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded hwloc (2.12.2-1 -> 2.13.0-1)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded iwd (3.11-1 -> 3.11-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded kguiaddons (6.22.1-1 -> 6.23.0-1)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded libmtp (1.1.22-1 -> 1.1.23-1)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded libphonenumber (1:9.0.23-1 -> 1:9.0.24-1)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded libvirt (1:12.0.0-1 -> 1:12.0.0-2)
+[2026-02-16T20:39:37+0530] [ALPM] upgraded libxdp (1.6.0-1 -> 1.6.1-1)
+[2026-02-16T20:39:39+0530] [ALPM] upgraded linux-lts-headers (6.12.69-2 -> 6.12.71-1)
+[2026-02-16T20:39:39+0530] [ALPM] upgraded luajit (2.1.1767980792+707c12b-1 -> 2.1.1767980792+707c12b-2)
+[2026-02-16T20:39:39+0530] [ALPM] upgraded m4 (1.4.20-1 -> 1.4.21-1)
+[2026-02-16T20:39:39+0530] [ALPM] upgraded man-pages (6.16-1 -> 6.17-1)
+[2026-02-16T20:39:39+0530] [ALPM] upgraded nvtop (3.3.1-1 -> 3.3.2-1)
+[2026-02-16T20:39:39+0530] [ALPM] upgraded onetbb (2022.3.0-3 -> 2022.3.0-4)
+[2026-02-16T20:39:39+0530] [ALPM] upgraded openvpn (2.6.19-1 -> 2.7.0-1)
+[2026-02-16T20:39:39+0530] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2026-02-16T20:39:39+0530] [ALPM] upgraded pacman-mirrorlist (20260105-1 -> 20260213-1)
+[2026-02-16T20:39:39+0530] [ALPM] upgraded python-bcc (0.36.0-1 -> 0.36.1-1)
+[2026-02-16T20:39:39+0530] [ALPM] upgraded python-cryptography (46.0.4-1 -> 46.0.5-1)
+[2026-02-16T20:39:39+0530] [ALPM] upgraded proton-vpn-daemon (0.13.4-7 -> 0.13.4-8)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded proton-vpn-gtk-app (4.14.0-1 -> 4.14.1-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded python-platformdirs (4.5.1-3 -> 4.9.2-1)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded python-pyudev (0.24.3-3 -> 0.24.4-1)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-common (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-audio-alsa (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-audio-dbus (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-audio-jack (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-audio-oss (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-audio-pa (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-audio-pipewire (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-audio-sdl (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-ui-opengl (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-ui-spice-core (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-audio-spice (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-img (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-x86-firmware (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-x86 (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-base (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-block-curl (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-block-dmg (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-block-gluster (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-block-iscsi (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-block-nfs (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-block-ssh (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-chardev-baum (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-chardev-spice (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-display-qxl (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-gl (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-rutabaga (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci-gl (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci-rutabaga (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-display-virtio-vga (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-display-virtio-vga-gl (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-display-virtio-vga-rutabaga (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-uefi-vars (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-usb-host (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-usb-redirect (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-hw-usb-smartcard (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-ui-curses (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-ui-dbus (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-ui-egl-headless (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-ui-gtk (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-ui-sdl (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-ui-spice-app (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-vhost-user-gpu (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-desktop (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-docs (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-aarch64 (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-alpha-firmware (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-alpha (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-arm-firmware (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-arm (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-avr (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-hppa-firmware (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-hppa (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-loongarch64 (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-m68k (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-microblaze-firmware (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-microblaze (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-mips (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-or1k (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-ppc-firmware (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-ppc (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-riscv-firmware (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-riscv (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-rx (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-s390x-firmware (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:40+0530] [ALPM] upgraded qemu-system-s390x (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-system-sh4 (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-system-sparc-firmware (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-system-sparc (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-system-tricore (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-system-xtensa (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-user (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-emulators-full (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-hw-s390x-virtio-gpu-ccw (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-pr-helper (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-tests (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-tools (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-vmsr-helper (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] upgraded qemu-full (10.2.0-1 -> 10.2.0-2)
+[2026-02-16T20:39:41+0530] [ALPM] transaction completed
+[2026-02-16T20:39:42+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-02-16T20:39:42+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-02-16T20:39:42+0530] [ALPM] running '25-systemd-catalog.hook'...
+[2026-02-16T20:39:42+0530] [ALPM] running '25-systemd-hwdb.hook'...
+[2026-02-16T20:39:42+0530] [ALPM] running '25-systemd-sysctl.hook'...
+[2026-02-16T20:39:42+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-02-16T20:39:43+0530] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2026-02-16T20:39:43+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-02-16T20:39:43+0530] [ALPM] running '35-systemd-restart-marked.hook'...
+[2026-02-16T20:39:43+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-02-16T20:39:44+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-02-16T20:39:44+0530] [ALPM] running '40-update-ca-trust.hook'...
+[2026-02-16T20:39:45+0530] [ALPM] running '60-depmod.hook'...
+[2026-02-16T20:39:45+0530] [ALPM] running '70-dkms-install.hook'...
+[2026-02-16T20:39:45+0530] [ALPM-SCRIPTLET] ==> ERROR: Missing 6.12.71-1-lts kernel modules tree for module nvidia/590.48.01.
+[2026-02-16T20:39:45+0530] [ALPM-SCRIPTLET] ==> ERROR: Missing 6.12.71-1-lts kernel modules tree for module rtw89/r1673.84a2572.
+[2026-02-16T20:39:45+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-02-16T20:39:45+0530] [ALPM] running 'detect-old-perl-modules.hook'...
+[2026-02-16T20:39:45+0530] [ALPM] running 'glib-compile-schemas.hook'...
+[2026-02-16T20:39:45+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-02-16T20:39:45+0530] [ALPM] running 'texinfo-install.hook'...
+[2026-02-16T20:39:45+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-07T15:51:34+0530] [PACMAN] Running 'pacman -S vlc'
+[2026-03-07T15:52:32+0530] [ALPM] transaction started
+[2026-03-07T15:52:32+0530] [ALPM] installed libvlc (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed qt5-svg (5.15.18+kde+r5-1)
+[2026-03-07T15:52:32+0530] [ALPM] installed qt5-declarative (5.15.18+kde+r23-1)
+[2026-03-07T15:52:32+0530] [ALPM] installed qt5-wayland (5.15.18+kde+r55-1)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-alsa (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed a52dec (0.8.0-2)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-a52dec (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-archive (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-dav1d (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-dbus (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-dbus-screensaver (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-faad2 (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-flac (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-gnutls (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-inflate (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-jpeg (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-journal (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-mpg123 (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-ogg (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-opus (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-png (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-shout (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-speex (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-tag (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-theora (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-twolame (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-vorbis (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-vpx (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-xml (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugins-base (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-cli (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-lua (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugin-pulse (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-plugins-video-output (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc-gui-qt (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] installed vlc (3.0.21-32)
+[2026-03-07T15:52:32+0530] [ALPM] transaction completed
+[2026-03-07T15:52:32+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-07T15:52:32+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-03-07T15:52:32+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-07T15:52:32+0530] [ALPM] running 'update-vlc-plugin-cache.hook'...
+[2026-03-07T15:55:32+0530] [PACMAN] Running 'pacman -S ffmpeg'
+[2026-03-07T15:55:33+0530] [ALPM] transaction started
+[2026-03-07T15:55:33+0530] [ALPM] reinstalled ffmpeg (2:8.0.1-6)
+[2026-03-07T15:55:33+0530] [ALPM] transaction completed
+[2026-03-07T15:55:33+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-07T15:56:17+0530] [PACMAN] Running 'pacman -S vlc'
+[2026-03-07T15:56:17+0530] [ALPM] transaction started
+[2026-03-07T15:56:18+0530] [ALPM] reinstalled vlc (3.0.21-32)
+[2026-03-07T15:56:18+0530] [ALPM] transaction completed
+[2026-03-07T15:56:18+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-07T15:56:18+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-03-07T15:56:18+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-07T15:57:40+0530] [PACMAN] Running 'pacman -S vlc-plugin-ffmpeg'
+[2026-03-07T15:57:42+0530] [ALPM] transaction started
+[2026-03-07T15:57:42+0530] [ALPM] installed libmfx (23.2.2-6)
+[2026-03-07T15:57:42+0530] [ALPM] installed ffmpeg4.4 (4.4.6-4)
+[2026-03-07T15:57:42+0530] [ALPM] installed vlc-plugin-ffmpeg (3.0.21-32)
+[2026-03-07T15:57:42+0530] [ALPM] transaction completed
+[2026-03-07T15:57:42+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-07T15:57:42+0530] [ALPM] running 'update-vlc-plugin-cache.hook'...
+[2026-03-09T19:38:49+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/kdenlive'
+[2026-03-09T19:39:16+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/kdenlive'
+[2026-03-09T19:39:37+0530] [PACMAN] Running 'pacman -Syu'
+[2026-03-09T19:39:37+0530] [PACMAN] synchronizing package lists
+[2026-03-09T19:39:41+0530] [PACMAN] starting full system upgrade
+[2026-03-09T19:42:16+0530] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2026-03-09T19:42:17+0530] [ALPM] running '71-dkms-remove.hook'...
+[2026-03-09T19:42:18+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod nvidia/590.48.01 -k 6.18.9-arch1-2
+[2026-03-09T19:42:18+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod rtw89/r1673.84a2572 -k 6.18.9-arch1-2
+[2026-03-09T19:42:19+0530] [ALPM-SCRIPTLET] ==> depmod 6.18.9-arch1-2
+[2026-03-09T19:42:22+0530] [ALPM] transaction started
+[2026-03-09T19:42:22+0530] [ALPM] upgraded tzdata (2025c-1 -> 2026a-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded iana-etc (20260203-1 -> 20260306-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded libgpg-error (1.58-1 -> 1.59-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded libgcrypt (1.12.0-1 -> 1.12.1-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded zlib (1:1.3.1-2 -> 1:1.3.2-3)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded systemd-libs (259.1-1 -> 259.3-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded hwdata (0.404-1 -> 0.405-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded gmp (6.3.0-2 -> 6.3.0-3)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded libngtcp2 (1.20.0-1 -> 1.21.0-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded lmdb (0.9.33-1 -> 0.9.35-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded sqlite (3.51.2-1 -> 3.52.0-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded libcap-ng (0.9-1 -> 0.9.1-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded audit (4.1.2-2 -> 4.1.3-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded ca-certificates-mozilla (3.120.1-1 -> 3.121-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded libelf (0.194-1 -> 0.194-2)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded file (5.46-5 -> 5.47-1)
+[2026-03-09T19:42:22+0530] [ALPM] upgraded systemd (259.1-1 -> 259.3-1)
+[2026-03-09T19:42:23+0530] [ALPM] upgraded accountsservice (23.13.9-2 -> 25.34.76-2)
+[2026-03-09T19:42:23+0530] [ALPM] upgraded adwaita-fonts (49.0-2 -> 50.0-1)
+[2026-03-09T19:42:23+0530] [ALPM] upgraded alsa-card-profiles (1:1.4.10-2 -> 1:1.6.0-2)
+[2026-03-09T19:42:23+0530] [ALPM] upgraded amd-ucode (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:23+0530] [ALPM] upgraded python (3.14.2-2 -> 3.14.3-1)
+[2026-03-09T19:42:23+0530] [ALPM] upgraded apparmor (4.1.6-1 -> 4.1.6-2)
+[2026-03-09T19:42:23+0530] [ALPM] upgraded gawk (5.3.2-1 -> 5.4.0-1)
+[2026-03-09T19:42:23+0530] [ALPM] upgraded libxml2 (2.15.1-5 -> 2.15.2-1)
+[2026-03-09T19:42:24+0530] [ALPM] upgraded gettext (1.0-1 -> 1.0-2)
+[2026-03-09T19:42:24+0530] [ALPM] upgraded libksba (1.6.7-2 -> 1.6.8-1)
+[2026-03-09T19:42:24+0530] [ALPM] upgraded gpgme (2.0.1-1 -> 2.0.1-3)
+[2026-03-09T19:42:24+0530] [ALPM] upgraded archlinux-keyring (20260206-1 -> 20260301-1)
+[2026-03-09T19:42:24+0530] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2026-03-09T19:42:26+0530] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2026-03-09T19:42:26+0530] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2026-03-13
+[2026-03-09T19:42:26+0530] [ALPM] upgraded bluez (5.86-2 -> 5.86-4)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded bluez-libs (5.86-2 -> 5.86-4)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded bluez-obex (5.86-2 -> 5.86-4)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded bluez-utils (5.86-2 -> 5.86-4)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded bubblewrap (0.11.0-1 -> 0.11.0-2)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded libavif (1.3.0-5 -> 1.4.0-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded gtest (1.17.0-1 -> 1.17.0-2)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded freetype2 (2.14.1-2 -> 2.14.2-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded chafa (1.18.0-1 -> 1.18.1-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded libwbclient (2:4.23.5-1 -> 2:4.23.6-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded cifs-utils (7.4-1 -> 7.5-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded compiler-rt (21.1.8-1 -> 21.1.8-2)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded iproute2 (6.18.0-1 -> 6.19.0-2)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded nftables (1:1.1.6-2 -> 1:1.1.6-3)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded docker (1:29.2.1-1 -> 1:29.3.0-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded docker-compose (5.0.2-1 -> 5.1.0-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded spirv-tools (1:1.4.341.0-1 -> 1:1.4.341.0-2)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded egl-x11 (1.0.4-1 -> 1.0.5-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded mesa (1:25.3.5-1 -> 1:26.0.1-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded egl-wayland2 (1.0.0.rc.r57.g1893c37-1 -> 1.0.1-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded enchant (2.8.14-1 -> 2.8.15-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded gstreamer (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded gst-plugins-base-libs (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded xkeyboard-config (2.46-1 -> 2.47-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded gst-plugins-bad-libs (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:26+0530] [ALPM] upgraded libfyaml (0.9.4-1 -> 0.9.5-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded epiphany (49.2-1 -> 49.3-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded ethtool (1:6.15-1 -> 1:6.19-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded fastfetch (2.59.0-1 -> 2.60.0-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded feh (3.11.2-2 -> 3.11.3-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded glslang (1:1.4.341.0-1 -> 1:1.4.341.0-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded gsm (1.0.23-1 -> 1.0.24-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded libpipewire (1:1.4.10-2 -> 1:1.6.0-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded pipewire (1:1.4.10-2 -> 1:1.6.0-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded libldac (2.0.2.3-2 -> 2.0.2.3-3)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded serd (0.32.6-1 -> 0.32.8-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded sord (0.16.20-1 -> 0.16.22-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded sratom (0.6.20-1 -> 0.6.22-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded lilv (0.26.2-3 -> 0.26.4-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded spandsp (0.0.6-6 -> 0.0.6-7)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded pipewire-audio (1:1.4.10-2 -> 1:1.6.0-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded pipewire-jack (1:1.4.10-2 -> 1:1.6.0-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded shaderc (2026.1-1 -> 2026.1-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded libplacebo (7.360.0-1 -> 7.360.0-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded libvpx (1.15.2-2 -> 1.15.2-3)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded snappy (1.2.2-2 -> 1.2.2-3)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded v4l-utils (1.32.0-1 -> 1.32.0-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded sdl3 (3.4.0-3 -> 3.4.2-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded libsodium (1.0.20-1 -> 1.0.21-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded ffmpeg (2:8.0.1-6 -> 2:8.0.1-7)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded fluidsynth (2.5.2-1 -> 2.5.3-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded fmt (12.1.0-1 -> 12.1.0-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded freerdp (2:3.22.0-2 -> 2:3.23.0-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded github-cli (2.86.0-1 -> 2.87.3-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded js140 (140.7.0-1 -> 140.8.0-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded gjs (2:1.86.0-1 -> 2:1.86.0-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded taglib (2.1.1-1 -> 2.2.1-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded gst-plugins-good (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded nss (3.120.1-1 -> 3.121-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded libnm (1.54.3-1 -> 1.56.0-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded ldb (2:4.23.5-1 -> 2:4.23.6-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded smbclient (2:4.23.5-1 -> 2:4.23.6-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded mdadm (4.4-2 -> 4.5-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded udisks2 (2.11.0-1 -> 2.11.1-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded gnome-keybindings (49.4-1 -> 49.5-1)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded libplist (2.7.0-2 -> 2.7.0-3)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded libusbmuxd (2.1.1-1 -> 2.1.1-2)
+[2026-03-09T19:42:27+0530] [ALPM] upgraded pipewire-pulse (1:1.4.10-2 -> 1:1.6.0-2)
+[2026-03-09T19:42:28+0530] [ALPM] upgraded gvfs (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:28+0530] [ALPM] upgraded libinih (61-1 -> 62-2)
+[2026-03-09T19:42:28+0530] [ALPM] upgraded poppler (26.01.0-1 -> 26.02.0-2)
+[2026-03-09T19:42:28+0530] [ALPM] upgraded poppler-glib (26.01.0-1 -> 26.02.0-2)
+[2026-03-09T19:42:28+0530] [ALPM] installed libmbim (1.34.0-1)
+[2026-03-09T19:42:28+0530] [ALPM] installed libqrtr-glib (1.4.0-1)
+[2026-03-09T19:42:28+0530] [ALPM] installed libqmi (1.38.0-1)
+[2026-03-09T19:42:28+0530] [ALPM] upgraded protobuf (33.1-3 -> 33.1-4)
+[2026-03-09T19:42:28+0530] [ALPM] installed libssc (0.4.1-1)
+[2026-03-09T19:42:28+0530] [ALPM] upgraded iio-sensor-proxy (3.8-1 -> 3.9-1)
+[2026-03-09T19:42:28+0530] [ALPM] upgraded gnome-control-center (49.4-1 -> 49.5-1)
+[2026-03-09T19:42:29+0530] [ALPM] upgraded go (2:1.25.7-1 -> 2:1.26.1-1)
+[2026-03-09T19:42:29+0530] [ALPM] upgraded go-tools (4:0.42.0-1 -> 4:0.42.0-2)
+[2026-03-09T19:42:29+0530] [ALPM] upgraded gom (0.5.5-2 -> 0.5.6-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded grafana (12.3.3-1 -> 12.4.0-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded groff (1.23.0-7 -> 1.24.0-2)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gst-devtools-libs (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gst-python (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gst-editing-services (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gst-libav (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gst-plugin-gtk (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gst-plugin-gtk4 (0.14.4-1 -> 0.15.1-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gst-plugin-pipewire (1:1.4.10-2 -> 1:1.6.0-2)
+[2026-03-09T19:42:31+0530] [ALPM] installed openjph (0.26.3-3)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded openexr (3.4.4-1 -> 3.4.6-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded zxing-cpp (3.0.1-1 -> 3.0.2-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded imagemagick (7.1.2.13-2 -> 7.1.2.16-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gst-plugins-bad (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gst-plugins-base (1.28.0-2 -> 1.28.1-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gvfs-afc (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gvfs-dnssd (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gvfs-goa (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded libgdata (0.18.1-4 -> 0.18.1-5)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gvfs-google (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gvfs-gphoto2 (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gvfs-mtp (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gvfs-nfs (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gvfs-onedrive (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gvfs-smb (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:31+0530] [ALPM] upgraded gvfs-wsdd (1.58.1-1 -> 1.58.2-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded highlight (4.18-2 -> 4.19-3)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded kguiaddons (6.23.0-1 -> 6.23.1-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libcgif (0.5.1-1 -> 0.5.2-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libmaxminddb (1.12.2-2 -> 1.13.3-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libnbd (1.24.0-2 -> 1.24.2-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libphonenumber (1:9.0.24-1 -> 1:9.0.25-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libsynctex (2025.2-3 -> 2026.0-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libtraceevent (1:1.8.7-1 -> 1:1.9.0-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded liburcu (0.15.5-1 -> 0.15.6-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libuv (1.52.0-1 -> 1.52.1-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libva-nvidia-driver (0.0.15-1 -> 0.0.16-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libvirt (1:12.0.0-2 -> 1:12.1.0-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libvirt-python (1:12.0.0-1 -> 1:12.1.0-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libvncserver (0.9.14-4 -> 0.9.15-1)
+[2026-03-09T19:42:32+0530] [ALPM] upgraded libxdp (1.6.1-1 -> 1.6.2-1)
+[2026-03-09T19:42:33+0530] [ALPM] upgraded linux (6.18.9.arch1-2 -> 6.19.6.arch1-1)
+[2026-03-09T19:42:33+0530] [ALPM] upgraded linux-firmware-whence (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:33+0530] [ALPM] upgraded linux-firmware-amdgpu (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:33+0530] [ALPM] upgraded linux-firmware-atheros (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:33+0530] [ALPM] upgraded linux-firmware-broadcom (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:33+0530] [ALPM] upgraded linux-firmware-cirrus (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:33+0530] [ALPM] upgraded linux-firmware-intel (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:33+0530] [ALPM] upgraded linux-firmware-mediatek (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:34+0530] [ALPM] upgraded linux-firmware-nvidia (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:34+0530] [ALPM] upgraded linux-firmware-other (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:34+0530] [ALPM] upgraded linux-firmware-radeon (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:34+0530] [ALPM] upgraded linux-firmware-realtek (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:34+0530] [ALPM] upgraded linux-firmware (20260110-1 -> 20260221-1)
+[2026-03-09T19:42:36+0530] [ALPM] upgraded linux-headers (6.18.9.arch1-2 -> 6.19.6.arch1-1)
+[2026-03-09T19:42:38+0530] [ALPM] upgraded linux-lts-headers (6.12.71-1 -> 6.18.16-1)
+[2026-03-09T19:42:38+0530] [ALPM] upgraded lsof (4.99.5-2 -> 4.99.6-1)
+[2026-03-09T19:42:38+0530] [ALPM] upgraded ndctl (79-1 -> 81-1)
+[2026-03-09T19:42:38+0530] [ALPM] upgraded networkmanager (1.54.3-1 -> 1.56.0-1)
+[2026-03-09T19:42:38+0530] [ALPM] upgraded perl-clone (0.47-2 -> 0.48-1)
+[2026-03-09T19:42:38+0530] [ALPM] upgraded perl-timedate (2.33-9 -> 2.34-1)
+[2026-03-09T19:42:38+0530] [ALPM] upgraded pipewire-alsa (1:1.4.10-2 -> 1:1.6.0-2)
+[2026-03-09T19:42:38+0530] [ALPM] upgraded python-cryptography (46.0.5-1 -> 46.0.5-2)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded python-sentry_sdk (2.52.0-1 -> 2.54.0-1)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded python-markupsafe (3.0.2-2 -> 3.0.3-1)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded python-requests (2.32.5-3 -> 2.32.5-4)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded python-proton-vpn-api-core (4.14.3-1 -> 4.15.2-1)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded wireguard-tools (1.0.20250521-1 -> 1.0.20260223-1)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded proton-vpn-daemon (0.13.4-8 -> 0.13.5-2)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded python-secretstorage (3.3.3-7 -> 3.4.0-1)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded proton-vpn-gtk-app (4.14.1-2 -> 4.14.2-1)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded python-libevdev (0.11-6 -> 0.13.1-1)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded python-platformdirs (4.9.2-1 -> 4.9.4-1)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-common (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-audio-alsa (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-audio-dbus (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-audio-jack (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-audio-oss (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-audio-pa (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-audio-pipewire (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-audio-sdl (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-ui-opengl (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-ui-spice-core (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-audio-spice (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-img (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded rdma-core (61.0-1 -> 62.0-1)
+[2026-03-09T19:42:39+0530] [ALPM] upgraded qemu-system-x86-firmware (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-x86 (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-base (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-block-curl (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-block-dmg (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-block-gluster (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-block-iscsi (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-block-nfs (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-block-ssh (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-chardev-baum (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-chardev-spice (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-display-qxl (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-gl (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-rutabaga (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci-gl (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci-rutabaga (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-display-virtio-vga (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-display-virtio-vga-gl (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-display-virtio-vga-rutabaga (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-uefi-vars (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-usb-host (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-usb-redirect (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-hw-usb-smartcard (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-ui-curses (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-ui-dbus (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-ui-egl-headless (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-ui-gtk (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-ui-sdl (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-ui-spice-app (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-vhost-user-gpu (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-desktop (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-docs (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-aarch64 (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-alpha-firmware (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-alpha (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-arm-firmware (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-arm (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-avr (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-hppa-firmware (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-hppa (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-loongarch64 (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-m68k (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-microblaze-firmware (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-microblaze (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-mips (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-or1k (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-ppc-firmware (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-ppc (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-riscv-firmware (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-riscv (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-rx (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-s390x-firmware (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-s390x (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-sh4 (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-sparc-firmware (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-sparc (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-tricore (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-system-xtensa (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:40+0530] [ALPM] upgraded qemu-user (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded qemu-emulators-full (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded qemu-hw-s390x-virtio-gpu-ccw (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded qemu-pr-helper (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded qemu-tests (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded qemu-tools (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded qemu-vmsr-helper (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded qemu-full (10.2.0-2 -> 10.2.0-3)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded sane (1.4.0-3 -> 1.4.0-4)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded spdlog (1.17.0-1 -> 1.17.0-2)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded squashfs-tools (4.7.4-1 -> 4.7.5-1)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded systemd-sysvcompat (259.1-1 -> 259.3-1)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded vim-runtime (9.1.2132-1 -> 9.2.0081-1)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded vim (9.1.2132-1 -> 9.2.0081-1)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded whois (5.6.5-1 -> 5.6.6-1)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded wireless-regdb (2025.10.07-1 -> 2026.02.04-1)
+[2026-03-09T19:42:41+0530] [ALPM] upgraded wireshark-cli (4.6.3-1 -> 4.6.4-1)
+[2026-03-09T19:42:42+0530] [ALPM] upgraded xterm (406-1 -> 407-1)
+[2026-03-09T19:42:42+0530] [ALPM] transaction completed
+[2026-03-09T19:42:43+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-03-09T19:42:43+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-03-09T19:42:44+0530] [ALPM] running '25-systemd-catalog.hook'...
+[2026-03-09T19:42:44+0530] [ALPM] running '25-systemd-hwdb.hook'...
+[2026-03-09T19:42:44+0530] [ALPM] running '25-systemd-sysctl.hook'...
+[2026-03-09T19:42:44+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-03-09T19:42:44+0530] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2026-03-09T19:42:45+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-03-09T19:42:45+0530] [ALPM] running '35-systemd-restart-marked.hook'...
+[2026-03-09T19:42:45+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-03-09T19:42:46+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-09T19:42:46+0530] [ALPM] running '40-update-ca-trust.hook'...
+[2026-03-09T19:42:47+0530] [ALPM] running '60-depmod.hook'...
+[2026-03-09T19:42:48+0530] [ALPM] running '70-dkms-install.hook'...
+[2026-03-09T19:42:48+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod nvidia/590.48.01 -k 6.19.6-arch1-1
+[2026-03-09T19:43:58+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod rtw89/r1673.84a2572 -k 6.19.6-arch1-1
+[2026-03-09T19:43:58+0530] [ALPM-SCRIPTLET] Deprecated feature: CLEAN (/usr/src/rtw89-r1673.84a2572/dkms.conf)
+[2026-03-09T19:44:17+0530] [ALPM-SCRIPTLET] ==> depmod 6.19.6-arch1-1
+[2026-03-09T19:44:18+0530] [ALPM-SCRIPTLET] ==> ERROR: Missing 6.18.16-1-lts kernel modules tree for module nvidia/590.48.01.
+[2026-03-09T19:44:18+0530] [ALPM-SCRIPTLET] ==> ERROR: Missing 6.18.16-1-lts kernel modules tree for module rtw89/r1673.84a2572.
+[2026-03-09T19:44:20+0530] [ALPM] running '90-mkinitcpio-install.hook'...
+[2026-03-09T19:44:21+0530] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2026-03-09T19:44:21+0530] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2026-03-09T19:44:21+0530] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -g /boot/initramfs-linux.img
+[2026-03-09T19:44:21+0530] [ALPM-SCRIPTLET] ==> Starting build: '6.19.6-arch1-1'
+[2026-03-09T19:44:21+0530] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2026-03-09T19:44:21+0530] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2026-03-09T19:44:21+0530] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2026-03-09T19:44:21+0530] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2026-03-09T19:44:21+0530] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2026-03-09T19:44:21+0530] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2026-03-09T19:44:27+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2026-03-09T19:44:27+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2026-03-09T19:44:27+0530] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2026-03-09T19:44:27+0530] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2026-03-09T19:44:28+0530] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2026-03-09T19:44:28+0530] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2026-03-09T19:44:28+0530] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2026-03-09T19:44:28+0530] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux.img'
+[2026-03-09T19:44:29+0530] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2026-03-09T19:44:29+0530] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2026-03-09T19:44:29+0530] [ALPM] running 'accounts-daemon-restart.hook'...
+[2026-03-09T19:44:29+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-03-09T19:44:29+0530] [ALPM] running 'detect-old-perl-modules.hook'...
+[2026-03-09T19:44:29+0530] [ALPM] running 'fontconfig.hook'...
+[2026-03-09T19:44:29+0530] [ALPM] running 'gio-querymodules.hook'...
+[2026-03-09T19:44:29+0530] [ALPM] running 'glib-compile-schemas.hook'...
+[2026-03-09T19:44:30+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-03-09T19:44:30+0530] [ALPM] running 'gvfsd.hook'...
+[2026-03-09T19:44:30+0530] [ALPM] running 'texinfo-install.hook'...
+[2026-03-09T19:44:30+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-09T19:45:48+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/kdenlive'
+[2026-03-09T19:45:58+0530] [ALPM] transaction started
+[2026-03-09T19:45:58+0530] [ALPM] installed frei0r-plugins (2.5.5-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed karchive (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed qt6-declarative (6.10.2-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kconfig (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kcoreaddons (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kwidgetsaddons (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kbookmarks (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kcodecs (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed ki18n (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kcolorscheme (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kcompletion (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kconfigwidgets (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kcrash (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kdbusaddons (6.23.0-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed kddockwidgets (2.4.0-2)
+[2026-03-09T19:45:58+0530] [ALPM] installed libtommath (1.3.0-2)
+[2026-03-09T19:45:58+0530] [ALPM] installed convertlit (1.8-13)
+[2026-03-09T19:45:58+0530] [ALPM] installed libzip (1.11.4-1)
+[2026-03-09T19:45:58+0530] [ALPM] installed ebook-tools (0.2.2-9)
+[2026-03-09T19:45:58+0530] [ALPM] installed poppler-qt6 (26.02.0-2)
+[2026-03-09T19:45:58+0530] [ALPM] installed kfilemetadata (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed breeze-icons (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kiconthemes (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kitemviews (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed knotifications (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kjobwidgets (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kservice (6.23.1-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kwindowsystem (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed qt6-shadertools (6.10.2-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed qt6-5compat (6.10.2-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed qca-qt6 (2.3.10-4)
+[2026-03-09T19:46:00+0530] [ALPM] installed kwallet (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed media-player-info (26-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed solid (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kio (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed attica (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kirigami (6.23.1-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kglobalaccel (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kxmlgui (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kcmutils (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed kpackage (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed syndication (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed knewstuff (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed knotifyconfig (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed qt6-multimedia-ffmpeg (6.10.2-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed qt6-multimedia (6.10.2-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed qt6-speech (6.10.2-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed sonnet (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed ktextwidgets (6.23.0-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed mlt (7.36.1-4)
+[2026-03-09T19:46:00+0530] [ALPM] installed python-aaf2 (1.7.1-4)
+[2026-03-09T19:46:00+0530] [ALPM] installed opentimelineio (0.18.1-2)
+[2026-03-09T19:46:00+0530] [ALPM] installed libaccounts-glib (1.27-3)
+[2026-03-09T19:46:00+0530] [ALPM] installed libaccounts-qt (1.17-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed signond (8.61-3)
+[2026-03-09T19:46:00+0530] [ALPM] installed accounts-qml-module (0.7-6)
+[2026-03-09T19:46:00+0530] [ALPM] installed signon-kwallet-extension (25.12.3-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed signon-plugin-oauth2 (0.25-3)
+[2026-03-09T19:46:00+0530] [ALPM] installed minizip (1:1.3.2-3)
+[2026-03-09T19:46:00+0530] [ALPM] installed qt6-positioning (6.10.2-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed qt6-webchannel (6.10.2-1)
+[2026-03-09T19:46:00+0530] [ALPM] installed re2 (2:2025.11.05-1)
+[2026-03-09T19:46:01+0530] [ALPM] installed qt6-webengine (6.10.2-1)
+[2026-03-09T19:46:01+0530] [ALPM] installed signon-ui (0.17+20231016-3)
+[2026-03-09T19:46:01+0530] [ALPM] installed kaccounts-integration (25.12.3-1)
+[2026-03-09T19:46:01+0530] [ALPM] installed purpose (6.23.0-1)
+[2026-03-09T19:46:01+0530] [ALPM] installed qqc2-desktop-style (6.23.0-2)
+[2026-03-09T19:46:01+0530] [ALPM] installed qt6-networkauth (6.10.2-1)
+[2026-03-09T19:46:01+0530] [ALPM] installed kdenlive (25.12.3-1)
+[2026-03-09T19:46:01+0530] [ALPM] transaction completed
+[2026-03-09T19:46:01+0530] [ALPM] running '25-systemd-hwdb.hook'...
+[2026-03-09T19:46:02+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-03-09T19:46:02+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-03-09T19:46:03+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-09T19:46:03+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-03-09T19:46:03+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-09T19:46:03+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- kdenlive'
+[2026-03-23T13:55:45+0530] [PACMAN] Running 'pacman -S hugo'
+[2026-03-23T13:56:13+0530] [PACMAN] Running 'pacman -Syu'
+[2026-03-23T13:56:13+0530] [PACMAN] synchronizing package lists
+[2026-03-23T13:56:13+0530] [PACMAN] starting full system upgrade
+[2026-03-23T14:01:43+0530] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2026-03-23T14:01:43+0530] [ALPM] running '71-dkms-remove.hook'...
+[2026-03-23T14:01:44+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod nvidia/590.48.01 -k 6.19.6-arch1-1
+[2026-03-23T14:01:44+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod rtw89/r1673.84a2572 -k 6.19.6-arch1-1
+[2026-03-23T14:01:45+0530] [ALPM-SCRIPTLET] ==> depmod 6.19.6-arch1-1
+[2026-03-23T14:01:48+0530] [ALPM] transaction started
+[2026-03-23T14:01:48+0530] [ALPM] upgraded a52dec (0.8.0-2 -> 0.8.0-3)
+[2026-03-23T14:01:48+0530] [ALPM] upgraded ncurses (6.6-1 -> 6.6-2)
+[2026-03-23T14:01:48+0530] [ALPM] upgraded systemd-libs (259.3-1 -> 260-1)
+[2026-03-23T14:01:48+0530] [ALPM] upgraded e2fsprogs (1.47.3-2 -> 1.47.4-1)
+[2026-03-23T14:01:48+0530] [ALPM] upgraded libldap (2.6.12-1 -> 2.6.13-1)
+[2026-03-23T14:01:48+0530] [ALPM] upgraded device-mapper (2.03.38-1 -> 2.03.39-1)
+[2026-03-23T14:01:49+0530] [ALPM] upgraded expat (2.7.4-1 -> 2.7.5-1)
+[2026-03-23T14:01:49+0530] [ALPM] upgraded libnghttp2 (1.68.0-1 -> 1.68.1-1)
+[2026-03-23T14:01:49+0530] [ALPM] upgraded ca-certificates-mozilla (3.121-1 -> 3.122-1)
+[2026-03-23T14:01:49+0530] [ALPM] upgraded curl (8.18.0-3 -> 8.19.0-1)
+[2026-03-23T14:01:49+0530] [ALPM] upgraded systemd (259.3-1 -> 260-1)
+[2026-03-23T14:01:50+0530] [ALPM-SCRIPTLET] :: This is a systemd feature update. You may want to have a look at
+[2026-03-23T14:01:50+0530] [ALPM-SCRIPTLET]    NEWS for what changed, or if you observe unexpected behavior:
+[2026-03-23T14:01:50+0530] [ALPM-SCRIPTLET]      /usr/share/doc/systemd/NEWS
+[2026-03-23T14:01:50+0530] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/system/autovt@.service' → '/usr/lib/systemd/system/getty@.service'.
+[2026-03-23T14:01:50+0530] [ALPM] upgraded accountsservice (25.34.76-2 -> 26.12.8-1)
+[2026-03-23T14:01:50+0530] [ALPM] upgraded alsa-card-profiles (1:1.6.0-2 -> 1:1.6.2-1)
+[2026-03-23T14:01:50+0530] [ALPM] upgraded amd-ucode (20260221-1 -> 20260309-1)
+[2026-03-23T14:01:50+0530] [ALPM] upgraded aom (3.13.1-2 -> 3.13.2-1)
+[2026-03-23T14:01:50+0530] [ALPM] upgraded mpdecimal (4.0.1-1 -> 4.0.1-3)
+[2026-03-23T14:01:50+0530] [ALPM] upgraded apparmor (4.1.6-2 -> 4.1.7-1)
+[2026-03-23T14:01:50+0530] [ALPM] upgraded at-spi2-core (2.58.3-1 -> 2.58.4-1)
+[2026-03-23T14:01:50+0530] [ALPM] upgraded icu (78.2-2 -> 78.3-1)
+[2026-03-23T14:01:50+0530] [ALPM] upgraded harfbuzz (12.3.2-1 -> 13.2.1-1)
+[2026-03-23T14:01:50+0530] [ALPM] upgraded libedit (20250104_3.1-1 -> 20251016_3.1-1)
+[2026-03-23T14:01:51+0530] [ALPM] upgraded llvm-libs (21.1.8-1 -> 22.1.1-1)
+[2026-03-23T14:01:51+0530] [ALPM] upgraded libpciaccess (0.18.1-2 -> 0.19-1)
+[2026-03-23T14:01:51+0530] [ALPM] upgraded mesa (1:26.0.1-1 -> 1:26.0.3-1)
+[2026-03-23T14:01:51+0530] [ALPM] upgraded attica (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:01:51+0530] [ALPM] upgraded compiler-rt (21.1.8-2 -> 22.1.1-1)
+[2026-03-23T14:01:51+0530] [ALPM] upgraded clang (21.1.8-1 -> 22.1.1-1)
+[2026-03-23T14:01:51+0530] [ALPM] upgraded bcc (0.36.1-1 -> 0.36.1-3)
+[2026-03-23T14:01:54+0530] [ALPM] upgraded breeze-icons (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:01:54+0530] [ALPM] installed pcaudiolib (1.3-1)
+[2026-03-23T14:01:54+0530] [ALPM] installed libsonic (0.2.0-2)
+[2026-03-23T14:01:54+0530] [ALPM] installed espeak-ng (1.52.0-1)
+[2026-03-23T14:01:54+0530] [ALPM] upgraded liblouis (3.36.0-2 -> 3.37.0-1)
+[2026-03-23T14:01:54+0530] [ALPM] upgraded brltty (6.8-6 -> 6.9-2)
+[2026-03-23T14:01:54+0530] [ALPM-SCRIPTLET] Please add your user to the brlapi group.
+[2026-03-23T14:01:54+0530] [ALPM] upgraded bubblewrap (0.11.0-2 -> 0.11.1-1)
+[2026-03-23T14:01:54+0530] [ALPM] upgraded libarchive (3.8.5-1 -> 3.8.6-1)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded cmake (4.2.3-1 -> 4.3.0-2)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded runc (1.4.0-1 -> 1.4.1-1)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded containerd (2.2.1-1 -> 2.2.2-1)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded djvulibre (3.5.29-1 -> 3.5.29-2)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded docker-compose (5.1.0-1 -> 5.1.1-1)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded ell (0.82-1 -> 0.83-1)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded enchant (2.8.15-1 -> 2.8.15-2)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded libsoup3 (3.6.6-1 -> 3.6.6-2)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded harfbuzz-icu (12.3.2-1 -> 13.2.1-1)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded libavif (1.4.0-1 -> 1.4.1-1)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded libmanette (0.2.13-1 -> 0.2.13-2)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded gperftools (2.17.2-1 -> 2.18.1-1)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded libva (2.22.0-1 -> 2.23.0-1)
+[2026-03-23T14:01:55+0530] [ALPM] upgraded perl (5.42.0-1 -> 5.42.1-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded webkitgtk-6.0 (2.50.5-1 -> 2.50.6-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded libfyaml (0.9.5-1 -> 0.9.6-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded epiphany (49.3-1 -> 49.6-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded exempi (2.6.6-2 -> 2.6.6-3)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded exiv2 (0.28.7-1 -> 0.28.8-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded libpipewire (1:1.6.0-2 -> 1:1.6.2-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded pipewire (1:1.6.0-2 -> 1:1.6.2-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded pipewire-audio (1:1.6.0-2 -> 1:1.6.2-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded pipewire-jack (1:1.6.0-2 -> 1:1.6.2-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded libbluray (1.4.0-2 -> 1.4.1-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded libmodplug (0.8.9.0-6 -> 0.8.9.0-7)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded libplacebo (7.360.0-2 -> 7.360.1-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded portaudio (1:19.7.0-3 -> 1:19.7.0-4)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded ffmpeg (2:8.0.1-7 -> 2:8.1-2)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded fuse-common (3.18.1-1 -> 3.18.2-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded fuse3 (3.18.1-1 -> 3.18.2-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded freerdp (2:3.23.0-1 -> 2:3.24.1-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded frei0r-plugins (2.5.5-1 -> 2.5.5-2)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded gexiv2 (0.16.0-1 -> 0.16.0-2)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded ghostscript (10.06.0-1 -> 10.07.0-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded github-cli (2.87.3-1 -> 2.88.1-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded libgoa (3.56.4-1 -> 3.56.5-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded gnome-online-accounts (3.56.4-1 -> 3.56.5-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded python-argcomplete (3.6.2-2 -> 3.6.3-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded pipewire-pulse (1:1.6.0-2 -> 1:1.6.2-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded nss (3.121-1 -> 3.122-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded libssc (0.4.1-1 -> 0.4.2-1)
+[2026-03-23T14:01:56+0530] [ALPM] upgraded mutter (49.4-1 -> 49.5-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded libcdio-paranoia (10.2+2.0.2-1 -> 10.2+2.0.2-2)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded mdadm (4.5-2 -> 4.6-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded libatasmart (0.19-7 -> 0.19-8)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded gvfs (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded libnautilus-extension (49.4-1 -> 49.5-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded libgsf (1.14.55-1 -> 1.14.56-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded libosinfo (1.12.0-2 -> 1.12.0-3)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded poppler (26.02.0-2 -> 26.03.0-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded poppler-glib (26.02.0-2 -> 26.03.0-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded uchardet (0.0.8-3 -> 0.0.8-4)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded nautilus (49.4-1 -> 49.5-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded gnome-shell (1:49.4-2 -> 1:49.5-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded gsound (1.0.3-3 -> 1.0.3-4)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded ldb (2:4.23.6-1 -> 2:4.24.0-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded libwbclient (2:4.23.6-1 -> 2:4.24.0-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded smbclient (2:4.23.6-1 -> 2:4.24.0-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded gnome-keybindings (49.5-1 -> 49.6-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded libcaca (0.99.beta20-6 -> 0.99.beta20-7)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded libdv (1.0.0-11 -> 1.0.0-12)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded gnome-control-center (49.5-1 -> 49.6-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded gnome-maps (49.4-1 -> 49.5-1)
+[2026-03-23T14:01:57+0530] [ALPM] upgraded go-tools (4:0.42.0-2 -> 4:0.43.0-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded grafana (12.4.0-1 -> 12.4.1-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded groff (1.24.0-2 -> 1.24.1-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gspell (1.14.2-1 -> 1.14.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gst-plugin-pipewire (1:1.6.0-2 -> 1:1.6.2-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gvfs-afc (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gvfs-dnssd (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gvfs-goa (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gvfs-google (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded libde265 (1.0.16-2 -> 1.0.18-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gvfs-gphoto2 (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gvfs-mtp (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gvfs-nfs (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gvfs-onedrive (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gvfs-smb (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded gvfs-wsdd (1.58.2-1 -> 1.58.3-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded imagemagick (7.1.2.16-1 -> 7.1.2.18-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded iwd (3.11-2 -> 3.12-1)
+[2026-03-23T14:01:59+0530] [ALPM] upgraded karchive (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kconfig (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kcoreaddons (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kwidgetsaddons (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kbookmarks (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kcodecs (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kguiaddons (6.23.1-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded ki18n (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kcolorscheme (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kconfigwidgets (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kcompletion (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kcrash (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kdbusaddons (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kiconthemes (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kitemviews (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded knotifications (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kjobwidgets (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kservice (6.23.1-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kwindowsystem (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded qca-qt6 (2.3.10-4 -> 2.3.10-5)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kwallet (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded solid (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kio (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kirigami (6.23.1-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kglobalaccel (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kxmlgui (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kcmutils (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded poppler-qt6 (26.02.0-2 -> 26.03.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kfilemetadata (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kitty-terminfo (0.45.0-4 -> 0.46.2-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kitty-shell-integration (0.45.0-4 -> 0.46.2-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kitty (0.45.0-4 -> 0.46.2-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded kpackage (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded syndication (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded knewstuff (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded knotifyconfig (6.23.0-1 -> 6.24.0-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded sonnet (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded ktextwidgets (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded lazydocker (0.24.4-1 -> 0.25.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded libcurl-gnutls (8.18.0-3 -> 8.19.0-1)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded libdc1394 (2.2.7-1 -> 2.2.7-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded libdca (0.0.7-2 -> 0.0.7-3)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded libgme (0.6.4-1 -> 0.6.4-2)
+[2026-03-23T14:02:00+0530] [ALPM] upgraded libmediaart (1.9.7-1 -> 1.9.7-2)
+[2026-03-23T14:02:01+0530] [ALPM] upgraded libphonenumber (1:9.0.25-1 -> 1:9.0.26-1)
+[2026-03-23T14:02:01+0530] [ALPM] upgraded libsrtp (1:2.7.0-1 -> 1:2.8.0-1)
+[2026-03-23T14:02:01+0530] [ALPM] upgraded linux (6.19.6.arch1-1 -> 6.19.9.arch1-1)
+[2026-03-23T14:02:01+0530] [ALPM] upgraded linux-firmware-whence (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:01+0530] [ALPM] upgraded linux-firmware-amdgpu (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:02+0530] [ALPM] upgraded linux-firmware-atheros (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:02+0530] [ALPM] upgraded linux-firmware-broadcom (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:02+0530] [ALPM] upgraded linux-firmware-cirrus (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:02+0530] [ALPM] upgraded linux-firmware-intel (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:02+0530] [ALPM] upgraded linux-firmware-mediatek (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:02+0530] [ALPM] upgraded linux-firmware-nvidia (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:02+0530] [ALPM] upgraded linux-firmware-other (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:02+0530] [ALPM] upgraded linux-firmware-radeon (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:02+0530] [ALPM] upgraded linux-firmware-realtek (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:02+0530] [ALPM] upgraded linux-firmware (20260221-1 -> 20260309-1)
+[2026-03-23T14:02:04+0530] [ALPM] upgraded linux-headers (6.19.6.arch1-1 -> 6.19.9.arch1-1)
+[2026-03-23T14:02:06+0530] [ALPM] upgraded linux-lts-headers (6.18.16-1 -> 6.18.19-1)
+[2026-03-23T14:02:06+0530] [ALPM] upgraded luajit (2.1.1767980792+707c12b-2 -> 2.1.1772619647+659a616-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded m4 (1.4.21-1 -> 1.4.21-2)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded mjpegtools (2.2.1-3 -> 2.2.1-4)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded mod_dnssd (0.6-9 -> 0.6-10)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded ndctl (81-1 -> 82-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded neon (0.36.0-1 -> 0.37.1-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded openexr (3.4.6-1 -> 3.4.7-2)
+[2026-03-23T14:02:07+0530] [ALPM] installed python-brltty (6.9-2)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded orca (49.5-2 -> 49.6-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded papers (49.4-1 -> 49.4-2)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded perl-timedate (2.34-1 -> 2.35-1)
+[2026-03-23T14:02:07+0530] [ALPM] installed perl-class-inspector (1.36-10)
+[2026-03-23T14:02:07+0530] [ALPM] installed perl-file-sharedir (1.118-8)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded perl-xml-parser (2.47-3 -> 2.48-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded pipewire-alsa (1:1.6.0-2 -> 1:1.6.2-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded python-dbus-fast (3.1.2-2 -> 4.0.0-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded python-bcc (0.36.1-1 -> 0.36.1-3)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded python-proton-vpn-local-agent (1.6.0-3 -> 1.6.1-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded python-certifi (2026.01.04-1 -> 2026.02.25-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded python-sentry_sdk (2.54.0-1 -> 2.55.0-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded python-pycparser (2.23-2 -> 3.00-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded python-pyopenssl (25.3.0-2 -> 26.0.0-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded python-charset-normalizer (3.4.4-2 -> 3.4.6-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded python-attrs (25.4.0-3 -> 26.1.0-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded python-proton-vpn-api-core (4.15.2-1 -> 4.16.0-1)
+[2026-03-23T14:02:07+0530] [ALPM] upgraded proton-vpn-daemon (0.13.5-2 -> 0.13.6-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded python-secretstorage (3.4.0-1 -> 3.4.1-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded proton-vpn-gtk-app (4.14.2-1 -> 4.15.0-1)
+[2026-03-23T14:02:08+0530] [ALPM] installed kitemmodels (6.24.0-2)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded purpose (6.23.0-1 -> 6.24.0-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded python-docutils (1:0.22.3-2 -> 1:0.22.4-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded python-setuptools (1:82.0.0-1 -> 1:82.0.1-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-common (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-audio-alsa (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-audio-dbus (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-audio-jack (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-audio-oss (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-audio-pa (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-audio-pipewire (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-audio-sdl (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-ui-opengl (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-ui-spice-core (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-audio-spice (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-img (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-x86-firmware (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded wolfssl (5.8.4-1 -> 5.9.0-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-x86 (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-base (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-block-curl (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-block-dmg (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-block-gluster (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-block-iscsi (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-block-nfs (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-block-ssh (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-chardev-baum (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-chardev-spice (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-display-qxl (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-gl (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-rutabaga (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci-gl (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci-rutabaga (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-display-virtio-vga (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-display-virtio-vga-gl (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-display-virtio-vga-rutabaga (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-uefi-vars (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-usb-host (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-usb-redirect (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-hw-usb-smartcard (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-ui-curses (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-ui-dbus (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-ui-egl-headless (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-ui-gtk (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-ui-sdl (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-ui-spice-app (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-vhost-user-gpu (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-desktop (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-docs (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-aarch64 (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-alpha-firmware (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-alpha (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-arm-firmware (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-arm (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-avr (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-hppa-firmware (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-hppa (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-loongarch64 (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-m68k (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-microblaze-firmware (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:08+0530] [ALPM] upgraded qemu-system-microblaze (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-mips (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-or1k (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-ppc-firmware (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-ppc (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-riscv-firmware (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-riscv (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-rx (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-s390x-firmware (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-s390x (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-sh4 (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-sparc-firmware (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-sparc (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-tricore (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-system-xtensa (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-user (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-emulators-full (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-hw-s390x-virtio-gpu-ccw (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-pr-helper (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-tests (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-tools (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-vmsr-helper (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qemu-full (10.2.0-3 -> 10.2.2-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qqc2-desktop-style (6.23.0-2 -> 6.24.0-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded qt5-tools (5.15.18+kde+r3-1 -> 5.15.18+kde+r3-2)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded systemd-sysvcompat (259.3-1 -> 260-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded tree-sitter-lua (0.4.0-1 -> 0.5.0-1)
+[2026-03-23T14:02:09+0530] [ALPM] upgraded tree-sitter-vim (0.7.0-1 -> 0.8.1-1)
+[2026-03-23T14:02:10+0530] [ALPM] upgraded vim-runtime (9.2.0081-1 -> 9.2.0204-1)
+[2026-03-23T14:02:10+0530] [ALPM] upgraded vim (9.2.0081-1 -> 9.2.0204-1)
+[2026-03-23T14:02:10+0530] [ALPM] upgraded webkit2gtk-4.1 (2.50.5-1 -> 2.50.6-1)
+[2026-03-23T14:02:10+0530] [ALPM] upgraded zenity (4.2.1-1 -> 4.2.2-1)
+[2026-03-23T14:02:10+0530] [ALPM] transaction completed
+[2026-03-23T14:02:12+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-03-23T14:02:13+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-03-23T14:02:13+0530] [ALPM] running '25-systemd-catalog.hook'...
+[2026-03-23T14:02:13+0530] [ALPM] running '25-systemd-hwdb.hook'...
+[2026-03-23T14:02:13+0530] [ALPM] running '25-systemd-sysctl.hook'...
+[2026-03-23T14:02:14+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-03-23T14:02:14+0530] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2026-03-23T14:02:14+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-03-23T14:02:15+0530] [ALPM] running '35-systemd-enqueue-marked.hook'...
+[2026-03-23T14:02:15+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-03-23T14:02:16+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-23T14:02:16+0530] [ALPM] running '40-update-ca-trust.hook'...
+[2026-03-23T14:02:17+0530] [ALPM] running '60-depmod.hook'...
+[2026-03-23T14:02:18+0530] [ALPM] running '70-dkms-install.hook'...
+[2026-03-23T14:02:18+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod nvidia/590.48.01 -k 6.19.9-arch1-1
+[2026-03-23T14:03:36+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod rtw89/r1673.84a2572 -k 6.19.9-arch1-1
+[2026-03-23T14:03:36+0530] [ALPM-SCRIPTLET] Deprecated feature: CLEAN (/usr/src/rtw89-r1673.84a2572/dkms.conf)
+[2026-03-23T14:03:57+0530] [ALPM-SCRIPTLET] ==> depmod 6.19.9-arch1-1
+[2026-03-23T14:03:59+0530] [ALPM-SCRIPTLET] ==> ERROR: Missing 6.18.19-1-lts kernel modules tree for module nvidia/590.48.01.
+[2026-03-23T14:03:59+0530] [ALPM-SCRIPTLET] ==> ERROR: Missing 6.18.19-1-lts kernel modules tree for module rtw89/r1673.84a2572.
+[2026-03-23T14:04:00+0530] [ALPM] running '90-mkinitcpio-install.hook'...
+[2026-03-23T14:04:01+0530] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2026-03-23T14:04:01+0530] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2026-03-23T14:04:01+0530] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -g /boot/initramfs-linux.img
+[2026-03-23T14:04:01+0530] [ALPM-SCRIPTLET] ==> Starting build: '6.19.9-arch1-1'
+[2026-03-23T14:04:01+0530] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2026-03-23T14:04:01+0530] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2026-03-23T14:04:01+0530] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2026-03-23T14:04:01+0530] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2026-03-23T14:04:01+0530] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2026-03-23T14:04:01+0530] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2026-03-23T14:04:07+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2026-03-23T14:04:07+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2026-03-23T14:04:08+0530] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2026-03-23T14:04:08+0530] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2026-03-23T14:04:08+0530] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2026-03-23T14:04:08+0530] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2026-03-23T14:04:09+0530] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2026-03-23T14:04:09+0530] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux.img'
+[2026-03-23T14:04:09+0530] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2026-03-23T14:04:09+0530] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2026-03-23T14:04:09+0530] [ALPM] running 'accounts-daemon-restart.hook'...
+[2026-03-23T14:04:10+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-03-23T14:04:10+0530] [ALPM] running 'detect-old-perl-modules.hook'...
+[2026-03-23T14:04:10+0530] [ALPM] running 'gio-querymodules.hook'...
+[2026-03-23T14:04:10+0530] [ALPM] running 'glib-compile-schemas.hook'...
+[2026-03-23T14:04:10+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-03-23T14:04:11+0530] [ALPM] running 'gvfsd.hook'...
+[2026-03-23T14:04:11+0530] [ALPM] running 'texinfo-install.hook'...
+[2026-03-23T14:04:11+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-23T14:05:05+0530] [PACMAN] Running 'pacman -S hugo'
+[2026-03-23T14:05:08+0530] [ALPM] transaction started
+[2026-03-23T14:05:08+0530] [ALPM] installed hugo (0.158.0-1)
+[2026-03-23T14:05:08+0530] [ALPM] transaction completed
+[2026-03-23T14:05:08+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-23T14:25:50+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/xorg-xdpyinfo extra/bc'
+[2026-03-23T14:25:52+0530] [ALPM] transaction started
+[2026-03-23T14:25:52+0530] [ALPM] installed xorg-xdpyinfo (1.4.0-1)
+[2026-03-23T14:25:52+0530] [ALPM] installed bc (1.08.2-1)
+[2026-03-23T14:25:52+0530] [ALPM] transaction completed
+[2026-03-23T14:25:52+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-23T14:25:52+0530] [ALPM] running 'texinfo-install.hook'...
+[2026-03-23T14:25:52+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- xorg-xdpyinfo bc'
+[2026-03-23T14:26:08+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/i3lock-color/i3lock-color-2.13.c.5-3-x86_64.pkg.tar.zst /home/soi/.cache/yay/i3lock-color/i3lock-color-debug-2.13.c.5-3-x86_64.pkg.tar.zst'
+[2026-03-23T14:26:13+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/bc extra/xorg-xdpyinfo'
+[2026-03-23T14:26:14+0530] [ALPM] transaction started
+[2026-03-23T14:26:14+0530] [ALPM] reinstalled bc (1.08.2-1)
+[2026-03-23T14:26:14+0530] [ALPM] reinstalled xorg-xdpyinfo (1.4.0-1)
+[2026-03-23T14:26:14+0530] [ALPM] transaction completed
+[2026-03-23T14:26:14+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-23T14:26:15+0530] [ALPM] running 'texinfo-install.hook'...
+[2026-03-23T14:26:15+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- xorg-xdpyinfo bc'
+[2026-03-23T14:26:18+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/i3lock-color/i3lock-color-2.13.c.5-3-x86_64.pkg.tar.zst /home/soi/.cache/yay/i3lock-color/i3lock-color-debug-2.13.c.5-3-x86_64.pkg.tar.zst'
+[2026-03-23T14:26:35+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/i3lock-color/i3lock-color-2.13.c.5-3-x86_64.pkg.tar.zst /home/soi/.cache/yay/i3lock-color/i3lock-color-debug-2.13.c.5-3-x86_64.pkg.tar.zst'
+[2026-03-23T14:26:39+0530] [ALPM] transaction started
+[2026-03-23T14:26:39+0530] [ALPM] removed i3lock (2.16-1)
+[2026-03-23T14:26:39+0530] [ALPM] installed i3lock-color (2.13.c.5-3)
+[2026-03-23T14:26:39+0530] [ALPM] installed i3lock-color-debug (2.13.c.5-3)
+[2026-03-23T14:26:39+0530] [ALPM] transaction completed
+[2026-03-23T14:26:39+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-23T14:26:39+0530] [PACMAN] Running 'pacman -D --asdeps -q --config /etc/pacman.conf -- i3lock-color i3lock-color-debug'
+[2026-03-23T14:26:42+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/betterlockscreen/betterlockscreen-4.4.0-1-any.pkg.tar.zst'
+[2026-03-23T14:26:44+0530] [ALPM] transaction started
+[2026-03-23T14:26:44+0530] [ALPM] installed betterlockscreen (4.4.0-1)
+[2026-03-23T14:26:44+0530] [ALPM] transaction completed
+[2026-03-23T14:26:44+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-03-23T14:26:44+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-23T14:26:44+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- betterlockscreen'
+[2026-03-26T20:27:44+0530] [PACMAN] Running 'pacman -S pavucontrol'
+[2026-03-26T20:27:49+0530] [ALPM] transaction started
+[2026-03-26T20:27:49+0530] [ALPM] installed pavucontrol (1:6.2-1)
+[2026-03-26T20:27:49+0530] [ALPM] transaction completed
+[2026-03-26T20:27:49+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-26T20:27:49+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-03-26T20:27:49+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-27T11:37:20+0530] [PACMAN] Running 'pacman -Syu'
+[2026-03-27T11:37:20+0530] [PACMAN] synchronizing package lists
+[2026-03-27T11:37:21+0530] [PACMAN] starting full system upgrade
+[2026-03-27T11:39:09+0530] [ALPM] running '71-dkms-remove.hook'...
+[2026-03-27T11:39:10+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod nvidia/590.48.01 -k 6.19.9-arch1-1
+[2026-03-27T11:39:11+0530] [ALPM-SCRIPTLET] ==> depmod 6.19.9-arch1-1
+[2026-03-27T11:39:13+0530] [ALPM] transaction started
+[2026-03-27T11:39:13+0530] [ALPM] upgraded apache (2.4.66-1 -> 2.4.66-2)
+[2026-03-27T11:39:14+0530] [ALPM] upgraded systemd-libs (260-1 -> 260.1-1)
+[2026-03-27T11:39:14+0530] [ALPM] upgraded leancrypto (1.6.0-1 -> 1.7.0-1)
+[2026-03-27T11:39:14+0530] [ALPM] upgraded systemd (260-1 -> 260.1-1)
+[2026-03-27T11:39:15+0530] [ALPM] upgraded archlinux-keyring (20260301-1 -> 20260323-1)
+[2026-03-27T11:39:15+0530] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2026-03-27T11:39:17+0530] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2026-03-27T11:39:17+0530] [ALPM-SCRIPTLET]   -> Disabled 2 keys.
+[2026-03-27T11:39:17+0530] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2026-03-27T11:39:17+0530] [ALPM-SCRIPTLET] gpg: Note: third-party key signatures using the SHA1 algorithm are rejected
+[2026-03-27T11:39:17+0530] [ALPM-SCRIPTLET] gpg: (use option "--allow-weak-key-signatures" to override)
+[2026-03-27T11:39:17+0530] [ALPM-SCRIPTLET] gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+[2026-03-27T11:39:17+0530] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2026-03-27T11:39:17+0530] [ALPM-SCRIPTLET] gpg: depth: 1  valid:   5  signed:  85  trust: 0-, 0q, 0n, 5m, 0f, 0u
+[2026-03-27T11:39:17+0530] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  72  signed:  18  trust: 72-, 0q, 0n, 0m, 0f, 0u
+[2026-03-27T11:39:17+0530] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2026-10-21
+[2026-03-27T11:39:17+0530] [ALPM] upgraded libpng (1.6.55-1 -> 1.6.56-1)
+[2026-03-27T11:39:17+0530] [ALPM] upgraded freetype2 (2.14.2-1 -> 2.14.3-1)
+[2026-03-27T11:39:17+0530] [ALPM] installed lua54 (5.4.8-6)
+[2026-03-27T11:39:17+0530] [ALPM] upgraded libinput (1.30.1-1 -> 1.31.0-1)
+[2026-03-27T11:39:17+0530] [ALPM] upgraded qt6-translations (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:19+0530] [ALPM] upgraded nvidia-utils (590.48.01-4 -> 595.58.03-1)
+[2026-03-27T11:39:19+0530] [ALPM-SCRIPTLET] Disabling nvidia-resume (no longer needed with open kernel modules)...
+[2026-03-27T11:39:19+0530] [ALPM-SCRIPTLET] Removed '/etc/systemd/system/systemd-hibernate.service.wants/nvidia-resume.service'.
+[2026-03-27T11:39:19+0530] [ALPM-SCRIPTLET] Removed '/etc/systemd/system/systemd-suspend-then-hibernate.service.wants/nvidia-resume.service'.
+[2026-03-27T11:39:19+0530] [ALPM-SCRIPTLET] Removed '/etc/systemd/system/systemd-suspend.service.wants/nvidia-resume.service'.
+[2026-03-27T11:39:19+0530] [ALPM-SCRIPTLET] Disabling nvidia-hibernate (no longer needed with open kernel modules)...
+[2026-03-27T11:39:19+0530] [ALPM-SCRIPTLET] Removed '/etc/systemd/system/systemd-hibernate.service.wants/nvidia-hibernate.service'.
+[2026-03-27T11:39:20+0530] [ALPM-SCRIPTLET] Disabling nvidia-suspend (no longer needed with open kernel modules)...
+[2026-03-27T11:39:20+0530] [ALPM-SCRIPTLET] Removed '/etc/systemd/system/systemd-suspend.service.wants/nvidia-suspend.service'.
+[2026-03-27T11:39:20+0530] [ALPM-SCRIPTLET] Disabling nvidia-suspend-then-hibernate (no longer needed with open kernel modules)...
+[2026-03-27T11:39:20+0530] [ALPM-SCRIPTLET] Removed '/etc/systemd/system/systemd-suspend-then-hibernate.service.wants/nvidia-suspend-then-hibernate.service'.
+[2026-03-27T11:39:21+0530] [ALPM] upgraded qt6-base (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded attica (6.24.0-1 -> 6.24.0-2)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded brltty (6.9-2 -> 6.9-3)
+[2026-03-27T11:39:21+0530] [ALPM-SCRIPTLET] Please add your user to the brlapi group.
+[2026-03-27T11:39:21+0530] [ALPM] upgraded btop (1.4.6-1 -> 1.4.6-2)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded docker (1:29.3.0-1 -> 1:29.3.1-1)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded faac (1.31.1-1 -> 1.40-1)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded lua (5.4.8-2 -> 5.5.0-2)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded libwireplumber (0.5.13-1 -> 0.5.13-2)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded wireplumber (0.5.13-1 -> 0.5.13-2)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded libopenmpt (0.8.4-1 -> 0.8.6-1)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded libvpx (1.15.2-3 -> 1.16.0-2)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded pango (1:1.57.0-2 -> 1:1.57.1-1)
+[2026-03-27T11:39:21+0530] [ALPM] upgraded ffmpeg (2:8.1-2 -> 2:8.1-3)
+[2026-03-27T11:39:22+0530] [ALPM] upgraded ffmpeg4.4 (4.4.6-4 -> 4.4.6-5)
+[2026-03-27T11:39:22+0530] [ALPM] upgraded freerdp (2:3.24.1-1 -> 2:3.24.2-1)
+[2026-03-27T11:39:22+0530] [ALPM] upgraded frei0r-plugins (2.5.5-2 -> 2.5.6-1)
+[2026-03-27T11:39:22+0530] [ALPM] upgraded github-cli (2.88.1-1 -> 2.89.0-1)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded grafana (12.4.1-1 -> 12.4.2-1)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gstreamer (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gst-plugins-base-libs (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gst-plugins-bad-libs (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded openexr (3.4.7-2 -> 3.4.8-1)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gst-plugins-bad (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded grilo-plugins (1:0.3.18-1 -> 1:0.3.18-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gst-devtools-libs (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gst-python (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gst-editing-services (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gst-libav (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gtk3 (1:3.24.51-1 -> 1:3.24.52-1)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gst-plugin-gtk (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gst-plugins-base (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded gst-plugins-good (1.28.1-1 -> 1.28.1-2)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded highlight (4.19-3 -> 4.19-4)
+[2026-03-27T11:39:24+0530] [ALPM] upgraded hugo (0.158.0-1 -> 0.159.1-1)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded js140 (140.8.0-1 -> 140.9.0-1)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded kcoreaddons (6.24.0-2 -> 6.24.0-3)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded kguiaddons (6.24.0-1 -> 6.24.0-3)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded qt6-declarative (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded knotifications (6.24.0-2 -> 6.24.0-3)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded kwidgetsaddons (6.24.0-1 -> 6.24.0-3)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded kjobwidgets (6.24.0-2 -> 6.24.0-3)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded kservice (6.24.0-1 -> 6.24.0-2)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded qt6-multimedia-ffmpeg (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded qt6-multimedia (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded qt6-speech (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded sonnet (6.24.0-1 -> 6.24.0-2)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded ktextwidgets (6.24.0-1 -> 6.24.0-2)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded kwindowsystem (6.24.0-1 -> 6.24.0-2)
+[2026-03-27T11:39:25+0530] [ALPM] upgraded qt6-shadertools (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded qt6-5compat (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded kwallet (6.24.0-1 -> 6.24.0-2)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded qt6-svg (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded kxmlgui (6.24.0-1 -> 6.24.0-3)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libaccounts-qt (1.17-1 -> 1.17-2)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libblockdev (3.4.0-2 -> 3.4.0-3)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libblockdev-crypto (3.4.0-2 -> 3.4.0-3)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libblockdev-fs (3.4.0-2 -> 3.4.0-3)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libblockdev-loop (3.4.0-2 -> 3.4.0-3)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libblockdev-mdraid (3.4.0-2 -> 3.4.0-3)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libblockdev-nvme (3.4.0-2 -> 3.4.0-3)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libblockdev-part (3.4.0-2 -> 3.4.0-3)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libblockdev-smart (3.4.0-2 -> 3.4.0-3)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libblockdev-swap (3.4.0-2 -> 3.4.0-3)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libfyaml (0.9.6-1 -> 0.9.6-2)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libinput-tools (1.30.1-1 -> 1.31.0-1)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libluv (1.51.0-1 -> 1.52.1-1)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libnbd (1.24.2-1 -> 1.24.2-2)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libphonenumber (1:9.0.26-1 -> 1:9.0.27-1)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libvlc (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:26+0530] [ALPM] upgraded libxnvctrl (590.48.01-1 -> 595.58.03-1)
+[2026-03-27T11:39:28+0530] [ALPM] upgraded linux-lts-headers (6.18.19-1 -> 6.18.20-1)
+[2026-03-27T11:39:28+0530] [ALPM] upgraded lua51-lpeg (1.1.0-4 -> 1.1.0-5)
+[2026-03-27T11:39:29+0530] [ALPM] upgraded nvidia-open-dkms (590.48.01-4 -> 595.58.03-1)
+[2026-03-27T11:39:29+0530] [ALPM] upgraded nvidia-settings (590.48.01-1 -> 595.58.03-1)
+[2026-03-27T11:39:29+0530] [ALPM] upgraded solid (6.24.0-1 -> 6.24.0-2)
+[2026-03-27T11:39:29+0530] [ALPM] upgraded qt6-positioning (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:29+0530] [ALPM] upgraded qt6-webchannel (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:29+0530] [ALPM] upgraded qt6-webengine (6.10.2-1 -> 6.11.0-2)
+[2026-03-27T11:39:29+0530] [ALPM] upgraded purpose (6.24.0-1 -> 6.24.0-2)
+[2026-03-27T11:39:29+0530] [ALPM] upgraded python-brltty (6.9-2 -> 6.9-3)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded python-sentry_sdk (2.55.0-1 -> 2.56.0-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded qqc2-desktop-style (6.24.0-1 -> 6.24.0-2)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded qt6-networkauth (6.10.2-1 -> 6.11.0-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded systemd-sysvcompat (260-1 -> 260.1-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded tree-sitter-vim (0.8.1-1 -> 0.8.1-2)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vim-runtime (9.2.0204-1 -> 9.2.0204-2)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vim (9.2.0204-1 -> 9.2.0204-2)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-alsa (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-a52dec (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-archive (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-dav1d (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-dbus (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-dbus-screensaver (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-faad2 (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-flac (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-gnutls (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-inflate (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-jpeg (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-journal (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-mpg123 (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-ogg (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-opus (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-png (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-shout (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-speex (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-tag (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-theora (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-twolame (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-vorbis (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-vpx (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-xml (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugins-base (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-cli (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-lua (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-pulse (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugins-video-output (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-gui-qt (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded vlc-plugin-ffmpeg (3.0.21-32 -> 3.0.22-1)
+[2026-03-27T11:39:30+0530] [ALPM] upgraded xfsprogs (6.18.0-1 -> 6.19.0-1)
+[2026-03-27T11:39:30+0530] [ALPM] transaction completed
+[2026-03-27T11:39:31+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-03-27T11:39:31+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-03-27T11:39:32+0530] [ALPM] running '25-systemd-catalog.hook'...
+[2026-03-27T11:39:32+0530] [ALPM] running '25-systemd-hwdb.hook'...
+[2026-03-27T11:39:32+0530] [ALPM] running '25-systemd-sysctl.hook'...
+[2026-03-27T11:39:32+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-03-27T11:39:33+0530] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2026-03-27T11:39:33+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-03-27T11:39:33+0530] [ALPM] running '35-systemd-enqueue-marked.hook'...
+[2026-03-27T11:39:34+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-03-27T11:39:34+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-27T11:39:34+0530] [ALPM] running '60-depmod.hook'...
+[2026-03-27T11:39:34+0530] [ALPM] running '70-dkms-install.hook'...
+[2026-03-27T11:39:35+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod nvidia/595.58.03 -k 6.19.9-arch1-1
+[2026-03-27T11:40:51+0530] [ALPM-SCRIPTLET] ==> depmod 6.19.9-arch1-1
+[2026-03-27T11:40:52+0530] [ALPM-SCRIPTLET] ==> ERROR: Missing 6.18.20-1-lts kernel modules tree for module nvidia/595.58.03.
+[2026-03-27T11:40:52+0530] [ALPM-SCRIPTLET] ==> ERROR: Missing 6.18.20-1-lts kernel modules tree for module rtw89/r1673.84a2572.
+[2026-03-27T11:40:54+0530] [ALPM] running '90-mkinitcpio-install.hook'...
+[2026-03-27T11:40:54+0530] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2026-03-27T11:40:54+0530] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2026-03-27T11:40:54+0530] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -g /boot/initramfs-linux.img
+[2026-03-27T11:40:54+0530] [ALPM-SCRIPTLET] ==> Starting build: '6.19.9-arch1-1'
+[2026-03-27T11:40:54+0530] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2026-03-27T11:40:54+0530] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2026-03-27T11:40:54+0530] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2026-03-27T11:40:55+0530] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2026-03-27T11:40:55+0530] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2026-03-27T11:40:55+0530] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2026-03-27T11:41:00+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2026-03-27T11:41:01+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2026-03-27T11:41:01+0530] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2026-03-27T11:41:01+0530] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2026-03-27T11:41:01+0530] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2026-03-27T11:41:02+0530] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2026-03-27T11:41:02+0530] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2026-03-27T11:41:02+0530] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux.img'
+[2026-03-27T11:41:02+0530] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2026-03-27T11:41:02+0530] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2026-03-27T11:41:03+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-03-27T11:41:03+0530] [ALPM] running 'glib-compile-schemas.hook'...
+[2026-03-27T11:41:03+0530] [ALPM] running 'gtk-query-immodules-3.0.hook'...
+[2026-03-27T11:41:03+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-03-27T11:41:03+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-27T11:41:03+0530] [ALPM] running 'update-vlc-plugin-cache.hook'...
+[2026-03-27T22:26:00+0530] [PACMAN] Running 'pacman -S wireshark-qt'
+[2026-03-27T22:26:15+0530] [ALPM] transaction started
+[2026-03-27T22:26:15+0530] [ALPM] installed wireshark-qt (4.6.4-1)
+[2026-03-27T22:26:15+0530] [ALPM] transaction completed
+[2026-03-27T22:26:15+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-03-27T22:26:16+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-27T22:26:16+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-03-27T22:26:16+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-27T22:26:22+0530] [PACMAN] Running 'pacman -S wireshark-cli'
+[2026-03-27T22:26:22+0530] [ALPM] transaction started
+[2026-03-27T22:26:23+0530] [ALPM] reinstalled wireshark-cli (4.6.4-1)
+[2026-03-27T22:26:23+0530] [ALPM] transaction completed
+[2026-03-27T22:26:23+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-03-27T22:26:23+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-28T18:46:08+0530] [PACMAN] Running 'pacman -S qbittorrent'
+[2026-03-28T18:46:14+0530] [ALPM] transaction started
+[2026-03-28T18:46:14+0530] [ALPM] installed boost-libs (1.89.0-4)
+[2026-03-28T18:46:14+0530] [ALPM] installed libtorrent-rasterbar (1:2.0.12-1)
+[2026-03-28T18:46:14+0530] [ALPM] installed qbittorrent (5.1.4-1)
+[2026-03-28T18:46:14+0530] [ALPM] transaction completed
+[2026-03-28T18:46:14+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-28T18:46:14+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-03-28T18:46:15+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-31T14:53:18+0530] [PACMAN] Running 'pacman -Syu'
+[2026-03-31T14:53:18+0530] [PACMAN] synchronizing package lists
+[2026-03-31T14:53:42+0530] [PACMAN] starting full system upgrade
+[2026-03-31T14:56:06+0530] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2026-03-31T14:56:06+0530] [ALPM] running '71-dkms-remove.hook'...
+[2026-03-31T14:56:07+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod nvidia/595.58.03 -k 6.19.9-arch1-1
+[2026-03-31T14:56:07+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod rtw89/r1673.84a2572 -k 6.19.9-arch1-1
+[2026-03-31T14:56:08+0530] [ALPM-SCRIPTLET] ==> depmod 6.19.9-arch1-1
+[2026-03-31T14:56:11+0530] [ALPM] transaction started
+[2026-03-31T14:56:11+0530] [ALPM] upgraded abseil-cpp (20250814.1-1 -> 20260107.1-1)
+[2026-03-31T14:56:11+0530] [ALPM] upgraded libcap-ng (0.9.1-1 -> 0.9.2-1)
+[2026-03-31T14:56:11+0530] [ALPM] upgraded audit (4.1.3-1 -> 4.1.4-2)
+[2026-03-31T14:56:11+0530] [ALPM] upgraded autoconf (2.72-1 -> 2.73-1)
+[2026-03-31T14:56:11+0530] [ALPM] upgraded boost-libs (1.89.0-4 -> 1.90.0-4)
+[2026-03-31T14:56:11+0530] [ALPM] upgraded libvpx (1.16.0-2 -> 1.16.0-3)
+[2026-03-31T14:56:11+0530] [ALPM] upgraded rubberband (4.0.0-1 -> 4.0.0-2)
+[2026-03-31T14:56:11+0530] [ALPM] upgraded svt-av1 (4.0.1-1 -> 4.1.0-1)
+[2026-03-31T14:56:11+0530] [ALPM] upgraded libwireplumber (0.5.13-2 -> 0.5.14-1)
+[2026-03-31T14:56:11+0530] [ALPM] upgraded wireplumber (0.5.13-2 -> 0.5.14-1)
+[2026-03-31T14:56:12+0530] [ALPM] upgraded llvm-libs (22.1.1-1 -> 22.1.2-1)
+[2026-03-31T14:56:12+0530] [ALPM] upgraded libngtcp2 (1.21.0-1 -> 1.22.0-1)
+[2026-03-31T14:56:12+0530] [ALPM] upgraded file (5.47-1 -> 5.47-2)
+[2026-03-31T14:56:12+0530] [ALPM] upgraded chromaprint (1.6.0-2 -> 1.6.0-3)
+[2026-03-31T14:56:12+0530] [ALPM] upgraded compiler-rt (22.1.1-1 -> 22.1.2-1)
+[2026-03-31T14:56:12+0530] [ALPM] upgraded libmpc (1.3.1-2 -> 1.4.0-1)
+[2026-03-31T14:56:12+0530] [ALPM] upgraded clang (22.1.1-1 -> 22.1.2-1)
+[2026-03-31T14:56:12+0530] [ALPM] upgraded cppdap (1.58.0-2 -> 1.58.0-3)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded cmake (4.3.0-2 -> 4.3.1-1)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded evince (1:48.1-1 -> 1:48.1-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded protobuf (33.1-4 -> 34.1-1)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded libphonenumber (1:9.0.27-1 -> 1:9.0.27-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded evolution-data-server (3.58.3-1 -> 3.58.3-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded exiv2 (0.28.8-1 -> 0.28.8-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded fastfetch (2.60.0-1 -> 2.61.0-1)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded fluidsynth (2.5.3-1 -> 2.5.3-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded geoclue (2.8.0-1 -> 2.8.0-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded glibmm-2.68 (2.86.0-1 -> 2.86.0-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded gnome-bluetooth-3.0 (47.1-2 -> 47.1-3)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded grilo (0.3.19-1 -> 0.3.19-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded imath (3.2.2-3 -> 3.2.2-4)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded grilo-plugins (1:0.3.18-2 -> 1:0.3.18-3)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded libcbor (0.12.0-1 -> 0.13.0-1)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded libedataserverui4 (3.58.3-1 -> 3.58.3-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded libtorrent-rasterbar (1:2.0.12-1 -> 1:2.0.12-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded libvlc (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:13+0530] [ALPM] upgraded libxdp (1.6.2-1 -> 1.6.3-1)
+[2026-03-31T14:56:14+0530] [ALPM] upgraded linux (6.19.9.arch1-1 -> 6.19.10.arch1-1)
+[2026-03-31T14:56:16+0530] [ALPM] upgraded linux-headers (6.19.9.arch1-1 -> 6.19.10.arch1-1)
+[2026-03-31T14:56:16+0530] [ALPM] upgraded luajit (2.1.1772619647+659a616-1 -> 2.1.1774896198+18b087c-1)
+[2026-03-31T14:56:16+0530] [ALPM] upgraded ndctl (82-1 -> 83-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded neovim (0.11.6-1 -> 0.11.7-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded opencv (4.13.0-2 -> 4.13.0-4)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded perl-clone (0.48-1 -> 0.50-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded perl-libwww (6.81-2 -> 6.82-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded perl-xml-parser (2.48-1 -> 2.49-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded protobuf-c (1.5.2-8 -> 1.5.2-9)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded python-cryptography (46.0.5-2 -> 46.0.6-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded python-requests (2.32.5-4 -> 2.33.1-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded python-aiohttp (3.13.3-1 -> 3.13.4-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded python-importlib-metadata (8.7.1-3 -> 9.0.0-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded python-proton-vpn-api-core (4.16.0-1 -> 4.17.2-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded proton-vpn-gtk-app (4.15.0-1 -> 4.15.1-1)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qt6-svg (6.11.0-1 -> 6.11.0-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qbittorrent (5.1.4-1 -> 5.1.4-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-common (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-audio-alsa (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-audio-dbus (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-audio-jack (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-audio-oss (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-audio-pa (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-audio-pipewire (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-audio-sdl (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-ui-opengl (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-ui-spice-core (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-audio-spice (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-img (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-x86-firmware (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-x86 (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-base (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-block-curl (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-block-dmg (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-block-gluster (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-block-iscsi (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-block-nfs (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-block-ssh (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-chardev-baum (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-chardev-spice (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-display-qxl (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-gl (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-rutabaga (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci-gl (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-display-virtio-gpu-pci-rutabaga (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-display-virtio-vga (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-display-virtio-vga-gl (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-display-virtio-vga-rutabaga (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-uefi-vars (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-usb-host (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-usb-redirect (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-hw-usb-smartcard (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-ui-curses (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-ui-dbus (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-ui-egl-headless (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-ui-gtk (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-ui-sdl (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-ui-spice-app (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-vhost-user-gpu (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-desktop (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-docs (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-aarch64 (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-alpha-firmware (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-alpha (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-arm-firmware (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-arm (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-avr (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-hppa-firmware (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-hppa (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-loongarch64 (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-m68k (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-microblaze-firmware (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:17+0530] [ALPM] upgraded qemu-system-microblaze (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-mips (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-or1k (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-ppc-firmware (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-ppc (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-riscv-firmware (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-riscv (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-rx (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-s390x-firmware (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-s390x (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-sh4 (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-sparc-firmware (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-sparc (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-tricore (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-system-xtensa (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-user (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-emulators-full (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-hw-s390x-virtio-gpu-ccw (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-pr-helper (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-tests (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-tools (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-vmsr-helper (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded qemu-full (10.2.2-1 -> 10.2.2-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded re2 (2:2025.11.05-1 -> 2:2025.11.05-3)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded tree (2.3.1-1 -> 2.3.2-1)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vim-runtime (9.2.0204-2 -> 9.2.0272-1)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vim (9.2.0204-2 -> 9.2.0272-1)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-alsa (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-a52dec (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-archive (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-dav1d (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-dbus (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-dbus-screensaver (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-faad2 (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-flac (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-gnutls (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-inflate (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-jpeg (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-journal (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-mpg123 (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-ogg (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-opus (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-png (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-shout (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-speex (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-tag (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-theora (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-twolame (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-vorbis (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-vpx (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-xml (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugins-base (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-cli (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-lua (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugin-pulse (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-plugins-video-output (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:18+0530] [ALPM] upgraded vlc-gui-qt (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:19+0530] [ALPM] upgraded vlc (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:19+0530] [ALPM] upgraded vlc-plugin-ffmpeg (3.0.22-1 -> 3.0.22-2)
+[2026-03-31T14:56:19+0530] [ALPM] upgraded wireshark-cli (4.6.4-1 -> 4.6.4-2)
+[2026-03-31T14:56:19+0530] [ALPM] upgraded wireshark-qt (4.6.4-1 -> 4.6.4-2)
+[2026-03-31T14:56:19+0530] [ALPM] upgraded xorg-setxkbmap (1.3.4-2 -> 1.3.5-1)
+[2026-03-31T14:56:19+0530] [ALPM] transaction completed
+[2026-03-31T14:56:20+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-03-31T14:56:20+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-03-31T14:56:20+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-03-31T14:56:21+0530] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2026-03-31T14:56:21+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-03-31T14:56:21+0530] [ALPM] running '35-systemd-enqueue-marked.hook'...
+[2026-03-31T14:56:21+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-03-31T14:56:22+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-03-31T14:56:22+0530] [ALPM] running '60-depmod.hook'...
+[2026-03-31T14:56:23+0530] [ALPM] running '70-dkms-install.hook'...
+[2026-03-31T14:56:23+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod nvidia/595.58.03 -k 6.19.10-arch1-1
+[2026-03-31T14:57:48+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod rtw89/r1673.84a2572 -k 6.19.10-arch1-1
+[2026-03-31T14:57:49+0530] [ALPM-SCRIPTLET] Deprecated feature: CLEAN (/usr/src/rtw89-r1673.84a2572/dkms.conf)
+[2026-03-31T14:58:09+0530] [ALPM-SCRIPTLET] ==> depmod 6.19.10-arch1-1
+[2026-03-31T14:58:12+0530] [ALPM] running '90-mkinitcpio-install.hook'...
+[2026-03-31T14:58:13+0530] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2026-03-31T14:58:13+0530] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2026-03-31T14:58:13+0530] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -g /boot/initramfs-linux.img
+[2026-03-31T14:58:13+0530] [ALPM-SCRIPTLET] ==> Starting build: '6.19.10-arch1-1'
+[2026-03-31T14:58:13+0530] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2026-03-31T14:58:13+0530] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2026-03-31T14:58:13+0530] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2026-03-31T14:58:13+0530] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2026-03-31T14:58:13+0530] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2026-03-31T14:58:13+0530] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2026-03-31T14:58:19+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2026-03-31T14:58:19+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2026-03-31T14:58:19+0530] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2026-03-31T14:58:19+0530] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2026-03-31T14:58:20+0530] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2026-03-31T14:58:20+0530] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2026-03-31T14:58:20+0530] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2026-03-31T14:58:20+0530] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux.img'
+[2026-03-31T14:58:21+0530] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2026-03-31T14:58:21+0530] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2026-03-31T14:58:21+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-03-31T14:58:21+0530] [ALPM] running 'detect-old-perl-modules.hook'...
+[2026-03-31T14:58:21+0530] [ALPM] running 'glib-compile-schemas.hook'...
+[2026-03-31T14:58:22+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-03-31T14:58:22+0530] [ALPM] running 'texinfo-install.hook'...
+[2026-03-31T14:58:22+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-03-31T14:58:22+0530] [ALPM] running 'update-vlc-plugin-cache.hook'...
+[2026-04-02T11:26:05+0530] [PACMAN] Running 'pacman -Syu'
+[2026-04-02T11:26:05+0530] [PACMAN] synchronizing package lists
+[2026-04-02T11:26:07+0530] [PACMAN] starting full system upgrade
+[2026-04-02T11:26:14+0530] [ALPM] transaction started
+[2026-04-02T11:26:14+0530] [ALPM] upgraded xz (5.8.2-1 -> 5.8.3-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded leancrypto (1.7.0-1 -> 1.7.1-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded dkms (3.3.0-1 -> 3.4.0-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded gtk-update-icon-cache (1:4.20.3-1 -> 1:4.20.4-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded gtk4 (1:4.20.3-1 -> 1:4.20.4-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded libinput (1.31.0-1 -> 1.31.1-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded libinput-tools (1.31.0-1 -> 1.31.1-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded libvips (8.18.0-1 -> 8.18.2-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded libvirt (1:12.1.0-1 -> 1:12.2.0-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded libvirt-python (1:12.1.0-1 -> 1:12.2.0-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded libvlc (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded ndctl (83-1 -> 84-1)
+[2026-04-02T11:26:14+0530] [ALPM] upgraded openvpn (2.7.0-1 -> 2.7.1-1)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vim-runtime (9.2.0272-1 -> 9.2.0277-1)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vim (9.2.0272-1 -> 9.2.0277-1)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-alsa (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-a52dec (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-archive (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-dav1d (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-dbus (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-dbus-screensaver (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-faad2 (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-flac (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-gnutls (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-inflate (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-jpeg (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-journal (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-mpg123 (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-ogg (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-opus (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-png (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-shout (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-speex (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-tag (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-theora (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-twolame (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-vorbis (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-vpx (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-xml (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugins-base (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-cli (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-lua (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-pulse (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugins-video-output (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-gui-qt (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] upgraded vlc-plugin-ffmpeg (3.0.22-2 -> 3.0.22-3)
+[2026-04-02T11:26:15+0530] [ALPM] transaction completed
+[2026-04-02T11:26:15+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-04-02T11:26:15+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-04-02T11:26:15+0530] [ALPM] running '25-systemd-sysctl.hook'...
+[2026-04-02T11:26:15+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-04-02T11:26:16+0530] [ALPM] running '35-systemd-enqueue-marked.hook'...
+[2026-04-02T11:26:16+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-04-02T11:26:17+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-02T11:26:17+0530] [ALPM] running 'glib-compile-schemas.hook'...
+[2026-04-02T11:26:17+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-02T11:26:17+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-02T11:26:17+0530] [ALPM] running 'update-vlc-plugin-cache.hook'...
+[2026-04-02T11:27:20+0530] [PACMAN] Running 'pacman -S linux linux-headers'
+[2026-04-02T11:27:23+0530] [ALPM] running '70-dkms-upgrade.hook'...
+[2026-04-02T11:27:24+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod nvidia/595.58.03 -k 6.19.10-arch1-1
+[2026-04-02T11:27:24+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod rtw89/r1673.84a2572 -k 6.19.10-arch1-1
+[2026-04-02T11:27:28+0530] [ALPM] transaction started
+[2026-04-02T11:27:28+0530] [ALPM] reinstalled linux (6.19.10.arch1-1)
+[2026-04-02T11:27:29+0530] [ALPM] reinstalled linux-headers (6.19.10.arch1-1)
+[2026-04-02T11:27:30+0530] [ALPM] transaction completed
+[2026-04-02T11:27:30+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-02T11:27:30+0530] [ALPM] running '60-depmod.hook'...
+[2026-04-02T11:27:31+0530] [ALPM] running '70-dkms-install.hook'...
+[2026-04-02T11:27:31+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod nvidia/595.58.03 -k 6.19.10-arch1-1
+[2026-04-02T11:28:43+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod rtw89/r1673.84a2572 -k 6.19.10-arch1-1
+[2026-04-02T11:28:43+0530] [ALPM-SCRIPTLET] Deprecated feature: CLEAN (/usr/src/rtw89-r1673.84a2572/dkms.conf)
+[2026-04-02T11:29:01+0530] [ALPM-SCRIPTLET] ==> depmod 6.19.10-arch1-1
+[2026-04-02T11:29:04+0530] [ALPM] running '90-mkinitcpio-install.hook'...
+[2026-04-02T11:29:04+0530] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2026-04-02T11:29:04+0530] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2026-04-02T11:29:04+0530] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -g /boot/initramfs-linux.img
+[2026-04-02T11:29:04+0530] [ALPM-SCRIPTLET] ==> Starting build: '6.19.10-arch1-1'
+[2026-04-02T11:29:04+0530] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2026-04-02T11:29:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2026-04-02T11:29:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2026-04-02T11:29:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2026-04-02T11:29:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2026-04-02T11:29:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2026-04-02T11:29:11+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2026-04-02T11:29:11+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2026-04-02T11:29:11+0530] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2026-04-02T11:29:11+0530] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2026-04-02T11:29:12+0530] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2026-04-02T11:29:12+0530] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2026-04-02T11:29:12+0530] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2026-04-02T11:29:12+0530] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux.img'
+[2026-04-02T11:29:12+0530] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2026-04-02T11:29:13+0530] [ALPM-SCRIPTLET] ==> Initcpio image generation successful

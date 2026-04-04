@@ -222,7 +222,7 @@ exec_always --no-startup-id xfce4-power-manager
 # Lock the screen
 bindsym $mod+x exec --no-startup-id systemctl suspend
 bindsym $mod+z exec betterlockscreen -l
-bindsym $mod+u exec betterlockscreen -u ~/Documents/lock-wallpapers
+bindsym $mod+u exec betterlockscreen -u ~/Documents/wallpapers/prime
 
 # -- APP shortcuts
 bindsym Control+Mod1+b exec microsoft-edge-stable --force-device-scale-factor=0.9

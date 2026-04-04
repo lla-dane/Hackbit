@@ -31,6 +31,14 @@
 - [Screenshot](#screenshot)
 - [microsoft edge scaling issue](#microsoft-edge-scaling-issue)
 
+## VLC:
+```zsh
+sudo pacman -S vlc-plugin-ffmpeg vlc 
+
+# Recommended
+sudo pacman -S vlc-plugins-all
+
+```
 
 ## Arch Minimal:
 Install the minimal profile from archinstall script
