@@ -1,5 +1,6 @@
 # Table of Contents:
 
+- [Github](#github)
 - [AsusCTL](#asusctl)
 - [yay](#yay)
 - [Arch Minimal](#arch-minimal)
@@ -32,6 +33,15 @@
 - [i3 config](#i3-config) 
 - [Screenshot](#screenshot)
 - [microsoft edge scaling issue](#microsoft-edge-scaling-issue)
+
+## Github:
+```zsh
+gh auth login
+
+git config --global user.email "abhinavagarwalla6@gmail.com"
+git config --global user.name "lla-dane"
+
+```
 
 ## AsusCTL:
 ```zsh
