@@ -6,12 +6,12 @@ PERCENTAGE=$(cat /sys/class/power_supply/BAT1/capacity)
 
 # Logic to display a different icon based on charging status
 if [ "$STATUS" = "Charging" ]; then
-    ICON="🔌"
+    ICON="⌛"
 elif [ "$STATUS" = "Full" ]; then
-    ICON="⚡"
+    ICON="✿"
 else
     # Discharging or Not charging
-    ICON="🔋"
+    ICON="⏻"
 fi
 
 # Final output for the status bar

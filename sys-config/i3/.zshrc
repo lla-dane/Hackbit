@@ -120,10 +120,10 @@ compdef _scarb scarb
 ## ------ALIASES------
 
 # --POWER-PROFILES--
-alias power-high="asusctl profile -P Performance"
-alias power-mid="asusctl profile -P Balanced"
-alias power-low="asusctl profile -P Quiet"
-alias power="asusctl profile -p"
+alias power-high="asusctl profile set Performance"
+alias power-mid="asusctl profile set Balanced"
+alias power-low="asusctl profile set Quiet"
+alias power="asusctl profile get"
 
 # --GPU-PROFILES--
 alias gpu-integrated="supergfxctl -m Integrated"
@@ -135,7 +135,7 @@ alias starkup="curl --proto '=https' --tlsv1.2 -sSf https://sh.starkup.sh | sh -
 alias open='xdg-open'
 alias terminal='gnome-terminal'
 alias light='xrandr --output HDMI-1-0 --brightness'
-alias screen='xrandr --output DP-2 --mode 2560x1440 --left-of eDP-1 --auto'
+alias screen='xrandr --output DP-1-0 --mode 2560x1440 --left-of eDP-1 --auto'
 alias wallpaper="~/Desktop/Hackbit/sys-config/i3/scripts/i3_wallpaper.sh & disown"
 alias st-hanabi='gnome-extensions enable hanabi-extension@jeffshee.github.io'
 alias sp-hanabi='gnome-extensions disable hanabi-extension@jeffshee.github.io'

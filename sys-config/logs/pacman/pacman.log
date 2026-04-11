@@ -3836,3 +3836,400 @@
 [2026-04-02T11:29:12+0530] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux.img'
 [2026-04-02T11:29:12+0530] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
 [2026-04-02T11:29:13+0530] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2026-04-10T16:04:35+0530] [PACMAN] Running 'pacman -S nvim'
+[2026-04-10T16:04:41+0530] [ALPM] transaction started
+[2026-04-10T16:04:41+0530] [ALPM] installed libuv (1.52.1-1)
+[2026-04-10T16:04:41+0530] [ALPM] installed luajit (2.1.1774896198+18b087c-1)
+[2026-04-10T16:04:41+0530] [ALPM] installed libluv (1.52.1-1)
+[2026-04-10T16:04:41+0530] [ALPM] installed tree-sitter (0.26.8-1)
+[2026-04-10T16:04:41+0530] [ALPM] installed unibilium (2.1.2-1)
+[2026-04-10T16:04:41+0530] [ALPM] installed libutf8proc (2.11.3-1)
+[2026-04-10T16:04:41+0530] [ALPM] installed libvterm (0.3.3-2)
+[2026-04-10T16:04:41+0530] [ALPM] installed lua51-lpeg (1.1.0-5)
+[2026-04-10T16:04:41+0530] [ALPM] installed msgpack-c (6.1.0-2)
+[2026-04-10T16:04:41+0530] [ALPM] installed tree-sitter-c (0.24.1-2)
+[2026-04-10T16:04:41+0530] [ALPM] installed tree-sitter-lua (0.5.0-3)
+[2026-04-10T16:04:41+0530] [ALPM] installed tree-sitter-markdown (0.5.3-2)
+[2026-04-10T16:04:41+0530] [ALPM] installed tree-sitter-query (0.8.0-2)
+[2026-04-10T16:04:41+0530] [ALPM] installed tree-sitter-vim (0.8.1-3)
+[2026-04-10T16:04:41+0530] [ALPM] installed tree-sitter-vimdoc (4.1.0-2)
+[2026-04-10T16:04:42+0530] [ALPM] installed neovim (0.12.1-1)
+[2026-04-10T16:04:42+0530] [ALPM] transaction completed
+[2026-04-10T16:04:42+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:04:42+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T16:04:42+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T16:05:54+0530] [PACMAN] Running 'pacman -S gnome-calender'
+[2026-04-10T16:06:07+0530] [PACMAN] Running 'pacman -S proton-vpn-gtk-app'
+[2026-04-10T16:06:19+0530] [ALPM] transaction started
+[2026-04-10T16:06:19+0530] [ALPM] installed python-cairo (1.29.0-2)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-distro (1.9.0-4)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-packaging (26.0-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed cython (3.2.4-3)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-dbus-fast (4.0.1-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-psutil (7.2.2-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed compiler-rt (22.1.3-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed clang (22.1.3-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed bcc (0.36.1-3)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-bcc (0.36.1-3)
+[2026-04-10T16:06:19+0530] [ALPM] installed pkcs11-helper (1.31.0-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed openvpn (2.7.1-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed networkmanager-vpn-plugin-openvpn (1.12.5-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed networkmanager-openvpn (1.12.5-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-pycparser (3.00-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-cffi (2.0.0-2)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-cryptography (46.0.7-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-markupsafe (3.0.3-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-jinja (1:3.1.6-3)
+[2026-04-10T16:06:19+0530] [ALPM] installed llhttp (9.3.1-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-aiohappyeyeballs (2.6.1-4)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-frozenlist (1.8.0-2)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-aiosignal (1.4.0-3)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-attrs (26.1.0-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-multidict (6.7.1-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-propcache (0.4.1-2)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-idna (3.11-2)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-yarl (1.23.0-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-aiohttp (3.13.5-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-bcrypt (5.0.0-2)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-gnupg (0.5.6-2)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-zipp (3.21.0-4)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-importlib-metadata (9.0.0-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-pyopenssl (26.0.0-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-charset-normalizer (3.4.7-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-urllib3 (2.6.3-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-certifi (2026.02.25-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-requests (2.33.1-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-proton-core (0.7.0-3)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-proton-vpn-local-agent (1.6.1-1)
+[2026-04-10T16:06:19+0530] [ALPM] installed python-pynacl (1.6.2-1)
+[2026-04-10T16:06:20+0530] [ALPM] installed python-sentry_sdk (2.57.0-1)
+[2026-04-10T16:06:20+0530] [ALPM] installed python-fido2 (2.1.1-1)
+[2026-04-10T16:06:20+0530] [ALPM] installed python-proton-vpn-api-core (4.18.0-1)
+[2026-04-10T16:06:20+0530] [ALPM] installed wireguard-tools (1.0.20260223-1)
+[2026-04-10T16:06:20+0530] [ALPM] installed proton-vpn-daemon (0.13.6-1)
+[2026-04-10T16:06:20+0530] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/system/multi-user.target.wants/proton.VPN.service' → '/usr/lib/systemd/system/proton.VPN.service'.
+[2026-04-10T16:06:20+0530] [ALPM] installed python-more-itertools (11.0.2-1)
+[2026-04-10T16:06:20+0530] [ALPM] installed python-jaraco.classes (3.4.0-3)
+[2026-04-10T16:06:20+0530] [ALPM] installed python-jaraco.context (6.1.2-1)
+[2026-04-10T16:06:20+0530] [ALPM] installed python-jaraco.functools (4.1.0-3)
+[2026-04-10T16:06:20+0530] [ALPM] installed python-jeepney (0.9.0-3)
+[2026-04-10T16:06:20+0530] [ALPM] installed python-secretstorage (3.5.0-1)
+[2026-04-10T16:06:20+0530] [ALPM] installed python-keyring (25.7.0-3)
+[2026-04-10T16:06:20+0530] [ALPM] installed gcr (3.41.2-2)
+[2026-04-10T16:06:20+0530] [ALPM] installed gnome-keyring (1:50.0-1)
+[2026-04-10T16:06:20+0530] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/user/sockets.target.wants/gnome-keyring-daemon.socket' → '/usr/lib/systemd/user/gnome-keyring-daemon.socket'.
+[2026-04-10T16:06:20+0530] [ALPM] installed python-proton-keyring-linux (0.2.1-4)
+[2026-04-10T16:06:20+0530] [ALPM] installed proton-vpn-gtk-app (4.15.1-1)
+[2026-04-10T16:06:20+0530] [ALPM] transaction completed
+[2026-04-10T16:06:20+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-04-10T16:06:20+0530] [ALPM-SCRIPTLET] Creating group 'nm-openvpn' with GID 962.
+[2026-04-10T16:06:20+0530] [ALPM-SCRIPTLET] Creating user 'nm-openvpn' (NetworkManager OpenVPN) with UID 962 and GID 962.
+[2026-04-10T16:06:20+0530] [ALPM-SCRIPTLET] Creating group 'openvpn' with GID 961.
+[2026-04-10T16:06:20+0530] [ALPM-SCRIPTLET] Creating user 'openvpn' (OpenVPN) with UID 961 and GID 961.
+[2026-04-10T16:06:20+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-04-10T16:06:21+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-04-10T16:06:21+0530] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2026-04-10T16:06:21+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-04-10T16:06:21+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:06:21+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-04-10T16:06:21+0530] [ALPM] running 'glib-compile-schemas.hook'...
+[2026-04-10T16:06:21+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T16:06:21+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T16:11:39+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/imagemagick'
+[2026-04-10T16:11:42+0530] [ALPM] transaction started
+[2026-04-10T16:11:42+0530] [ALPM] installed liblqr (0.4.3-1)
+[2026-04-10T16:11:42+0530] [ALPM] installed libraqm (0.10.4-1)
+[2026-04-10T16:11:42+0530] [ALPM] installed imagemagick (7.1.2.18-2)
+[2026-04-10T16:11:42+0530] [ALPM] transaction completed
+[2026-04-10T16:11:42+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:11:42+0530] [ALPM] running 'detect-old-perl-modules.hook'...
+[2026-04-10T16:11:43+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- imagemagick'
+[2026-04-10T16:11:55+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/microsoft-edge-stable-bin/microsoft-edge-stable-bin-146.0.3856.97-1-x86_64.pkg.tar.zst'
+[2026-04-10T16:11:57+0530] [ALPM] transaction started
+[2026-04-10T16:11:58+0530] [ALPM] installed microsoft-edge-stable-bin (146.0.3856.97-1)
+[2026-04-10T16:11:58+0530] [ALPM] transaction completed
+[2026-04-10T16:11:58+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:11:58+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T16:11:58+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T16:11:58+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- microsoft-edge-stable-bin'
+[2026-04-10T16:11:58+0530] [PACMAN] Running 'pacman -R -s -u --noconfirm --config /etc/pacman.conf -- imagemagick'
+[2026-04-10T16:11:58+0530] [ALPM] transaction started
+[2026-04-10T16:11:58+0530] [ALPM] removed imagemagick (7.1.2.18-2)
+[2026-04-10T16:11:58+0530] [ALPM] removed libraqm (0.10.4-1)
+[2026-04-10T16:11:58+0530] [ALPM] removed liblqr (0.4.3-1)
+[2026-04-10T16:11:58+0530] [ALPM] transaction completed
+[2026-04-10T16:11:58+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:15:44+0530] [PACMAN] Running 'pacman -S feh'
+[2026-04-10T16:15:46+0530] [ALPM] transaction started
+[2026-04-10T16:15:46+0530] [ALPM] installed imlib2 (1.12.6-1)
+[2026-04-10T16:15:46+0530] [ALPM] installed feh (3.11.4-1)
+[2026-04-10T16:15:46+0530] [ALPM] transaction completed
+[2026-04-10T16:15:46+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:15:46+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T16:15:46+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T16:24:13+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/imagemagick'
+[2026-04-10T16:24:14+0530] [ALPM] transaction started
+[2026-04-10T16:24:14+0530] [ALPM] installed liblqr (0.4.3-1)
+[2026-04-10T16:24:14+0530] [ALPM] installed libraqm (0.10.4-1)
+[2026-04-10T16:24:14+0530] [ALPM] installed imagemagick (7.1.2.18-2)
+[2026-04-10T16:24:14+0530] [ALPM] transaction completed
+[2026-04-10T16:24:14+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:24:14+0530] [ALPM] running 'detect-old-perl-modules.hook'...
+[2026-04-10T16:24:15+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- imagemagick'
+[2026-04-10T16:24:18+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/microsoft-edge-stable-bin/microsoft-edge-stable-bin-146.0.3856.97-1-x86_64.pkg.tar.zst'
+[2026-04-10T16:24:19+0530] [ALPM] transaction started
+[2026-04-10T16:24:20+0530] [ALPM] reinstalled microsoft-edge-stable-bin (146.0.3856.97-1)
+[2026-04-10T16:24:20+0530] [ALPM] transaction completed
+[2026-04-10T16:24:20+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:24:20+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T16:24:20+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T16:24:20+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- microsoft-edge-stable-bin'
+[2026-04-10T16:25:22+0530] [PACMAN] Running 'pacman -R -n -s --config /etc/pacman.conf -- microsoft-edge-stable'
+[2026-04-10T16:25:26+0530] [PACMAN] Running 'pacman -R --config /etc/pacman.conf -- microsoft-edge-stable'
+[2026-04-10T16:25:29+0530] [PACMAN] Running 'pacman -R --config /etc/pacman.conf -- microsoft-edge-stable-bin'
+[2026-04-10T16:25:31+0530] [ALPM] transaction started
+[2026-04-10T16:25:31+0530] [ALPM] removed microsoft-edge-stable-bin (146.0.3856.97-1)
+[2026-04-10T16:25:31+0530] [ALPM] transaction completed
+[2026-04-10T16:25:31+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:25:31+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T16:25:31+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T16:26:04+0530] [PACMAN] Running 'pacman -S microsoft-edge-stable-bin'
+[2026-04-10T16:26:18+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/microsoft-edge-stable-bin/microsoft-edge-stable-bin-146.0.3856.97-1-x86_64.pkg.tar.zst'
+[2026-04-10T16:26:19+0530] [ALPM] transaction started
+[2026-04-10T16:26:20+0530] [ALPM] installed microsoft-edge-stable-bin (146.0.3856.97-1)
+[2026-04-10T16:26:20+0530] [ALPM] transaction completed
+[2026-04-10T16:26:20+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:26:20+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T16:26:20+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T16:26:20+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- microsoft-edge-stable-bin'
+[2026-04-10T16:28:00+0530] [PACMAN] Running 'pacman -Syu'
+[2026-04-10T16:28:00+0530] [PACMAN] synchronizing package lists
+[2026-04-10T16:28:03+0530] [PACMAN] starting full system upgrade
+[2026-04-10T16:28:05+0530] [ALPM] transaction started
+[2026-04-10T16:28:05+0530] [ALPM] upgraded sqlite (3.53.0-1 -> 3.53.0-2)
+[2026-04-10T16:28:05+0530] [ALPM] transaction completed
+[2026-04-10T16:28:05+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:39:12+0530] [PACMAN] Running 'pacman -S lightdm lightdm-gtk-greeter'
+[2026-04-10T16:39:14+0530] [ALPM] transaction started
+[2026-04-10T16:39:14+0530] [ALPM] reinstalled lightdm (1:1.32.0-6)
+[2026-04-10T16:39:14+0530] [ALPM] reinstalled lightdm-gtk-greeter (1:2.0.9-2)
+[2026-04-10T16:39:15+0530] [ALPM] transaction completed
+[2026-04-10T16:39:15+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-04-10T16:39:15+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-04-10T16:39:15+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-04-10T16:39:15+0530] [ALPM] running '35-systemd-enqueue-marked.hook'...
+[2026-04-10T16:39:15+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:39:15+0530] [ALPM] running 'accounts-daemon-restart.hook'...
+[2026-04-10T16:39:15+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-04-10T16:39:15+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T16:53:01+0530] [PACMAN] Running 'pacman -S linux-headers'
+[2026-04-10T16:53:02+0530] [ALPM] running '70-dkms-upgrade.hook'...
+[2026-04-10T16:53:02+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod nvidia/595.58.03 -k 6.19.11-arch1-1
+[2026-04-10T16:53:06+0530] [ALPM] transaction started
+[2026-04-10T16:53:07+0530] [ALPM] reinstalled linux-headers (6.19.11.arch1-1)
+[2026-04-10T16:53:07+0530] [ALPM] transaction completed
+[2026-04-10T16:53:07+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:53:07+0530] [ALPM] running '60-depmod.hook'...
+[2026-04-10T16:53:09+0530] [ALPM] running '70-dkms-install.hook'...
+[2026-04-10T16:53:09+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod nvidia/595.58.03 -k 6.19.11-arch1-1
+[2026-04-10T16:54:14+0530] [ALPM-SCRIPTLET] ==> depmod 6.19.11-arch1-1
+[2026-04-10T16:54:33+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/cmake extra/seatd extra/libayatana-appindicator extra/rust'
+[2026-04-10T16:54:45+0530] [ALPM] transaction started
+[2026-04-10T16:54:45+0530] [ALPM] installed cppdap (1.58.0-3)
+[2026-04-10T16:54:45+0530] [ALPM] installed jsoncpp (1.9.6-3)
+[2026-04-10T16:54:45+0530] [ALPM] installed rhash (1.4.6-1)
+[2026-04-10T16:54:46+0530] [ALPM] installed cmake (4.3.1-1)
+[2026-04-10T16:54:46+0530] [ALPM] installed seatd (0.9.3-1)
+[2026-04-10T16:54:46+0530] [ALPM] installed ayatana-ido (0.10.4-1)
+[2026-04-10T16:54:46+0530] [ALPM] installed libayatana-indicator (0.9.4-1)
+[2026-04-10T16:54:46+0530] [ALPM] installed libayatana-appindicator (0.5.94-1)
+[2026-04-10T16:54:46+0530] [ALPM] installed libgit2 (1:1.9.2-3)
+[2026-04-10T16:54:46+0530] [ALPM] installed lld (22.1.3-1)
+[2026-04-10T16:54:46+0530] [ALPM] installed rust (1:1.94.1-1)
+[2026-04-10T16:54:46+0530] [ALPM] transaction completed
+[2026-04-10T16:54:46+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-04-10T16:54:46+0530] [ALPM-SCRIPTLET] Creating group 'seat' with GID 960.
+[2026-04-10T16:54:46+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-04-10T16:54:47+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-04-10T16:54:47+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T16:54:47+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T16:54:47+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T16:54:47+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- libayatana-appindicator rust cmake seatd'
+[2026-04-10T17:05:23+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/asusctl/asusctl-6.3.6-1-x86_64.pkg.tar.zst /home/soi/.cache/yay/asusctl/asusctl-debug-6.3.6-1-x86_64.pkg.tar.zst'
+[2026-04-10T17:05:24+0530] [ALPM] transaction started
+[2026-04-10T17:05:24+0530] [ALPM] installed asusctl (6.3.6-1)
+[2026-04-10T17:05:24+0530] [ALPM-SCRIPTLET] :: asusd provides a service that is activated by an udev rule on
+[2026-04-10T17:05:24+0530] [ALPM-SCRIPTLET] :: startup. Please reboot the system or run
+[2026-04-10T17:05:24+0530] [ALPM-SCRIPTLET] :: # systemctl start asusd.service
+[2026-04-10T17:05:24+0530] [ALPM-SCRIPTLET] :: to make it work.
+[2026-04-10T17:05:24+0530] [ALPM-SCRIPTLET] :: See https://gitlab.com/asus-linux/asusctl#kernel-support.
+[2026-04-10T17:05:24+0530] [ALPM-SCRIPTLET] :: for latest required kernel patches/versions
+[2026-04-10T17:05:24+0530] [ALPM] installed asusctl-debug (6.3.6-1)
+[2026-04-10T17:05:24+0530] [ALPM] transaction completed
+[2026-04-10T17:05:24+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-04-10T17:05:25+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-04-10T17:05:25+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T17:05:25+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-04-10T17:05:25+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- asusctl-debug'
+[2026-04-10T17:05:25+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- asusctl'
+[2026-04-10T17:06:40+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/asusctl/rog-control-center-6.3.6-1-x86_64.pkg.tar.zst'
+[2026-04-10T17:06:43+0530] [ALPM] transaction started
+[2026-04-10T17:06:43+0530] [ALPM] installed rog-control-center (6.3.6-1)
+[2026-04-10T17:06:43+0530] [ALPM] transaction completed
+[2026-04-10T17:06:43+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T17:06:43+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T17:06:43+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T17:06:43+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- rog-control-center'
+[2026-04-10T17:14:06+0530] [PACMAN] Running 'pacman -S flameshot'
+[2026-04-10T17:14:09+0530] [ALPM] transaction started
+[2026-04-10T17:14:09+0530] [ALPM] installed double-conversion (3.4.0-1)
+[2026-04-10T17:14:09+0530] [ALPM] installed libb2 (0.98.1-3)
+[2026-04-10T17:14:09+0530] [ALPM] installed md4c (0.5.2-2)
+[2026-04-10T17:14:09+0530] [ALPM] installed tslib (1.24-1)
+[2026-04-10T17:14:09+0530] [ALPM] installed qt6-translations (6.11.0-1)
+[2026-04-10T17:14:10+0530] [ALPM] installed qt6-base (6.11.0-2)
+[2026-04-10T17:14:10+0530] [ALPM] installed qt6-svg (6.11.0-2)
+[2026-04-10T17:14:10+0530] [ALPM] installed kguiaddons (6.24.0-3)
+[2026-04-10T17:14:10+0530] [ALPM] installed flameshot (13.3.0-2)
+[2026-04-10T17:14:10+0530] [ALPM] transaction completed
+[2026-04-10T17:14:10+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T17:14:10+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T17:14:10+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T17:21:51+0530] [PACMAN] Running '/usr/bin/pacman -S --asdeps squashfs-tools apparmor'
+[2026-04-10T17:21:53+0530] [ALPM] transaction started
+[2026-04-10T17:21:53+0530] [ALPM] installed squashfs-tools (4.7.5-1)
+[2026-04-10T17:21:53+0530] [ALPM] installed python-legacy-cgi (2.6.4-2)
+[2026-04-10T17:21:53+0530] [ALPM] installed apparmor (4.1.7-1)
+[2026-04-10T17:21:53+0530] [ALPM] transaction completed
+[2026-04-10T17:21:53+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-04-10T17:21:53+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T17:21:53+0530] [ALPM] running 'detect-old-perl-modules.hook'...
+[2026-04-10T17:21:58+0530] [PACMAN] Running '/usr/bin/pacman -S --asdeps go-tools xfsprogs python-docutils autoconf-archive'
+[2026-04-10T17:22:12+0530] [ALPM] transaction started
+[2026-04-10T17:22:12+0530] [ALPM] installed go-tools (4:0.44.0-1)
+[2026-04-10T17:22:12+0530] [ALPM] installed liburcu (0.15.6-1)
+[2026-04-10T17:22:12+0530] [ALPM] installed xfsprogs (6.19.0-1)
+[2026-04-10T17:22:12+0530] [ALPM] installed python-docutils (1:0.22.4-1)
+[2026-04-10T17:22:12+0530] [ALPM] installed autoconf-archive (1:2024.10.16-4)
+[2026-04-10T17:22:13+0530] [ALPM] transaction completed
+[2026-04-10T17:22:13+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-04-10T17:22:13+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-04-10T17:22:13+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T17:22:13+0530] [ALPM] running 'texinfo-install.hook'...
+[2026-04-10T17:23:24+0530] [PACMAN] Running '/usr/bin/pacman -U /home/soi/snapd/snapd-2.74.1-2-x86_64.pkg.tar.zst'
+[2026-04-10T17:23:27+0530] [ALPM] transaction started
+[2026-04-10T17:23:27+0530] [ALPM] installed snapd (2.74.1-2)
+[2026-04-10T17:23:27+0530] [ALPM] transaction completed
+[2026-04-10T17:23:27+0530] [ALPM] running '21-systemd-tmpfiles.hook'...
+[2026-04-10T17:23:27+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-04-10T17:23:27+0530] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2026-04-10T17:23:27+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T17:23:27+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-04-10T17:23:27+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T17:37:10+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/lsof'
+[2026-04-10T17:37:13+0530] [ALPM] transaction started
+[2026-04-10T17:37:13+0530] [ALPM] installed lsof (4.99.6-1)
+[2026-04-10T17:37:13+0530] [ALPM] transaction completed
+[2026-04-10T17:37:13+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T17:37:13+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- lsof'
+[2026-04-10T17:37:40+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/visual-studio-code-bin/visual-studio-code-bin-1.115.0-1-x86_64.pkg.tar.zst'
+[2026-04-10T17:39:13+0530] [ALPM] transaction started
+[2026-04-10T17:39:14+0530] [ALPM] installed visual-studio-code-bin (1.115.0-1)
+[2026-04-10T17:39:14+0530] [ALPM-SCRIPTLET] (B[m[1m[34m==>(B[m[1m[33m NOTE:(B[m[1m Custom flags should be put directly in: ~/.config/code-flags.conf(B[m
+[2026-04-10T17:39:14+0530] [ALPM] transaction completed
+[2026-04-10T17:39:14+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-04-10T17:39:14+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T17:39:14+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T17:39:14+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- visual-studio-code-bin'
+[2026-04-10T17:51:11+0530] [PACMAN] Running 'pacman -S glmark'
+[2026-04-10T17:51:29+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/glmark2'
+[2026-04-10T17:51:35+0530] [ALPM] transaction started
+[2026-04-10T17:51:35+0530] [ALPM] installed glmark2 (2023.01-2)
+[2026-04-10T17:51:35+0530] [ALPM] transaction completed
+[2026-04-10T17:51:35+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T17:51:35+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- glmark2'
+[2026-04-10T17:52:06+0530] [PACMAN] Running 'pacman -S nvtop'
+[2026-04-10T17:52:08+0530] [ALPM] transaction started
+[2026-04-10T17:52:08+0530] [ALPM] installed nvtop (3.3.2-1)
+[2026-04-10T17:52:08+0530] [ALPM] transaction completed
+[2026-04-10T17:52:08+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T17:52:08+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T17:52:08+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T18:01:36+0530] [PACMAN] Running 'pacman -S pavucontrol'
+[2026-04-10T18:01:38+0530] [ALPM] transaction started
+[2026-04-10T18:01:38+0530] [ALPM] installed libsigc++-3.0 (3.8.0-1)
+[2026-04-10T18:01:38+0530] [ALPM] installed glibmm-2.68 (2.88.0-1)
+[2026-04-10T18:01:38+0530] [ALPM] installed cairomm-1.16 (1.18.0-2)
+[2026-04-10T18:01:38+0530] [ALPM] installed pangomm-2.48 (2.56.1-1)
+[2026-04-10T18:01:38+0530] [ALPM] installed gtkmm-4.0 (4.22.0-1)
+[2026-04-10T18:01:38+0530] [ALPM] installed pavucontrol (1:6.2-1)
+[2026-04-10T18:01:38+0530] [ALPM] transaction completed
+[2026-04-10T18:01:38+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T18:01:38+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-10T18:01:38+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-10T18:52:23+0530] [PACMAN] Running 'pacman -S betterlockscreen'
+[2026-04-10T18:52:59+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/xorg-xset extra/xorg-xdpyinfo extra/bc'
+[2026-04-10T18:53:08+0530] [ALPM] transaction started
+[2026-04-10T18:53:08+0530] [ALPM] installed xorg-xset (1.2.5-2)
+[2026-04-10T18:53:08+0530] [ALPM] installed xorg-xdpyinfo (1.4.0-1)
+[2026-04-10T18:53:08+0530] [ALPM] installed bc (1.08.2-1)
+[2026-04-10T18:53:08+0530] [ALPM] transaction completed
+[2026-04-10T18:53:08+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T18:53:08+0530] [ALPM] running 'texinfo-install.hook'...
+[2026-04-10T18:53:09+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- xorg-xset xorg-xdpyinfo bc'
+[2026-04-10T18:53:26+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/i3lock-color/i3lock-color-2.13.c.5-3-x86_64.pkg.tar.zst /home/soi/.cache/yay/i3lock-color/i3lock-color-debug-2.13.c.5-3-x86_64.pkg.tar.zst'
+[2026-04-10T18:53:51+0530] [ALPM] transaction started
+[2026-04-10T18:53:52+0530] [ALPM] removed i3lock (2.16-1)
+[2026-04-10T18:53:52+0530] [ALPM] installed i3lock-color (2.13.c.5-3)
+[2026-04-10T18:53:52+0530] [ALPM] installed i3lock-color-debug (2.13.c.5-3)
+[2026-04-10T18:53:52+0530] [ALPM] transaction completed
+[2026-04-10T18:53:52+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T18:53:52+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- i3lock-color i3lock-color-debug'
+[2026-04-10T18:53:56+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/betterlockscreen/betterlockscreen-4.4.0-1-any.pkg.tar.zst'
+[2026-04-10T18:53:57+0530] [ALPM] transaction started
+[2026-04-10T18:53:57+0530] [ALPM] installed betterlockscreen (4.4.0-1)
+[2026-04-10T18:53:57+0530] [ALPM] transaction completed
+[2026-04-10T18:53:57+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-04-10T18:53:57+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T18:53:57+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- betterlockscreen'
+[2026-04-10T18:55:27+0530] [PACMAN] Running 'pacman -S xorg-xset'
+[2026-04-10T18:55:27+0530] [ALPM] transaction started
+[2026-04-10T18:55:27+0530] [ALPM] reinstalled xorg-xset (1.2.5-2)
+[2026-04-10T18:55:27+0530] [ALPM] transaction completed
+[2026-04-10T18:55:27+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-10T21:38:48+0530] [PACMAN] Running 'pacman -Rns rust'
+[2026-04-10T21:38:49+0530] [ALPM] transaction started
+[2026-04-10T21:38:49+0530] [ALPM] removed rust (1:1.94.1-1)
+[2026-04-10T21:38:49+0530] [ALPM] removed lld (22.1.3-1)
+[2026-04-10T21:38:49+0530] [ALPM] removed libgit2 (1:1.9.2-3)
+[2026-04-10T21:38:49+0530] [ALPM] transaction completed
+[2026-04-10T21:38:49+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-11T12:44:57+0530] [PACMAN] Running 'pacman -S github-cli'
+[2026-04-11T12:45:01+0530] [ALPM] transaction started
+[2026-04-11T12:45:01+0530] [ALPM] installed github-cli (2.89.0-1)
+[2026-04-11T12:45:02+0530] [ALPM] transaction completed
+[2026-04-11T12:45:02+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-11T12:50:40+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/rust'
+[2026-04-11T12:50:42+0530] [ALPM] transaction started
+[2026-04-11T12:50:42+0530] [ALPM] installed libgit2 (1:1.9.2-3)
+[2026-04-11T12:50:42+0530] [ALPM] installed lld (22.1.3-1)
+[2026-04-11T12:50:42+0530] [ALPM] installed rust (1:1.94.1-1)
+[2026-04-11T12:50:42+0530] [ALPM] transaction completed
+[2026-04-11T12:50:42+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-11T12:50:42+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- rust'
+[2026-04-11T12:51:35+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/supergfxctl/supergfxctl-5.2.7-2-x86_64.pkg.tar.zst'
+[2026-04-11T12:51:36+0530] [ALPM] transaction started
+[2026-04-11T12:51:36+0530] [ALPM] installed supergfxctl (5.2.7-2)
+[2026-04-11T12:51:36+0530] [ALPM] transaction completed
+[2026-04-11T12:51:36+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-04-11T12:51:37+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-04-11T12:51:41+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-11T12:51:41+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-04-11T12:51:41+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- supergfxctl'
+[2026-04-11T12:51:41+0530] [PACMAN] Running 'pacman -R -s -u --noconfirm --config /etc/pacman.conf -- rust'
+[2026-04-11T12:51:41+0530] [ALPM] transaction started
+[2026-04-11T12:51:41+0530] [ALPM] removed rust (1:1.94.1-1)
+[2026-04-11T12:51:41+0530] [ALPM] removed lld (22.1.3-1)
+[2026-04-11T12:51:41+0530] [ALPM] removed libgit2 (1:1.9.2-3)
+[2026-04-11T12:51:41+0530] [ALPM] transaction completed
+[2026-04-11T12:51:41+0530] [ALPM] running '35-systemd-update.hook'...

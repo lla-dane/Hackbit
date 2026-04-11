@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ICON="📅"
+ICON="𝄜"
 DATE=$(date '+%a %d %b')
 
 echo "$ICON $DATE"

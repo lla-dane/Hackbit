@@ -1,5 +1,7 @@
 # Table of Contents:
 
+- [AsusCTL](#asusctl)
+- [yay](#yay)
 - [Arch Minimal](#arch-minimal)
 - [Networks](#networks)
 - [Nvim](#nvim)
@@ -30,6 +32,35 @@
 - [i3 config](#i3-config) 
 - [Screenshot](#screenshot)
 - [microsoft edge scaling issue](#microsoft-edge-scaling-issue)
+
+## AsusCTL:
+```zsh
+yay -S asusctl
+
+
+asusctl battery limit <20-80>
+asusctl profile set <Balanced/Quiet/Performance> -> power-porfiles-daemon
+
+yay -S supergfxctl
+sudo systemctl enable supergfxd
+sudo systemctl start supergfxd
+
+supergfxctl -s 
+supergfxctl -g
+supergfxctl -m <Hybrid/>
+
+```
+
+## yay:
+```zsh
+sudo pacman -S --needed base-devel git
+git clone https://aur.archlinux.org/yay.git
+cd yay 
+makepkg -si
+
+cd .. && rm -rf yay
+
+```
 
 ## VLC:
 ```zsh
@@ -170,8 +201,8 @@ sudo ln -s ~/Desktop/Hackbit/sys-config/i3/i3config ~/.config/i3/config
 rm -rf ~/.zshrc
 sudo ln -s ~/Desktop/Hackbit/sys-config/i3/.zshrc ~/.zshrc
 
-rm -rf /var/log/pacman.log
-ln -s ~/Desktop/Hackbit/sys-config/logs/pacman/pacman.log  /var/log/pacman.log
+sudo rm -rf /var/log/pacman.log
+sudo ln -s ~/Desktop/Hackbit/sys-config/logs/pacman/pacman.log  /var/log/pacman.log
 ```
 
 -------------------------------------------------------
@@ -393,6 +424,7 @@ sudo pacman --sync flameshot
 -------------------------------------------------------
 ## Microsoft Edge scaling issue:
 ```zsh
-microsoft-edge-setup --force-device-scale-factor=0.9
+yay -S microsoft-edge-stable-bin
+microsoft-edge-stable --force-device-scale-factor=0.9
 ```
 
