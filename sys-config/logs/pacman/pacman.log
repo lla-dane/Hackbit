@@ -4233,3 +4233,83 @@
 [2026-04-11T12:51:41+0530] [ALPM] removed libgit2 (1:1.9.2-3)
 [2026-04-11T12:51:41+0530] [ALPM] transaction completed
 [2026-04-11T12:51:41+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-11T16:06:20+0530] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/glu extra/qt5-base extra/qt5-x11extras extra/qt5-tools'
+[2026-04-11T16:06:25+0530] [ALPM] transaction started
+[2026-04-11T16:06:25+0530] [ALPM] installed glu (9.0.3-3)
+[2026-04-11T16:06:25+0530] [ALPM] installed qt5-translations (5.15.18-1)
+[2026-04-11T16:06:25+0530] [ALPM] installed qt5-base (5.15.18+kde+r109-2)
+[2026-04-11T16:06:25+0530] [ALPM] installed qt5-x11extras (5.15.18-1)
+[2026-04-11T16:06:25+0530] [ALPM] installed qt5-tools (5.15.18+kde+r3-2)
+[2026-04-11T16:06:25+0530] [ALPM] transaction completed
+[2026-04-11T16:06:25+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-11T16:06:26+0530] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- qt5-base qt5-x11extras qt5-tools glu'
+[2026-04-11T16:08:41+0530] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/soi/.cache/yay/simplescreenrecorder/simplescreenrecorder-0.4.4-4-x86_64.pkg.tar.zst /home/soi/.cache/yay/simplescreenrecorder/simplescreenrecorder-debug-0.4.4-4-x86_64.pkg.tar.zst'
+[2026-04-11T16:08:46+0530] [ALPM] transaction started
+[2026-04-11T16:08:46+0530] [ALPM] installed simplescreenrecorder (0.4.4-4)
+[2026-04-11T16:08:46+0530] [ALPM] installed simplescreenrecorder-debug (0.4.4-4)
+[2026-04-11T16:08:46+0530] [ALPM] transaction completed
+[2026-04-11T16:08:46+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-11T16:08:46+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-11T16:08:46+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-11T16:08:46+0530] [PACMAN] Running 'pacman -D --asdeps -q --config /etc/pacman.conf -- simplescreenrecorder-debug'
+[2026-04-11T16:08:46+0530] [PACMAN] Running 'pacman -D -q --asexplicit --config /etc/pacman.conf -- simplescreenrecorder'
+[2026-04-11T16:08:46+0530] [PACMAN] Running 'pacman -R -s -u --noconfirm --config /etc/pacman.conf -- qt5-tools'
+[2026-04-11T16:08:46+0530] [ALPM] transaction started
+[2026-04-11T16:08:46+0530] [ALPM] removed qt5-tools (5.15.18+kde+r3-2)
+[2026-04-11T16:08:47+0530] [ALPM] transaction completed
+[2026-04-11T16:08:47+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-11T16:13:32+0530] [PACMAN] Running 'pacman -S vlc vlc-plugin-ffmpeg'
+[2026-04-11T16:13:38+0530] [ALPM] transaction started
+[2026-04-11T16:13:38+0530] [ALPM] installed libvlc (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed qt5-svg (5.15.18+kde+r5-1)
+[2026-04-11T16:13:38+0530] [ALPM] installed qt5-declarative (5.15.18+kde+r23-1)
+[2026-04-11T16:13:38+0530] [ALPM] installed qt5-wayland (5.15.18+kde+r55-1)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-alsa (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed a52dec (0.8.0-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-a52dec (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-archive (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-dav1d (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-dbus (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-dbus-screensaver (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed faad2 (2.11.2-1)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-faad2 (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-flac (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-gnutls (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-inflate (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-jpeg (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-journal (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-mpg123 (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-ogg (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-opus (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-png (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed libshout (1:2.4.6-5)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-shout (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-speex (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed taglib (2.2.1-1)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-tag (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-theora (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed twolame (0.4.0-4)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-twolame (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-vorbis (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-vpx (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-xml (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugins-base (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-cli (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-lua (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugin-pulse (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-plugins-video-output (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc-gui-qt (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed vlc (3.0.22-3)
+[2026-04-11T16:13:38+0530] [ALPM] installed libmfx (23.2.2-6)
+[2026-04-11T16:13:39+0530] [ALPM] installed ffmpeg4.4 (4.4.6-5)
+[2026-04-11T16:13:39+0530] [ALPM] installed vlc-plugin-ffmpeg (3.0.22-3)
+[2026-04-11T16:13:39+0530] [ALPM] transaction completed
+[2026-04-11T16:13:39+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-04-11T16:13:39+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-04-11T16:13:39+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-04-11T16:13:39+0530] [ALPM] running 'update-vlc-plugin-cache.hook'...
+[2026-04-11T16:37:45+0530] [PACMAN] Running 'pacman -S less'
+[2026-04-11T16:37:46+0530] [ALPM] transaction started
+[2026-04-11T16:37:46+0530] [ALPM] installed less (1:692-1)
+[2026-04-11T16:37:46+0530] [ALPM] transaction completed
+[2026-04-11T16:37:46+0530] [ALPM] running '35-systemd-update.hook'...

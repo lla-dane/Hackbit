@@ -36,6 +36,7 @@
 
 ## Github:
 ```zsh
+sudo pacman -S less
 gh auth login
 
 git config --global user.email "abhinavagarwalla6@gmail.com"

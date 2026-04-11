@@ -135,7 +135,7 @@ alias starkup="curl --proto '=https' --tlsv1.2 -sSf https://sh.starkup.sh | sh -
 alias open='xdg-open'
 alias terminal='gnome-terminal'
 alias light='xrandr --output HDMI-1-0 --brightness'
-alias screen='xrandr --output DP-1-0 --mode 2560x1440 --left-of eDP-1 --auto'
+alias screen='xrandr --output DP-2 --mode 2560x1440 --left-of eDP-1 --auto'
 alias wallpaper="~/Desktop/Hackbit/sys-config/i3/scripts/i3_wallpaper.sh & disown"
 alias st-hanabi='gnome-extensions enable hanabi-extension@jeffshee.github.io'
 alias sp-hanabi='gnome-extensions disable hanabi-extension@jeffshee.github.io'
@@ -145,8 +145,6 @@ alias .1="cd .."
 alias .2="cd ../.."
 alias .3="cd ../../.."
 alias venv=". .venv/bin/activate"
-alias cmds="cat ~/Desktop/Hackbit/README.md"
-alias ncmds="nano ~/Desktop/Hackbit/README.md"
 
 # --LOGS--
 alias sys='nvim ~/Desktop/Hackbit/sys-config'
@@ -154,11 +152,11 @@ alias logs='nvim ~/Desktop/Hackbit/sys-config/logs'
 alias i3c='nvim ~/Desktop/Hackbit/sys-config/i3'
 alias docs='nvim ~/Desktop/Hackbit/sys-config/docs'
 alias sys-code='code ~/Desktop/Hackbit/sys-config'
-alias hackbit='nano ~/Desktop/Hackbit/README.md'
+alias hackbit='nvim ~/Desktop/Hackbit/README.md'
 
 # --SYS-CONFIG--
-alias config='code ~/Desktop/Hackbit/sys-config/i3'
-alias zshrc='nano ~/Desktop/Hackbit/sys-config/i3/.zshrc'
+alias config='nvim ~/Desktop/Hackbit/sys-config/i3'
+alias zshrc='nvim ~/Desktop/Hackbit/sys-config/i3/.zshrc'
 alias zshrc-code='code ~/Desktop/Hackbit/sys-config/i3/.zshrc'
 alias load='source ~/Desktop/Hackbit/sys-config/i3/.zshrc'
 alias reload='source ~/.zshrc'
