@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PRIMARY_IFACE="enp55s0f4u1u4"
+PRIMARY_IFACE="enp55s0f3u1u4"
 FALLBACK_IFACE="wlp4s0"
 
 iface_up() {
