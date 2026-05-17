@@ -113,8 +113,11 @@ _scarb() {
   eval "$(scarb completions zsh)"
   _scarb "$@"
 }
-autoload -Uz compinit && compinit
-compdef _scarb scarb
+
+
+autoload -Uz compinit
+compinit -C
+
 # END SCARB COMPLETIONS
 
 ## ------ALIASES------
@@ -168,10 +171,10 @@ alias docker-stop='sudo systemctl stop docker docker.socket'
 alias docker-status='sudo systemctl status docker'
 
 # --SSH-CONNECTIONS--
-alias bootstrap="ssh -i "Desktop/libp2p/P2P-Federated-Learning/aws-keys/p2p-1.pem" ubuntu@ec2-35-154-61-220.ap-south-1.compute.amazonaws.com"
-alias client="ssh -i "Desktop/libp2p/P2P-Federated-Learning/aws-keys/p2p-1.pem" ubuntu@ec2-13-233-102-227.ap-south-1.compute.amazonaws.com"
-alias 1-trainer="ssh -i "Desktop/libp2p/P2P-Federated-Learning/aws-keys/p2p-1.pem"  ubuntu@ec2-13-201-226-238.ap-south-1.compute.amazonaws.com"
-alias 2-trainer="ssh -i "Desktop/libp2p/libp2p-aws.pem" ubuntu@ec2-13-126-88-127.ap-south-1.compute.amazonaws.com"
+alias bootstrap="ssh -i "Desktop/fedlearn.pem" ubuntu@ec2-43-205-116-140.ap-south-1.compute.amazonaws.com"
+alias client="ssh -i "Desktop/fedlearn.pem" ubuntu@ec2-13-201-43-195.ap-south-1.compute.amazonaws.com"
+alias 1-trainer="ssh -i "Desktop/fedlearn.pem" ubuntu@ec2-13-232-225-166.ap-south-1.compute.amazonaws.com"
+alias 2-trainer="ssh -i "Desktop/fedlearn.pem" ubuntu@ec2-13-235-128-124.ap-south-1.compute.amazonaws.com"
 alias raspi="ssh soi@172.20.68.137"
 
 # --CLOUDFLARE--
@@ -179,3 +182,7 @@ alias cld-start="sudo systemctl start cloudflared"
 alias cld-stop="sudo systemctl stop cloudflared"
 alias cld-status="sudo systemctl status cloudflared"
 alias cld="cloudflared"
+
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

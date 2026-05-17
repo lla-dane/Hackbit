@@ -5072,3 +5072,313 @@
 [2026-05-03T13:10:32+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
 [2026-05-03T13:10:32+0530] [ALPM] running 'texinfo-install.hook'...
 [2026-05-03T13:10:33+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-05-10T22:14:05+0530] [PACMAN] Running 'pacman -S npm'
+[2026-05-10T22:14:31+0530] [PACMAN] Running 'pacman -Syu'
+[2026-05-10T22:14:31+0530] [PACMAN] synchronizing package lists
+[2026-05-10T22:14:35+0530] [PACMAN] starting full system upgrade
+[2026-05-10T22:20:49+0530] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2026-05-10T22:20:49+0530] [ALPM] running '71-dkms-remove.hook'...
+[2026-05-10T22:20:50+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod nvidia/595.71.05 -k 7.0.3-arch1-2
+[2026-05-10T22:20:50+0530] [ALPM-SCRIPTLET] ==> depmod 7.0.3-arch1-2
+[2026-05-10T22:20:53+0530] [ALPM] transaction started
+[2026-05-10T22:20:53+0530] [ALPM] upgraded libgpg-error (1.60-1 -> 1.61-1)
+[2026-05-10T22:20:53+0530] [ALPM] upgraded sqlite (3.53.0-2 -> 3.53.1-1)
+[2026-05-10T22:20:53+0530] [ALPM] upgraded at-spi2-core (2.60.2-1 -> 2.60.3-1)
+[2026-05-10T22:20:53+0530] [ALPM] upgraded llvm-libs (22.1.3-1 -> 22.1.5-1)
+[2026-05-10T22:20:53+0530] [ALPM] upgraded compiler-rt (22.1.3-1 -> 22.1.5-1)
+[2026-05-10T22:20:53+0530] [ALPM] upgraded nettle (3.10.2-1 -> 4.0-1)
+[2026-05-10T22:20:53+0530] [ALPM] upgraded gnutls (3.8.13-1 -> 3.8.13-2)
+[2026-05-10T22:20:53+0530] [ALPM] upgraded curl (8.20.0-3 -> 8.20.0-6)
+[2026-05-10T22:20:53+0530] [ALPM] upgraded libelf (0.194-2 -> 0.195-1)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded clang (22.1.3-1 -> 22.1.5-1)
+[2026-05-10T22:20:54+0530] [ALPM] installed elfutils (0.195-1)
+[2026-05-10T22:20:54+0530] [ALPM] installed boost-libs (1.91.0-1)
+[2026-05-10T22:20:54+0530] [ALPM] installed gdb-common (17.1-5)
+[2026-05-10T22:20:54+0530] [ALPM] installed source-highlight (3.1.9-18)
+[2026-05-10T22:20:54+0530] [ALPM] installed gdb (17.1-5)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded debugedit (5.2-1 -> 5.3-1)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded dnsmasq (2.92-1 -> 2.92-2)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded efivar (39-1 -> 39-2)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded efibootmgr (18-3 -> 18-4)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded feh (3.12.1-1 -> 3.12.2-1)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded lcms2 (2.19-1 -> 2.19.1-1)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded libdrm (2.4.131-1 -> 2.4.133-1)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded vapoursynth (73-2 -> 75-2)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded ffmpeg (2:8.1-3 -> 2:8.1.1-1)
+[2026-05-10T22:20:54+0530] [ALPM] upgraded nspr (4.38.2-1 -> 4.39-1)
+[2026-05-10T22:20:55+0530] [ALPM] upgraded firefox (150.0.1-1 -> 150.0.2-1)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded go (2:1.26.2-1 -> 2:1.26.3-1)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded go-tools (4:0.44.0-1 -> 4:0.44.0-2)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded gstreamer (1.28.2-1 -> 1.28.2-2)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded gst-plugins-base-libs (1.28.2-1 -> 1.28.2-2)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded gst-plugins-bad-libs (1.28.2-1 -> 1.28.2-2)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded gst-plugins-base (1.28.2-1 -> 1.28.2-2)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded gst-plugins-good (1.28.2-1 -> 1.28.2-2)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded hwdata (0.406-1 -> 0.407-1)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded python-gobject (3.56.2-1 -> 3.56.3-1)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded libibus (1.5.33-3 -> 1.5.34-1)
+[2026-05-10T22:20:56+0530] [ALPM] upgraded ibus (1.5.33-3 -> 1.5.34-1)
+[2026-05-10T22:20:57+0530] [ALPM] upgraded js140 (140.10.1-1 -> 140.10.2-1)
+[2026-05-10T22:20:57+0530] [ALPM] upgraded qt6-base (6.11.0-2 -> 6.11.0-4)
+[2026-05-10T22:20:57+0530] [ALPM] upgraded kguiaddons (6.25.0-1 -> 6.26.0-1)
+[2026-05-10T22:20:57+0530] [ALPM] upgraded libcurl-gnutls (8.20.0-3 -> 8.20.0-6)
+[2026-05-10T22:20:58+0530] [ALPM] upgraded linux (7.0.3.arch1-2 -> 7.0.5.arch1-1)
+[2026-05-10T22:21:00+0530] [ALPM] upgraded linux-headers (7.0.3.arch1-2 -> 7.0.5.arch1-1)
+[2026-05-10T22:21:00+0530] [ALPM] upgraded openjph (0.27.0-1 -> 0.27.2-1)
+[2026-05-10T22:21:00+0530] [ALPM] upgraded pacman (7.1.0.r9.g54d9411-1 -> 7.1.0.r9.g54d9411-2)
+[2026-05-10T22:21:00+0530] [ALPM] upgraded python-cryptography (47.0.0-1 -> 48.0.0-1)
+[2026-05-10T22:21:00+0530] [ALPM] upgraded python-urllib3 (2.6.3-1 -> 2.7.0-1)
+[2026-05-10T22:21:00+0530] [ALPM] upgraded python-sentry_sdk (2.58.0-1 -> 2.59.0-1)
+[2026-05-10T22:21:00+0530] [ALPM] upgraded python-pyopenssl (26.1.0-1 -> 26.2.0-1)
+[2026-05-10T22:21:00+0530] [ALPM] upgraded python-proton-vpn-api-core (5.0.1-1 -> 5.1.2-1)
+[2026-05-10T22:21:00+0530] [ALPM] upgraded proton-vpn-daemon (0.13.6-2 -> 0.13.7-1)
+[2026-05-10T22:21:01+0530] [ALPM] upgraded proton-vpn-gtk-app (4.15.3-1 -> 4.16.1-1)
+[2026-05-10T22:21:01+0530] [ALPM] upgraded rdma-core (62.0-1 -> 63.0-1)
+[2026-05-10T22:21:01+0530] [ALPM] installed nettle3 (3.10.2-2)
+[2026-05-10T22:21:01+0530] [ALPM] upgraded sequoia-sqv (1.3.0-1 -> 1.3.0-3)
+[2026-05-10T22:21:01+0530] [ALPM] upgraded vim-runtime (9.2.0388-1 -> 9.2.0450-1)
+[2026-05-10T22:21:01+0530] [ALPM] upgraded vim (9.2.0388-1 -> 9.2.0450-1)
+[2026-05-10T22:21:01+0530] [ALPM] upgraded virglrenderer (1.2.0-1 -> 1.3.0-2)
+[2026-05-10T22:21:01+0530] [ALPM] upgraded wget (1.25.0-3 -> 1.25.0-4)
+[2026-05-10T22:21:01+0530] [ALPM] upgraded xorg-server-common (21.1.22-1 -> 21.1.22-2)
+[2026-05-10T22:21:01+0530] [ALPM] upgraded xorg-server (21.1.22-1 -> 21.1.22-2)
+[2026-05-10T22:21:01+0530] [ALPM] upgraded xorg-xwayland (24.1.11-1 -> 24.1.11-2)
+[2026-05-10T22:21:01+0530] [ALPM] transaction completed
+[2026-05-10T22:21:02+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-05-10T22:21:02+0530] [ALPM-SCRIPTLET] Creating group 'rdma' with GID 951.
+[2026-05-10T22:21:02+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-05-10T22:21:03+0530] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2026-05-10T22:21:03+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-05-10T22:21:03+0530] [ALPM] running '35-systemd-enqueue-marked.hook'...
+[2026-05-10T22:21:03+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-05-10T22:21:04+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-05-10T22:21:04+0530] [ALPM] running '60-depmod.hook'...
+[2026-05-10T22:21:05+0530] [ALPM] running '70-dkms-install.hook'...
+[2026-05-10T22:21:05+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod nvidia/595.71.05 -k 7.0.5-arch1-1
+[2026-05-10T22:22:16+0530] [ALPM-SCRIPTLET] ==> depmod 7.0.5-arch1-1
+[2026-05-10T22:22:19+0530] [ALPM] running '90-mkinitcpio-install.hook'...
+[2026-05-10T22:22:20+0530] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2026-05-10T22:22:20+0530] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2026-05-10T22:22:20+0530] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -U /boot/EFI/Linux/arch-linux.efi --splash /usr/share/systemd/bootctl/splash-arch.bmp
+[2026-05-10T22:22:20+0530] [ALPM-SCRIPTLET] ==> Starting build: '7.0.5-arch1-1'
+[2026-05-10T22:22:20+0530] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2026-05-10T22:22:20+0530] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2026-05-10T22:22:20+0530] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2026-05-10T22:22:20+0530] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2026-05-10T22:22:20+0530] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2026-05-10T22:22:20+0530] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2026-05-10T22:22:26+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2026-05-10T22:22:26+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2026-05-10T22:22:26+0530] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2026-05-10T22:22:26+0530] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2026-05-10T22:22:27+0530] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2026-05-10T22:22:27+0530] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2026-05-10T22:22:27+0530] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2026-05-10T22:22:27+0530] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image
+[2026-05-10T22:22:27+0530] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2026-05-10T22:22:28+0530] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2026-05-10T22:22:28+0530] [ALPM-SCRIPTLET] ==> Creating unified kernel image: '/boot/EFI/Linux/arch-linux.efi'
+[2026-05-10T22:22:28+0530] [ALPM-SCRIPTLET] ==> Unified kernel image generation successful
+[2026-05-10T22:22:28+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-05-10T22:22:28+0530] [ALPM] running 'dconf-update.hook'...
+[2026-05-10T22:22:28+0530] [ALPM] running 'glib-compile-schemas.hook'...
+[2026-05-10T22:22:28+0530] [ALPM] running 'gtk-query-immodules-3.0.hook'...
+[2026-05-10T22:22:29+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-05-10T22:22:29+0530] [ALPM] running 'gtk4-querymodules.hook'...
+[2026-05-10T22:22:29+0530] [ALPM] running 'texinfo-install.hook'...
+[2026-05-10T22:22:29+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-05-11T13:07:45+0530] [PACMAN] Running 'pacman -S npm'
+[2026-05-11T13:07:57+0530] [ALPM] transaction started
+[2026-05-11T13:07:57+0530] [ALPM] installed ada (3.4.4-1)
+[2026-05-11T13:07:57+0530] [ALPM] installed c-ares (1.34.6-1)
+[2026-05-11T13:07:57+0530] [ALPM] installed simdjson (1:4.6.3-1)
+[2026-05-11T13:07:58+0530] [ALPM] installed nodejs (26.1.0-1)
+[2026-05-11T13:07:58+0530] [ALPM] installed nodejs-nopt (9.0.0-1)
+[2026-05-11T13:07:58+0530] [ALPM] installed semver (7.8.0-1)
+[2026-05-11T13:07:58+0530] [ALPM] installed node-gyp (12.3.0-1)
+[2026-05-11T13:07:58+0530] [ALPM] installed npm (11.14.1-1)
+[2026-05-11T13:07:58+0530] [ALPM] transaction completed
+[2026-05-11T13:07:58+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-05-11T13:08:45+0530] [PACMAN] Running 'pacman -Rns npm'
+[2026-05-11T13:08:46+0530] [ALPM] transaction started
+[2026-05-11T13:08:46+0530] [ALPM] removed npm (11.14.1-1)
+[2026-05-11T13:08:46+0530] [ALPM] removed node-gyp (12.3.0-1)
+[2026-05-11T13:08:46+0530] [ALPM] removed semver (7.8.0-1)
+[2026-05-11T13:08:46+0530] [ALPM] removed nodejs-nopt (9.0.0-1)
+[2026-05-11T13:08:46+0530] [ALPM] removed nodejs (26.1.0-1)
+[2026-05-11T13:08:46+0530] [ALPM] removed simdjson (1:4.6.3-1)
+[2026-05-11T13:08:46+0530] [ALPM] removed c-ares (1.34.6-1)
+[2026-05-11T13:08:46+0530] [ALPM] removed ada (3.4.4-1)
+[2026-05-11T13:08:46+0530] [ALPM] transaction completed
+[2026-05-11T13:08:46+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-05-11T13:09:35+0530] [PACMAN] Running 'pacman -S yarn'
+[2026-05-11T13:09:39+0530] [ALPM] transaction started
+[2026-05-11T13:09:39+0530] [ALPM] installed ada (3.4.4-1)
+[2026-05-11T13:09:39+0530] [ALPM] installed c-ares (1.34.6-1)
+[2026-05-11T13:09:39+0530] [ALPM] installed simdjson (1:4.6.3-1)
+[2026-05-11T13:09:39+0530] [ALPM] installed nodejs (26.1.0-1)
+[2026-05-11T13:09:40+0530] [ALPM] installed yarn (1.22.22-2)
+[2026-05-11T13:09:40+0530] [ALPM] transaction completed
+[2026-05-11T13:09:40+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-05-11T13:16:38+0530] [PACMAN] Running 'pacman -Rns yarn'
+[2026-05-11T13:16:39+0530] [ALPM] transaction started
+[2026-05-11T13:16:39+0530] [ALPM] removed yarn (1.22.22-2)
+[2026-05-11T13:16:39+0530] [ALPM] removed nodejs (26.1.0-1)
+[2026-05-11T13:16:39+0530] [ALPM] removed simdjson (1:4.6.3-1)
+[2026-05-11T13:16:39+0530] [ALPM] removed c-ares (1.34.6-1)
+[2026-05-11T13:16:39+0530] [ALPM] removed ada (3.4.4-1)
+[2026-05-11T13:16:39+0530] [ALPM] transaction completed
+[2026-05-11T13:16:40+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-05-11T14:54:05+0530] [PACMAN] Running 'pacman -S xterm-kitty'
+[2026-05-16T18:42:21+0530] [PACMAN] Running 'pacman -S wireshark-cli'
+[2026-05-16T18:42:32+0530] [ALPM] transaction started
+[2026-05-16T18:42:32+0530] [ALPM] installed bcg729 (1.1.1-2)
+[2026-05-16T18:42:32+0530] [ALPM] installed c-ares (1.34.6-1)
+[2026-05-16T18:42:32+0530] [ALPM] installed libmaxminddb (1.13.3-1)
+[2026-05-16T18:42:32+0530] [ALPM] installed wireshark-cli (4.6.5-1)
+[2026-05-16T18:42:32+0530] [ALPM-SCRIPTLET] NOTE: To run wireshark as normal user you have to add yourself into wireshark group
+[2026-05-16T18:42:32+0530] [ALPM] transaction completed
+[2026-05-16T18:42:32+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-05-16T18:42:32+0530] [ALPM-SCRIPTLET] Creating group 'wireshark' with GID 150.
+[2026-05-16T18:42:32+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-05-16T18:43:13+0530] [PACMAN] Running 'pacman -S wireshark-qt'
+[2026-05-16T18:47:19+0530] [PACMAN] Running 'pacman -S wireshark-qt'
+[2026-05-16T18:47:35+0530] [PACMAN] Running 'pacman -S wireshark-qt'
+[2026-05-16T18:47:48+0530] [PACMAN] Running 'pacman -Syu'
+[2026-05-16T18:47:48+0530] [PACMAN] synchronizing package lists
+[2026-05-16T18:47:57+0530] [PACMAN] starting full system upgrade
+[2026-05-16T18:48:41+0530] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2026-05-16T18:48:42+0530] [ALPM] running '71-dkms-remove.hook'...
+[2026-05-16T18:48:42+0530] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod nvidia/595.71.05 -k 7.0.5-arch1-1
+[2026-05-16T18:48:42+0530] [ALPM-SCRIPTLET] ==> depmod 7.0.5-arch1-1
+[2026-05-16T18:48:45+0530] [ALPM] transaction started
+[2026-05-16T18:48:45+0530] [ALPM] upgraded alsa-card-profiles (1:1.6.4-1 -> 1:1.6.5-1)
+[2026-05-16T18:48:45+0530] [ALPM] upgraded aom (3.13.3-1 -> 3.14.0-1)
+[2026-05-16T18:48:45+0530] [ALPM] upgraded expat (2.8.0-1 -> 2.8.1-1)
+[2026-05-16T18:48:45+0530] [ALPM] upgraded bluez (5.86-5 -> 5.86-6)
+[2026-05-16T18:48:45+0530] [ALPM] upgraded bluez-libs (5.86-5 -> 5.86-6)
+[2026-05-16T18:48:45+0530] [ALPM] upgraded bluez-utils (5.86-5 -> 5.86-6)
+[2026-05-16T18:48:45+0530] [ALPM] upgraded libnsl (2.0.1-1 -> 2.0.1-2)
+[2026-05-16T18:48:45+0530] [ALPM] upgraded ca-certificates-mozilla (3.123.1-1 -> 3.124-1)
+[2026-05-16T18:48:45+0530] [ALPM] upgraded libunistring (1.4.1-1 -> 1.4.2-1)
+[2026-05-16T18:48:45+0530] [ALPM] upgraded curl (8.20.0-6 -> 8.20.0-7)
+[2026-05-16T18:48:45+0530] [ALPM] upgraded dkms (3.4.0-1 -> 3.4.1-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded dnsmasq (2.92-2 -> 2.92.rel2-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded fastfetch (2.62.1-1 -> 2.63.1-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded spirv-tools (1:1.4.341.0-2 -> 1:1.4.350.0-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded glslang (1:1.4.341.0-2 -> 1:1.4.350.0-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded libpipewire (1:1.6.4-1 -> 1:1.6.5-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded pipewire (1:1.6.4-1 -> 1:1.6.5-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded pipewire-audio (1:1.6.4-1 -> 1:1.6.5-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded pipewire-jack (1:1.6.4-1 -> 1:1.6.5-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded vulkan-icd-loader (1.4.341.0-1 -> 1.4.350.0-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded shaderc (2026.1-2 -> 2026.2-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded libplacebo (7.360.1-1 -> 7.360.1-2)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded librsvg (2:2.62.1-1 -> 2:2.62.2-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded libmd (1.1.0-2 -> 1.2.0-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded python (3.14.4-1 -> 3.14.5-1)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded ffmpeg (2:8.1.1-1 -> 2:8.1.1-2)
+[2026-05-16T18:48:46+0530] [ALPM] upgraded nss (3.123.1-1 -> 3.124-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded firefox (150.0.2-1 -> 150.0.3-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded gdb-common (17.1-5 -> 17.2-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded gdb (17.1-5 -> 17.2-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libical (3.0.20-3 -> 4.0.1-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libnm (1.56.0-1 -> 1.56.1-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded gstreamer (1.28.2-2 -> 1.28.3-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded gst-plugins-base-libs (1.28.2-2 -> 1.28.3-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded gst-plugins-bad-libs (1.28.2-2 -> 1.28.3-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libblockdev (3.5.0-1 -> 3.5.0-2)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libksba (1.6.8-1 -> 1.8.0-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libblockdev-crypto (3.5.0-1 -> 3.5.0-2)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libblockdev-fs (3.5.0-1 -> 3.5.0-2)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libblockdev-loop (3.5.0-1 -> 3.5.0-2)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libblockdev-mdraid (3.5.0-1 -> 3.5.0-2)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libblockdev-nvme (3.5.0-1 -> 3.5.0-2)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libblockdev-part (3.5.0-1 -> 3.5.0-2)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libblockdev-smart (3.5.0-1 -> 3.5.0-2)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libblockdev-swap (3.5.0-1 -> 3.5.0-2)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded poppler (26.04.0-1 -> 26.05.0-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded poppler-glib (26.04.0-1 -> 26.05.0-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded pipewire-pulse (1:1.6.4-1 -> 1:1.6.5-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libei (1.5.0-1 -> 1.6.0-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libinput (1.31.1-1 -> 1.31.2-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded gnome-shell (1:50.1-1 -> 1:50.1-2)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded go-tools (4:0.44.0-2 -> 4:0.45.0-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded gst-plugin-pipewire (1:1.6.4-1 -> 1:1.6.5-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded gst-plugins-base (1.28.2-2 -> 1.28.3-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded taglib (2.2.1-1 -> 2.3-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded gst-plugins-good (1.28.2-2 -> 1.28.3-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded imagemagick (7.1.2.21-1 -> 7.1.2.22-1)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libaio (0.3.113-3 -> 0.3.113-4)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libcurl-gnutls (8.20.0-6 -> 8.20.0-7)
+[2026-05-16T18:48:47+0530] [ALPM] upgraded libva-nvidia-driver (0.0.16-1 -> 0.0.17-1)
+[2026-05-16T18:48:48+0530] [ALPM] upgraded linux (7.0.5.arch1-1 -> 7.0.8.arch1-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded linux-headers (7.0.5.arch1-1 -> 7.0.8.arch1-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded networkmanager (1.56.0-1 -> 1.56.1-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded openjph (0.27.2-1 -> 0.27.3-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded pipewire-alsa (1:1.6.4-1 -> 1:1.6.5-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded python-idna (3.13-1 -> 3.15-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded python-requests (2.33.1-1 -> 2.34.2-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded proton-vpn-gtk-app (4.16.1-1 -> 4.16.2-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded qt6-translations (6.11.0-1 -> 6.11.1-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded qt6-base (6.11.0-4 -> 6.11.1-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded qt6-imageformats (6.11.0-1 -> 6.11.1-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded qt6-networkauth (6.11.0-1 -> 6.11.1-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded qt6-svg (6.11.0-2 -> 6.11.1-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded xfsprogs (6.19.0-1 -> 7.0.0-1)
+[2026-05-16T18:48:50+0530] [ALPM] upgraded xterm (409-1 -> 410-1)
+[2026-05-16T18:48:51+0530] [ALPM] transaction completed
+[2026-05-16T18:48:51+0530] [ALPM] running '20-systemd-sysusers.hook'...
+[2026-05-16T18:48:51+0530] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2026-05-16T18:48:52+0530] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2026-05-16T18:48:52+0530] [ALPM] running '35-systemd-enqueue-marked.hook'...
+[2026-05-16T18:48:52+0530] [ALPM] running '35-systemd-udev-reload.hook'...
+[2026-05-16T18:48:52+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-05-16T18:48:53+0530] [ALPM] running '40-update-ca-trust.hook'...
+[2026-05-16T18:48:53+0530] [ALPM] running '60-depmod.hook'...
+[2026-05-16T18:48:54+0530] [ALPM] running '70-dkms-install.hook'...
+[2026-05-16T18:48:54+0530] [ALPM-SCRIPTLET] ==> dkms install --no-depmod nvidia/595.71.05 -k 7.0.8-arch1-1
+[2026-05-16T18:50:01+0530] [ALPM-SCRIPTLET] ==> depmod 7.0.8-arch1-1
+[2026-05-16T18:50:04+0530] [ALPM] running '90-mkinitcpio-install.hook'...
+[2026-05-16T18:50:04+0530] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2026-05-16T18:50:04+0530] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2026-05-16T18:50:04+0530] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -U /boot/EFI/Linux/arch-linux.efi --splash /usr/share/systemd/bootctl/splash-arch.bmp
+[2026-05-16T18:50:04+0530] [ALPM-SCRIPTLET] ==> Starting build: '7.0.8-arch1-1'
+[2026-05-16T18:50:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2026-05-16T18:50:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2026-05-16T18:50:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2026-05-16T18:50:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2026-05-16T18:50:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2026-05-16T18:50:05+0530] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2026-05-16T18:50:10+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2026-05-16T18:50:11+0530] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2026-05-16T18:50:11+0530] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2026-05-16T18:50:11+0530] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2026-05-16T18:50:12+0530] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2026-05-16T18:50:12+0530] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2026-05-16T18:50:12+0530] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2026-05-16T18:50:12+0530] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image
+[2026-05-16T18:50:12+0530] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2026-05-16T18:50:12+0530] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2026-05-16T18:50:12+0530] [ALPM-SCRIPTLET] ==> Creating unified kernel image: '/boot/EFI/Linux/arch-linux.efi'
+[2026-05-16T18:50:13+0530] [ALPM-SCRIPTLET] ==> Unified kernel image generation successful
+[2026-05-16T18:50:13+0530] [ALPM] running 'dbus-reload.hook'...
+[2026-05-16T18:50:13+0530] [ALPM] running 'detect-old-perl-modules.hook'...
+[2026-05-16T18:50:13+0530] [ALPM] running 'glib-compile-schemas.hook'...
+[2026-05-16T18:50:13+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-05-16T18:50:13+0530] [ALPM] running 'texinfo-install.hook'...
+[2026-05-16T18:50:13+0530] [ALPM] running 'update-desktop-database.hook'...
+[2026-05-16T18:50:17+0530] [PACMAN] Running 'pacman -S wireshark-qt'
+[2026-05-16T18:50:25+0530] [ALPM] transaction started
+[2026-05-16T18:50:25+0530] [ALPM] installed minizip (1:1.3.2-3)
+[2026-05-16T18:50:26+0530] [ALPM] installed qt6-shadertools (6.11.1-1)
+[2026-05-16T18:50:26+0530] [ALPM] installed qt6-5compat (6.11.1-1)
+[2026-05-16T18:50:26+0530] [ALPM] installed qt6-declarative (6.11.1-1)
+[2026-05-16T18:50:26+0530] [ALPM] installed qt6-multimedia-ffmpeg (6.11.1-1)
+[2026-05-16T18:50:26+0530] [ALPM] installed qt6-multimedia (6.11.1-1)
+[2026-05-16T18:50:26+0530] [ALPM] installed wireshark-qt (4.6.5-1)
+[2026-05-16T18:50:26+0530] [ALPM] transaction completed
+[2026-05-16T18:50:26+0530] [ALPM] running '30-update-mime-database.hook'...
+[2026-05-16T18:50:26+0530] [ALPM] running '35-systemd-update.hook'...
+[2026-05-16T18:50:26+0530] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2026-05-16T18:50:26+0530] [ALPM] running 'update-desktop-database.hook'...
