@@ -1,0 +1,29 @@
+Write a function that takes a Vec<String> and returns longest string (no clones)
+Implement fn push_if_longer(vec: &mut Vec<String>, val: String)
+Write a function that splits a string and returns Vec<&str> (lifetime test)
+Implement a struct that stores references (struct Book<'a>)
+
+Implement core data structures (from scratch)
+Stack (Vec-backed)
+Queue (VecDeque)
+Linked List (this will hurt, good)
+HashMap (basic version)
+LRU Cache
+
+Make it generic: Stack<T>
+Add methods: push, pop, peek
+
+
+- Write a function to reverse a string **without using `.rev()`**.
+- Check if a given string is a palindrome.
+- Return the first non-repeating character in a string.
+- Given an array and a target, return indices of two numbers that sum to the target.
+Merge two sorted arrays into one sorted array.
+Remove duplicates from a sorted array in-place.
+
+Given `Vec<String>`, return the longest string **without cloning**.
+Conditional push, push only if val, is longer than any other in vec<>
+Implement:
+```rust
+fn push_if_longer(vec: &mut Vec<String>, val: String)
+```
