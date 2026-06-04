@@ -231,6 +231,7 @@ bindsym Control+Mod1+v exec virt-manager
 bindsym Control+q exec nautilus ~/Documents
 bindsym Control+Shift+l exec code /home/soi/Desktop/py-libp2p 
 bindsym Control+Shift+r exec code /home/soi/Desktop/rnet-stack/rnet-p2p
+bindsym Control+Shift+d exec code /home/soi/Desktop/rnet-stack/rnet-drand
 
 new_window pixel 1
 gaps inner 0

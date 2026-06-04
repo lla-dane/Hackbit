@@ -155,6 +155,21 @@ sudo ln -s ~/Documents/docker /var/lib/docker
 ls -la /var/lib/docker
 docker run -it --rm archlinux bash -c "echo hello world"
 
+# OR OR, make a new config
+sudo systemclt stop docker
+sudo rm /var/lib/docker
+sudo mkdir -p ~/Documents/docker
+
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<EOF
+{
+  "data-root": "/home/soi/Documents/docker"
+}
+EOF
+
+sudo systemclt start docker
+docker info | grep "Docker Root Dir"
+
 # Docker-compose
 sudo pacman -S docker-compose
 
