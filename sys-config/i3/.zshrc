@@ -169,6 +169,7 @@ alias reload='source ~/.zshrc'
 alias docker-start='sudo systemctl start docker'
 alias docker-stop='sudo systemctl stop docker docker.socket'
 alias docker-status='sudo systemctl status docker'
+alias chat-slm='docker start ollama && docker exec -it ollama ollama run qwen2.5:1.5b'
 
 # --SSH-CONNECTIONS--
 alias bootstrap="ssh -i "Desktop/fedlearn.pem" ubuntu@ec2-43-205-116-140.ap-south-1.compute.amazonaws.com"

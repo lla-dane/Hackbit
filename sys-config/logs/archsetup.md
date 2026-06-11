@@ -178,6 +178,11 @@ sudo pacman -S lazydocker
 
 # Remove docker and images:
 https://wiki.archlinux.org/title/Docker#Remove_Docker_and_images
+
+# nvidia-container-toolkit
+sudo pacman -S nvidia-container-toolkit
+sudo nvidia-ctk runtime configure --runtime=docker`
+
 ```
 
 --------------------------------------------------------

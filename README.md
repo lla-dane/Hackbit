@@ -4,6 +4,18 @@
 - Monitor config: `xrandr --output HDMI-1-0 --mode 2560x1440 --left-of eDP-2 --auto`
 - Display output terminate: `xrandr --output DP-2 --off`
 
+- Run a local LLM with GPU-acceleration:
+```
+docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+docker exec -it ollama ollama run qwen2.5:1.5b
+
+curl http://localhost:11434/api/generate -d '{
+  "model": "qwen2.5:1.5b",
+  "prompt": "How are you doing",
+  "stream": false
+}'
+```
+
 - Hostspot: `sudo create_ap wlan0 enp55s0f3u1u4 'soiarch' 'abhi2004' --freq-band 5 -c 149 --ieee80211ac`
 - Force radio to turn back on: `sudo rfkill unblock wifi`
 - Watch the capped speed of NIC: `sudo ethtool enp55s0f3u1u4 | grep Speed`

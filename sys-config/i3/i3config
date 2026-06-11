@@ -232,6 +232,7 @@ bindsym Control+q exec nautilus ~/Documents
 bindsym Control+Shift+l exec code /home/soi/Desktop/py-libp2p 
 bindsym Control+Shift+r exec code /home/soi/Desktop/rnet-stack/rnet-p2p
 bindsym Control+Shift+d exec code /home/soi/Desktop/rnet-stack/rnet-drand
+bindsym Control+Shift+i exec code /home/soi/Desktop/rnet-stack/rnet-inference
 
 new_window pixel 1
 gaps inner 0
