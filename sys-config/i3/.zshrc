@@ -177,7 +177,7 @@ alias client="ssh -i "Desktop/fedlearn.pem" ubuntu@ec2-13-201-43-195.ap-south-1.
 alias 1-trainer="ssh -i "Desktop/fedlearn.pem" ubuntu@ec2-13-232-225-166.ap-south-1.compute.amazonaws.com"
 alias 2-trainer="ssh -i "Desktop/fedlearn.pem" ubuntu@ec2-13-235-128-124.ap-south-1.compute.amazonaws.com"
 alias raspi="ssh soi@172.20.68.137"
-alias archv="ssh soi@192.168.31.175"
+alias archv="ssh soi@192.168.122.241"
 
 # --CLOUDFLARE--
 alias cld-start="sudo systemctl start cloudflared"
