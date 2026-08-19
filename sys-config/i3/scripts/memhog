@@ -1,0 +1,345 @@
+#!/usr/bin/env python3
+"""memhog - who is actually eating your RAM.
+
+Two views, both truncated on purpose:
+
+  PROCESSES     programs grouped by executable (so firefox's 30 content
+                processes count as one "firefox"), measured in PSS so shared
+                memory is not counted 30 times.
+  SYSTEMD UNITS cgroup v2 memory per service/scope, which is what systemd
+                itself charges a unit.
+
+Anything below the cutoff is rolled into a single "+ N smaller ..." line, so
+you see the hoarders and one number for the long tail instead of a process dump.
+"""
+
+from __future__ import annotations
+
+import argparse
+import os
+import sys
+import time
+
+CGROUP = "/sys/fs/cgroup"
+PAGE = os.sysconf("SC_PAGE_SIZE")
+
+# Interpreters where the exe name says nothing useful; key on the script instead.
+INTERPRETERS = {
+    "python", "python2", "python3", "node", "deno", "bun", "ruby", "perl",
+    "java", "sh", "bash", "zsh", "fish", "dash", "wine", "electron",
+}
+
+
+# --------------------------------------------------------------------------- io
+
+def read(path: str) -> str | None:
+    try:
+        with open(path) as fh:
+            return fh.read()
+    except OSError:
+        return None
+
+
+def read_int(path: str) -> int:
+    text = read(path)
+    try:
+        return int(text.strip())
+    except (AttributeError, ValueError):
+        return 0
+
+
+def meminfo() -> dict[str, int]:
+    out = {}
+    for line in (read("/proc/meminfo") or "").splitlines():
+        key, _, val = line.partition(":")
+        parts = val.split()
+        if parts:
+            out[key] = int(parts[0]) * 1024
+    return out
+
+
+# ---------------------------------------------------------------------- format
+
+def human(n: int) -> str:
+    for suffix, div in (("T", 1 << 40), ("G", 1 << 30), ("M", 1 << 20), ("K", 1 << 10)):
+        if abs(n) >= div:
+            v = n / div
+            return f"{v:.1f}{suffix}" if abs(v) < 100 else f"{v:.0f}{suffix}"
+    return f"{n}B"
+
+
+class Style:
+    def __init__(self, enabled: bool):
+        self.on = enabled
+
+    def __call__(self, text: str, code: str) -> str:
+        return f"\033[{code}m{text}\033[0m" if self.on else text
+
+    def dim(self, t): return self(t, "2")
+    def bold(self, t): return self(t, "1")
+    def hot(self, t): return self(t, "1;31")
+    def warm(self, t): return self(t, "33")
+    def cool(self, t): return self(t, "36")
+
+
+def bar(value: int, peak: int, width: int = 22) -> str:
+    if peak <= 0:
+        return " " * width
+    filled = int(round(width * value / peak))
+    return "█" * filled + " " * (width - filled)
+
+
+# ------------------------------------------------------------------- processes
+
+def process_groups() -> tuple[dict, int]:
+    """Group live processes by program. Returns (groups, count_of_rss_fallbacks)."""
+    groups: dict[str, dict] = {}
+    fallbacks = 0
+
+    for name in os.listdir("/proc"):
+        if not name.isdigit():
+            continue
+        pid = name
+        cmdline = read(f"/proc/{pid}/cmdline")
+        if not cmdline:
+            continue  # kernel thread
+        argv = [a for a in cmdline.split("\0") if a]
+
+        pss = swap = 0
+        approx = False
+        rollup = read(f"/proc/{pid}/smaps_rollup")
+        if rollup:
+            for line in rollup.splitlines():
+                if line.startswith("Pss:"):
+                    pss = int(line.split()[1]) * 1024
+                elif line.startswith("SwapPss:"):
+                    swap = int(line.split()[1]) * 1024
+        else:
+            # Not permitted to read another user's smaps; RSS over-counts shared
+            # pages but it is the only number available without root.
+            statm = read(f"/proc/{pid}/statm")
+            if not statm:
+                continue
+            pss = int(statm.split()[1]) * PAGE
+            approx = True
+            fallbacks += 1
+
+        key = program_key(pid, argv)
+        g = groups.setdefault(key, {"name": key, "mem": 0, "swap": 0, "procs": 0, "approx": False})
+        g["mem"] += pss
+        g["swap"] += swap
+        g["procs"] += 1
+        g["approx"] |= approx
+
+    return groups, fallbacks
+
+
+def program_key(pid: str, argv: list[str]) -> str:
+    """Same executable => same program. Interpreters get their script appended."""
+    try:
+        exe = os.readlink(f"/proc/{pid}/exe")
+    except OSError:
+        exe = argv[0] if argv else "?"
+    base = os.path.basename(exe.split(" (deleted)")[0]) or "?"
+
+    if base.rstrip("0123456789.") in INTERPRETERS or base in INTERPRETERS:
+        for arg in argv[1:]:
+            if arg.startswith("-"):
+                continue
+            return f"{base} {os.path.basename(arg)}"
+    return base
+
+
+def group_processes(name: str) -> list[tuple[int, str, str]]:
+    """Individual processes of one program group, biggest first."""
+    rows = []
+    for entry in os.listdir("/proc"):
+        if not entry.isdigit():
+            continue
+        cmdline = read(f"/proc/{entry}/cmdline")
+        if not cmdline:
+            continue
+        argv = [a for a in cmdline.split("\0") if a]
+        if program_key(entry, argv) != name:
+            continue
+        pss = 0
+        rollup = read(f"/proc/{entry}/smaps_rollup")
+        if rollup:
+            for line in rollup.splitlines():
+                if line.startswith("Pss:"):
+                    pss = int(line.split()[1]) * 1024
+                    break
+        else:
+            statm = read(f"/proc/{entry}/statm")
+            pss = int(statm.split()[1]) * PAGE if statm else 0
+        rows.append((pss, entry, " ".join(argv)))
+    rows.sort(reverse=True)
+    return rows
+
+
+# ----------------------------------------------------------------------- units
+
+def cgroup_units() -> tuple[list[dict], int]:
+    """Leaf systemd units with their cgroup memory. Returns (units, total_charged)."""
+    units: list[dict] = []
+
+    def children(path: str) -> list[str]:
+        try:
+            return sorted(e.name for e in os.scandir(path) if e.is_dir(follow_symlinks=False))
+        except OSError:
+            return []
+
+    def is_container(path: str, kids: list[str]) -> bool:
+        # Slices hold units; user@N.service holds slices of its own.
+        return (path == CGROUP or os.path.basename(path).endswith(".slice")
+                or any(k.endswith(".slice") for k in kids))
+
+    def walk(path: str) -> int:
+        kids = children(path)
+        current = read_int(f"{path}/memory.current")
+        if is_container(path, kids):
+            charged = sum(walk(os.path.join(path, k)) for k in kids)
+            direct = current - charged
+            # Processes sitting in the slice itself rather than in a child unit.
+            if path != CGROUP and direct > 0:
+                units.append(_unit(path, direct, read_int(f"{path}/memory.swap.current"), True))
+            return current if path != CGROUP else charged
+        units.append(_unit(path, current, read_int(f"{path}/memory.swap.current"), False))
+        return current
+
+    total = walk(CGROUP)
+    return units, total
+
+
+def _unit(path: str, mem: int, swap: int, direct: bool) -> dict:
+    rel = os.path.relpath(path, CGROUP)
+    parts = rel.split("/")
+    scope = "user" if parts[0] == "user.slice" else "sys"
+    label = parts[-1]
+    for suffix in (".service", ".scope"):
+        if label.endswith(suffix):
+            label = label[: -len(suffix)]
+    if direct:
+        label += " (loose procs)"
+    return {"name": label, "path": rel, "scope": scope, "mem": mem, "swap": swap}
+
+
+# --------------------------------------------------------------------- reports
+
+def render_section(title: str, note: str, rows: list[dict], total_ram: int,
+                   args, s: Style, tail_noun: str) -> None:
+    rows = [r for r in rows if r["mem"] > 0]
+    rows.sort(key=lambda r: r["mem"], reverse=True)
+
+    cutoff = total_ram * args.threshold / 100
+    big = [r for r in rows if r["mem"] >= cutoff][: args.top]
+    tail = rows[len(big):]
+
+    print(f"\n{s.bold(title)}  {s.dim(note)}")
+    if not big:
+        print(s.dim("   nothing above the cutoff"))
+
+    peak = big[0]["mem"] if big else 1
+    for r in big:
+        pct = 100 * r["mem"] / total_ram
+        color = s.hot if pct >= 10 else (s.warm if pct >= 4 else s.cool)
+        size = f"{human(r['mem']):>7}"
+        extra = []
+        if r.get("procs", 0) > 1:
+            extra.append(f"{r['procs']} procs")
+        if r.get("swap"):
+            extra.append(f"swap {human(r['swap'])}")
+        if r.get("approx"):
+            extra.append("rss")
+        if r.get("scope") == "user":
+            extra.insert(0, "user")
+        suffix = s.dim("  " + ", ".join(extra)) if extra else ""
+        print(f"  {color(size)} {s.dim(bar(r['mem'], peak))} {r['name']:<26}{suffix} {s.dim(f'{pct:4.1f}%')}")
+
+    if tail:
+        tail_mem = sum(r["mem"] for r in tail)
+        tail_procs = sum(r.get("procs", 0) for r in tail)
+        pct = 100 * tail_mem / total_ram
+        label = f"+ {len(tail)} smaller {tail_noun}"
+        if tail_procs:
+            label += f" ({tail_procs} procs)"
+        print(f"  {human(tail_mem):>7} {s.dim('·' * 22)} {s.dim(label):<26} {s.dim(f'{pct:4.1f}%')}")
+
+
+def report(args) -> None:
+    s = Style(sys.stdout.isatty() and not os.environ.get("NO_COLOR"))
+    mi = meminfo()
+    total = mi.get("MemTotal", 1)
+    available = mi.get("MemAvailable", 0)
+    used = total - available
+    cache = mi.get("Cached", 0) + mi.get("Buffers", 0) - mi.get("Shmem", 0)
+    swap_used = mi.get("SwapTotal", 0) - mi.get("SwapFree", 0)
+
+    head = (f"{s.bold('MEMORY')}  {human(total)} total · {s.bold(human(used))} used · "
+            f"{human(available)} available · {human(cache)} cache")
+    if mi.get("SwapTotal"):
+        head += f" · swap {human(swap_used)}/{human(mi['SwapTotal'])}"
+    print(head)
+
+    charged = 0
+    if args.view in ("all", "procs"):
+        groups, fallbacks = process_groups()
+        note = "grouped by program, PSS (shared memory counted once)"
+        if fallbacks:
+            note += f" · {fallbacks} procs need root, shown as RSS"
+        render_section("PROCESSES", note, list(groups.values()), total, args, s, "programs")
+
+    if args.view in ("all", "units"):
+        units, charged = cgroup_units()
+        render_section("SYSTEMD UNITS", "cgroup memory, includes each unit's page cache",
+                       units, total, args, s, "units")
+
+    if args.view == "all" and charged:
+        rest = used - charged
+        if rest > 0:
+            print(f"\n{s.dim('unowned:')} {human(rest)} {s.dim('kernel slab, page tables, tmpfs, cache no unit is charged for')}")
+
+
+def main() -> int:
+    p = argparse.ArgumentParser(
+        description="Show which programs and systemd units are hoarding RAM.",
+        epilog="Run with sudo to get true PSS for other users' processes.")
+    p.add_argument("-n", "--top", type=int, default=12, metavar="N",
+                   help="max entries shown per section (default 12)")
+    p.add_argument("-t", "--threshold", type=float, default=0.7, metavar="PCT",
+                   help="hide anything under this %% of total RAM (default 0.7)")
+    p.add_argument("-v", "--view", choices=["all", "procs", "units"], default="all",
+                   help="which section to show (default all)")
+    p.add_argument("-g", "--group", metavar="NAME",
+                   help="expand one program group into its individual processes")
+    p.add_argument("-w", "--watch", nargs="?", type=float, const=3.0, metavar="SECS",
+                   help="refresh every SECS seconds (default 3)")
+    args = p.parse_args()
+
+    if args.group:
+        rows = group_processes(args.group)
+        if not rows:
+            print(f"no processes in group {args.group!r}", file=sys.stderr)
+            return 1
+        print(f"{args.group}: {len(rows)} procs, {human(sum(r[0] for r in rows))}\n")
+        for pss, pid, cmd in rows:
+            print(f"  {human(pss):>7}  {pid:>7}  {cmd[:100]}")
+        return 0
+
+    if args.watch:
+        try:
+            while True:
+                print("\033[H\033[2J", end="")
+                report(args)
+                print(f"\n\033[2mrefreshing every {args.watch:g}s · ctrl-c to quit\033[0m")
+                time.sleep(args.watch)
+        except KeyboardInterrupt:
+            print()
+        return 0
+
+    report(args)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

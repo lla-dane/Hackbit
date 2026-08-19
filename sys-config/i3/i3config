@@ -229,10 +229,10 @@ bindsym Control+Mod1+b exec microsoft-edge-stable --force-device-scale-factor=0.
 bindsym Control+Mod1+c exec code
 bindsym Control+Mod1+v exec virt-manager
 bindsym Control+q exec nautilus ~/Documents
-bindsym Control+Shift+l exec code /home/soi/Desktop/py-libp2p 
 bindsym Control+Shift+r exec code /home/soi/Desktop/rnet-stack/rnet-p2p
-bindsym Control+Shift+d exec code /home/soi/Desktop/rnet-stack/rnet-drand
-bindsym Control+Shift+i exec code /home/soi/Desktop/rnet-stack/rnet-inference
+bindsym Control+Shift+m exec code /home/soi/Desktop/moi/go-moi
+bindsym Control+Shift+d exec code /home/soi/Desktop/moi/moidocs
+bindsym Control+Shift+h exec code /home/soi/Desktop/Hackbit
 
 new_window pixel 1
 gaps inner 0
@@ -247,9 +247,11 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86AudioStop exec playerctl stop
 
 # --- Media interface toggle --
-bindsym Control+Mod1+Right exec pactl set-default-sink alsa_output.pci-0000_36_00.6.analog-stereo
-bindsym Control+Mod1+Left exec pactl set-default-sink alsa_output.usb-GeneralPlus_USB_Audio_Device-00.analog-stereo
+bindsym Control+Mod1+Left exec pactl set-default-sink alsa_output.pci-0000_36_00.6.analog-stereo
+bindsym Control+Mod1+Right exec pactl set-default-sink alsa_output.usb-GeneralPlus_USB_Audio_Device-00.analog-stereo
 
 # --- Brightness interface toggle -- 
 bindsym Control+Mod1+Up exec "brightnessctl -d nvidia_wmi_ec_backlight set +5%"
 bindsym Control+Mod1+Down exec "brightnessctl -d nvidia_wmi_ec_backlight set 5%-"
+
+

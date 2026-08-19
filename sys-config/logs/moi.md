@@ -1,0 +1,5 @@
+- 3/07/26 [DAY-5]
+    - read the state-obj, currently tracking how manager operates with state-obj + DB.
+    - got to know a lot about the different kinds of operations on the DB
+    - storing the entries of different trees based on the storage-type prefix was cool
+    - Soon after getting in touch with an end-to-end consumption of a tesseract, a lot of peices will be in place, and we can move on to the next step.

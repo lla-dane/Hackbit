@@ -7,6 +7,11 @@ export PATH="$HOME/.local/protoc-25.3/bin:$PATH"
 export PATH=$PATH:/snap/bin
 export PATH=/home/shelby/.nimble/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+export PATH="$HOME/.local/bin:$PATH"
+# export PATH="$HOME/sdk/go1.24.9/bin:$PATH"
+export PATH="$HOME/sdk/go1.26.6/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
+export PATH="$PATH:$HOME/.coco/bin"
 
 # Enable word jumping with Alt + arrow keys
 autoload -U select-word-style
@@ -59,23 +64,40 @@ ZSH_HIGHLIGHT_STYLES[error]='fg=196,bold'
 # Autosuggestions: Dim cyan
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=51'
 
-# Source nvm only when needed
+# --NVM (lazy)--
+# Sourcing nvm.sh costs ~250ms, so we never do it at startup.
 export NVM_DIR="$HOME/.nvm"
-# source /usr/share/nvm/init-nvm.sh
 
+# Cheap: put the default node version straight on PATH (no forks, no sourcing),
+# so node/npm/npx work instantly -- including from scripts and non-shell callers.
+_nvm_default_bin=""
+if [ -r "$NVM_DIR/alias/default" ]; then
+    _nvm_default="$(<"$NVM_DIR/alias/default")"
+    for _d in "$NVM_DIR/versions/node/v${_nvm_default#v}"*(N/); do
+        [ -d "$_d/bin" ] && _nvm_default_bin="$_d/bin" && break
+    done
+    unset _d _nvm_default
+fi
+
+# Load real nvm on first use, then hand the call over to it.
 load_nvm() {
-    if [ -z "$NVM_LOADED" ]; then
-        export NVM_LOADED=1
-        [ -s "/usr/share/nvm/init-nvm.sh" ] && \. "/usr/share/nvm/init-nvm.sh"
-    fi
+    unset -f nvm node npm npx yarn load_nvm 2>/dev/null
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 }
 
-# Create lightweight functions that load NVM only when necessary
-nvm() { load_nvm; command nvm "$@"; }
-node() { load_nvm; command node "$@"; }
-npm() { load_nvm; command npm "$@"; }
-npx() { load_nvm; command npx "$@"; }
-yarn() { load_nvm; command yarn "$@"; }
+nvm() { load_nvm; nvm "$@"; }
+
+if [ -n "$_nvm_default_bin" ]; then
+    export PATH="$_nvm_default_bin:$PATH"
+else
+    # No resolvable default version -> fall back to lazy-loading on every tool.
+    node() { load_nvm; node "$@"; }
+    npm()  { load_nvm; npm "$@"; }
+    npx()  { load_nvm; npx "$@"; }
+    yarn() { load_nvm; yarn "$@"; }
+fi
+unset _nvm_default_bin
 
 # Manually initialize conda only when needed
 conda() {
@@ -133,12 +155,16 @@ alias gpu-integrated="supergfxctl -m Integrated"
 alias gpu-dedicated="supergfxctl -m AsusMuxDgpu"
 alias gpu-get="supergfxctl -g"
 
+# --MEMORY--
+alias mem="python ~/Desktop/Hackbit/sys-config/i3/scripts/memhog"
+
 # --GENERAL--
 alias starkup="curl --proto '=https' --tlsv1.2 -sSf https://sh.starkup.sh | sh -s --"
 alias open='xdg-open'
 alias terminal='gnome-terminal'
 alias light='xrandr --output HDMI-1-0 --brightness'
-alias screen='xrandr --output DP-2 --mode 2560x1440 --left-of eDP-1 --auto'
+alias screen='xrandr --output DP-1-0 --mode 2560x1440 --left-of eDP-1 --auto'
+alias dis-screen='xrandr --output DP-1-0 --off'
 alias wallpaper="~/Desktop/Hackbit/sys-config/i3/scripts/i3_wallpaper.sh & disown"
 alias st-hanabi='gnome-extensions enable hanabi-extension@jeffshee.github.io'
 alias sp-hanabi='gnome-extensions disable hanabi-extension@jeffshee.github.io'
@@ -164,7 +190,6 @@ alias zshrc-code='code ~/Desktop/Hackbit/sys-config/i3/.zshrc'
 alias load='source ~/Desktop/Hackbit/sys-config/i3/.zshrc'
 alias reload='source ~/.zshrc'
 
-
 # --DOCKER--
 alias docker-start='sudo systemctl start docker'
 alias docker-stop='sudo systemctl stop docker docker.socket'
@@ -185,6 +210,18 @@ alias cld-stop="sudo systemctl stop cloudflared"
 alias cld-status="sudo systemctl status cloudflared"
 alias cld="cloudflared"
 
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# -----MOI------
+alias 0-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_0 --node-password test123 --genesis-path genesis.json --config-path test_0/config.json --log-level TRACE --clean-db="true" --discovery-interval 60000"
+alias 1-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_1 --node-password test123 --genesis-path genesis.json --config-path test_1/config.json --log-level TRACE --clean-db="true" --discovery-interval 60000"
+alias 2-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_2 --node-password test123 --genesis-path genesis.json --config-path test_2/config.json --log-level TRACE --clean-db="true" --discovery-interval 60000"
+alias 3-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_3 --node-password test123 --genesis-path genesis.json --config-path test_3/config.json --log-level TRACE --clean-db="true" --discovery-interval 60000"
+alias 4-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_4 --node-password test123 --genesis-path genesis.json --config-path test_4/config.json --log-level TRACE --clean-db="true" --discovery-interval 60000"
+alias 5-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_5 --node-password test123 --genesis-path genesis.json --config-path test_5/config.json --log-level TRACE --clean-db="true" --discovery-interval 60000"
+alias 6-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_6 --node-password test123 --genesis-path genesis.json --config-path test_6/config.json --log-level TRACE --clean-db="true" --discovery-interval 60000"
+alias 7-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_7 --node-password test123 --genesis-path genesis.json --config-path test_7/config.json --log-level TRACE --clean-db="true" --discovery-interval 60000"
+
+alias boot-devnet=" ~/Desktop/moi/go-moi/devnet.sh up"
+alias down-devnet=" ~/Desktop/moi/go-moi/devnet.sh down"
+alias status-devnet=" ~/Desktop/moi/go-moi/devnet.sh status"
+
+alias moi="cd ~/Desktop/moi/go-moi"

@@ -1,5 +1,6 @@
 # Table of Contents:
 
+- [Mutate Go Version](#mutate-go-version)
 - [Github](#github)
 - [AsusCTL](#asusctl)
 - [yay](#yay)
@@ -33,6 +34,15 @@
 - [i3 config](#i3-config) 
 - [Screenshot](#screenshot)
 - [microsoft edge scaling issue](#microsoft-edge-scaling-issue)
+
+## Mutate Go version
+
+Install go*.**.*.linux-amd64.tar.gz file
+```
+tar -xzf go1.26.6.linux-amd64.tar.gz -C ~/sdk
+cd sdk && mv go go1.26.6
+```
+
 
 ## Github:
 ```zsh
@@ -223,13 +233,13 @@ feh --randomize --bg-fill ~/Documents/wallpapers/prime
 -------------------------------------------------------
 ## Soft links for config files
 ```zsh
-rm -rf /etc/i3blocks.conf
+sudo rm -rf /etc/i3blocks.conf
 sudo ln -s ~/Desktop/Hackbit/sys-config/i3/i3blocks.conf /etc/i3blocks.conf
 
-rm -rf ~/.config/i3/config
+sudo rm -rf ~/.config/i3/config
 sudo ln -s ~/Desktop/Hackbit/sys-config/i3/i3config ~/.config/i3/config
 
-rm -rf ~/.zshrc
+sudo rm -rf ~/.zshrc
 sudo ln -s ~/Desktop/Hackbit/sys-config/i3/.zshrc ~/.zshrc
 
 sudo rm -rf /var/log/pacman.log
