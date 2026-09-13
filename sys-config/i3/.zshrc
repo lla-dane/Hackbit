@@ -3,15 +3,19 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
+
 export PATH="$HOME/.local/protoc-25.3/bin:$PATH"
 export PATH=$PATH:/snap/bin
 export PATH=/home/shelby/.nimble/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export PATH="$HOME/.local/bin:$PATH"
-# export PATH="$HOME/sdk/go1.24.9/bin:$PATH"
-export PATH="$HOME/sdk/go1.26.6/bin:$PATH"
-export PATH="$HOME/go/bin:$PATH"
+
+# export PATH="$HOME/sdk/golangci-lint-1.64.2/bin:$HOME/sdk/go1.24.9/bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
+export PATH="$HOME/sdk/golangci-lint-2.12.2/bin:$HOME/sdk/go1.26.6/bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
+
+# export PATH="$HOME/go/bin:$PATH"
 export PATH="$PATH:$HOME/.coco/bin"
+
 
 # Enable word jumping with Alt + arrow keys
 autoload -U select-word-style
@@ -163,8 +167,8 @@ alias starkup="curl --proto '=https' --tlsv1.2 -sSf https://sh.starkup.sh | sh -
 alias open='xdg-open'
 alias terminal='gnome-terminal'
 alias light='xrandr --output HDMI-1-0 --brightness'
-alias screen='xrandr --output DP-1-0 --mode 2560x1440 --left-of eDP-1 --auto'
-alias dis-screen='xrandr --output DP-1-0 --off'
+alias screen='xrandr --output DP-2 --mode 2560x1440 --above eDP-1 --auto'
+alias dis-screen='xrandr --output DP-2 --off'
 alias wallpaper="~/Desktop/Hackbit/sys-config/i3/scripts/i3_wallpaper.sh & disown"
 alias st-hanabi='gnome-extensions enable hanabi-extension@jeffshee.github.io'
 alias sp-hanabi='gnome-extensions disable hanabi-extension@jeffshee.github.io'
@@ -220,8 +224,12 @@ alias 5-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_5 --node-p
 alias 6-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_6 --node-password test123 --genesis-path genesis.json --config-path test_6/config.json --log-level TRACE --clean-db="true" --discovery-interval 60000"
 alias 7-moi="cd ~/Desktop/moi/go-moi && moipod server --data-dir test_7 --node-password test123 --genesis-path genesis.json --config-path test_7/config.json --log-level TRACE --clean-db="true" --discovery-interval 60000"
 
-alias boot-devnet=" ~/Desktop/moi/go-moi/devnet.sh up"
+alias boot-devnet=" ~/Desktop/moi/go-moi/.scripts/devnet.sh up"
 alias down-devnet=" ~/Desktop/moi/go-moi/devnet.sh down"
 alias status-devnet=" ~/Desktop/moi/go-moi/devnet.sh status"
 
+
 alias moi="cd ~/Desktop/moi/go-moi"
+alias loadbot="cd ~/Desktop/moi/loadbot"
+
+

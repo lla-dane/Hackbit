@@ -230,8 +230,9 @@ bindsym Control+Mod1+c exec code
 bindsym Control+Mod1+v exec virt-manager
 bindsym Control+q exec nautilus ~/Documents
 bindsym Control+Shift+r exec code /home/soi/Desktop/rnet-stack/rnet-p2p
-bindsym Control+Shift+m exec code /home/soi/Desktop/moi/go-moi
 bindsym Control+Shift+d exec code /home/soi/Desktop/moi/moidocs
+bindsym Control+Shift+l exec code /home/soi/Desktop/moi/loadbot
+bindsym Control+Shift+m exec code /home/soi/Desktop/moi/go-moi
 bindsym Control+Shift+h exec code /home/soi/Desktop/Hackbit
 
 new_window pixel 1
